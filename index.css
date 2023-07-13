@@ -1,0 +1,192 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 10.5rem;
+}
+
+body {
+    font-family: "Montserrat", Helvetica, arial;
+    width: 100%;
+
+}
+
+.navbar {
+    display: block;
+    padding: 0;
+}
+
+
+nav {
+    display: block;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 1);
+    /* background: #004c3f; */
+}
+
+main {
+    display: block;
+    margin-top: 10.5rem;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icons {
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: .5rem;
+    color: rgb(57, 31, 255);
+    cursor: pointer;
+}
+
+.bi-whatsapp {
+    color: green;
+}
+
+.bi-telephone-inbound {
+    color: #00705e;
+}
+
+.bi-list {
+    font-size: 2rem;
+    justify-content: end;
+}
+
+.bi-x-lg {
+    color: red;
+}
+
+.main-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-menu .show {
+    margin: 1.2rem;
+}
+
+
+
+.menu1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: auto;
+    margin-bottom: auto;
+
+
+}
+
+.nav-item {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.logo {
+    height: 6rem;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+}
+
+.btn-outline-light {
+    border: none;
+    background: white;
+}
+
+.searchbar1 {
+    display: none;
+    width: 50%;
+}
+
+.btn-close {
+    color: red;
+}
+
+#offcanvasRight {
+    width: 60%;
+}
+
+
+.cart-card {
+    width: 80%;
+}
+
+.grand-total {
+    display: flex;
+    justify-content: right;
+}
+
+/* main start */
+
+
+
+/* main end */
+
+
+
+
+@media screen and (max-width: 991px) {
+    html {
+        scroll-behavior: smooth;
+        scroll-padding: 7rem;
+
+    }
+
+    .offcanvas {
+        width: 60% !important;
+    }
+
+    .top-nav {
+        display: none;
+    }
+
+    .navbar {
+        display: block;
+        padding: 0.1rem;
+    }
+
+    .searchbar {
+        display: none;
+    }
+
+    .searchbar1 {
+        display: block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .blog-header {
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    .menu1 {
+        display: none;
+    }
+
+    main {
+        display: block;
+        margin-top: 7rem;
+        /* Adjust this value as needed */
+    }
+
+    .main-menu {
+        justify-content: space-between;
+        margin: 0 15px;
+    }
+
+}
