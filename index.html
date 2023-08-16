@@ -397,15 +397,20 @@
 
             <div class="pagination-container pagination p-2 col-5 d-flex align-content-center">
                 <button class="pagination-button" id="prev-button" aria-label="Previous page" title="Previous page">
-
+                    <i class="bi bi-chevron-double-left"></i>
                 </button>
 
-                <div id="pagination-numbers">
-
-                </div>
+                <ul class="paginations">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                </ul>
 
                 <button class="pagination-button" id="next-button" aria-label="Next page" title="Next page">
-
+                    <i class="bi bi-chevron-double-right"></i>
                 </button>
             </div>
 
@@ -459,7 +464,7 @@
                         <button class="showmore my-2" id="showMoreBtn">Show More</button>
                     </div>
 
-                    <h1 class="fw-bold my-3">Filter By:</h1>
+                    <h1 class="fw-bold mt-5">Filter By:</h1>
                     <div class="filters d-block">
                         <div class="border-1 border-black my-2">
                             <h1 class="p-2 toggle-header"> Brand <i class="bi bi-chevron-down my-auto"></i>
@@ -939,8 +944,20 @@
 
 
             <div class="row">
-                <div class="col-lg-9 w-100 cards-section d-grid mx-1" id="cards"></div>
+                <div class="col-lg-12">
+                    <div style="height: 46rem;">
+                        <div class="w-100 cards-section d-grid mx-1" id="cards"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-center pagination-cont">
+
+                        <button id="prev-button"><i class="bi bi-chevron-double-left"></i></button>
+                        <div id="pagination-numbers" class="pagination mx-2"></div>
+                        <button id="next-button"><i class="bi bi-chevron-double-right"></i></button>
+                    </div>
+                </div>
             </div>
+
 
         </section>
 

@@ -727,16 +727,20 @@ const categories = [
   // Add more categories
 ];
 
-function renderCards(category = null) {
+
+const itemsPerPage = 8;
+let currentPage = 1;
+
+function renderCards(category = null, page = 1) {
   const cardsContainer = document.getElementById('cards');
   cardsContainer.textContent = '';
   cardsContainer.classList.add('d-grid', 'mx-2', 'grid-cols-1', 'sm:grid-cols-2', 'md:grid-cols-3', 'lg:grid-cols-4', 'gap-2', 'filterDiv');
 
   const activeCategory = category || categories[0];
+  const startIndex = (page - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
 
-
-
-  const cards = activeCategory.items.map((item, index) => {
+  const cards = activeCategory.items.slice(startIndex, endIndex).map((item, index) => {
     const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme } = item;
     const card = document.createElement('div');
     card.classList.add('product-card');
@@ -839,7 +843,85 @@ function renderCards(category = null) {
   return cards;
 }
 
-renderCards();
+function updatePagination() {
+  const paginationNumbers = document.getElementById('pagination-numbers');
+  paginationNumbers.innerHTML = '';
+
+  const totalPages = Math.ceil(categories[0].items.length / itemsPerPage);
+
+  for (let i = 1; i <= totalPages; i++) {
+    const pageNumber = document.createElement('span');
+    pageNumber.textContent = i;
+    pageNumber.classList.add('page-number', 'cursor-pointer', 'mx-2', 'p-2', 'border', 'border-black', 'rounded');
+    if (i === currentPage) {
+      pageNumber.classList.add('bg-red-200');
+    }
+    pageNumber.onclick = function () {
+      currentPage = i;
+      renderCards(null, currentPage);
+      updatePagination();
+    };
+    paginationNumbers.appendChild(pageNumber);
+  }
+
+  const prevButton = document.getElementById('prev-button');
+  const nextButton = document.getElementById('next-button');
+
+  if (currentPage === 1) {
+    prevButton.disabled = true;
+  } else {
+    prevButton.disabled = false;
+  }
+
+  if (currentPage === totalPages) {
+    nextButton.disabled = true;
+  } else {
+    nextButton.disabled = false;
+  }
+}
+
+
+document.getElementById('prev-button').addEventListener('click', () => {
+  if (currentPage > 1) {
+    currentPage--;
+    renderCards(null, currentPage);
+    updatePagination();
+  }
+});
+
+document.getElementById('next-button').addEventListener('click', () => {
+  const totalPages = Math.ceil(categories[0].items.length / itemsPerPage);
+  if (currentPage < totalPages) {
+    currentPage++;
+    renderCards(null, currentPage);
+    updatePagination();
+  }
+});
+
+// Initial rendering and pagination setup
+renderCards(null, currentPage);
+updatePagination();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const priceRangeInput = document.getElementById('priceRange');
 const priceOutputMin = document.getElementById('priceOutputMin');
@@ -1450,55 +1532,6 @@ scrollerContainer.addEventListener('mousemove', (e) => {
 });
 
 
-//pagination
-const listItems = document.querySelectorAll("#cards li");
-const nextButton = document.getElementById("next-button");
-const prevButton = document.getElementById("prev-button");
-const paginationNumbers = document.getElementById("pagination-numbers");
-
-const paginationLimit = 10;
-let currentPage = 1;
-
-const updateButtons = () => {
-  prevButton.disabled = currentPage === 1;
-  nextButton.disabled = currentPage === Math.ceil(listItems.length / paginationLimit);
-};
-
-const updatePaginationNumbers = () => {
-  paginationNumbers.innerHTML = [...Array(Math.ceil(listItems.length / paginationLimit))].map((_, i) => `
-    <button class="pagination-number" page-index="${i + 1}" aria-label="Page ${i + 1}">
-      ${i + 1}
-    </button>`).join("");
-};
-
-const setCurrentPage = (pageNum) => {
-  currentPage = Math.min(Math.max(pageNum, 1), Math.ceil(listItems.length / paginationLimit));
-
-  listItems.forEach((item, index) => {
-    item.classList.toggle("hidden", index < (currentPage - 1) * paginationLimit || index >= currentPage * paginationLimit);
-  });
-
-  updateButtons();
-
-  document.querySelectorAll('.pagination-number').forEach(button => {
-    button.classList.toggle("active", Number(button.getAttribute("page-index")) === currentPage);
-  });
-};
-
-window.addEventListener("load", () => {
-  updatePaginationNumbers();
-  setCurrentPage(1);
-
-  prevButton.addEventListener("click", () => setCurrentPage(currentPage - 1));
-  nextButton.addEventListener("click", () => setCurrentPage(currentPage + 1));
-
-  paginationNumbers.addEventListener("click", (event) => {
-    if (event.target.classList.contains("pagination-number")) {
-      setCurrentPage(Number(event.target.getAttribute("page-index")));
-    }
-  });
-});
-//pagination end
 
 
 function hasScrolled() {
@@ -1513,3 +1546,13 @@ function hasScrolled() {
 }
 
 window.addEventListener('scroll', hasScrolled);
+
+
+
+
+//pagination
+
+
+
+
+//pagination end
