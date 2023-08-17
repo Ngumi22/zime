@@ -443,21 +443,58 @@ label {
 
 
 
-.media-element {
-    --surface-2: grey;
-    display: grid;
-    grid-template-rows: min-content;
-    gap: var(--_spacer);
-    padding: var(--_spacer);
-    background: var(--surface-2);
-    border-radius: var(--radius-2);
-    box-shadow: var(--shadow-2);
+.product-cards {
+    height: 420px;
+    width: 300px;
+    padding: 1rem;
+    border: 2px solid #7B3B3B;
 }
 
-.media-element>img {
-    inline-size: 100%;
-    object-fit: cover;
+.image-holder {
+    height: 80%;
 }
+
+.cart-info {
+    display: block;
+}
+
+.product-cards>img {
+    inline-size: 100%;
+
+}
+
+.textttx {
+    margin-top: 11rem;
+
+
+}
+
+.carrt {
+    display: none;
+}
+
+.product-image:hover {
+    transform: rotate(180deg);
+
+}
+
+.product-cards:hover .carrt {
+    display: block;
+    transform: translate3d(0, -25%, 0);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    margin-top: 1rem;
+
+}
+
+.product-cards:hover .textttx {
+    display: none;
+
+
+}
+
+
+
 
 .snaps-inline {
     scroll-snap-type: inline mandatory;
@@ -642,6 +679,90 @@ label {
 
 
 /* for you end */
+
+/* why */
+.why {
+    display: block;
+    margin: 4rem;
+}
+
+.why-1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.why-1 h5 {
+    font-size: 18px;
+    font-weight: 900;
+    font-family: "Montserrat",
+        Helvetica,
+        arial;
+}
+
+.why-1 h1 {
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: .8rem;
+    font-family: "Montserrat",
+        Helvetica,
+        arial;
+}
+
+
+.underline-text {
+    position: relative;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.underline-text::after {
+    position: absolute;
+    bottom: 0px;
+    content: " ";
+    width: 60%;
+    background: red;
+    height: 2px;
+    left: 20%;
+    right: 20%;
+}
+
+.why-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+.why-element {
+    display: block;
+    text-align: center;
+    padding-inline: 2rem;
+}
+
+.why-element:last-child {
+    border-right: none;
+}
+
+.why-element>* {
+    margin-top: 2rem;
+}
+
+
+.bi-truck,
+.bi-scooter,
+.bi-shield-check,
+.bi-cart3 {
+
+    font-size: 16px;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+/* why */
 
 
 /* banner */
