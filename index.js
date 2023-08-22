@@ -3,7 +3,103 @@ const categories = [
     title: 'all',
     items: [
       {
-        id: 4,
+        id: 949494,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'First Cmp',
+        price: 100,
+        color: 'red',
+        description: 'description A',
+        size: '12',
+        os: 'windows',
+        userRatings: 4.2,
+        promotion: 'Discounted'
+      },
+      {
+        id: 949555494,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'First Cmp',
+        price: 100,
+        color: 'red',
+        description: 'description A',
+        size: '12',
+        os: 'windows',
+        userRatings: 4.2,
+        promotion: 'Discounted'
+      },
+      {
+        id: 5353534,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'First Cmp',
+        price: 100,
+        color: 'red',
+        description: 'description A',
+        size: '12',
+        os: 'windows',
+        userRatings: 4.2,
+        promotion: 'Discounted'
+      },
+      {
+        id: 3663634,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'First Cmp',
+        price: 100,
+        color: 'red',
+        description: 'description A',
+        size: '12',
+        os: 'windows',
+        userRatings: 4.2,
+        promotion: 'Discounted'
+      },
+      {
+        id: 94874644,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'First Cmp',
+        price: 100,
+        color: 'red',
+        description: 'description A',
+        size: '12',
+        os: 'windows',
+        userRatings: 4.2,
+        promotion: 'Discounted'
+      },
+      {
+        id: 3434344,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'First Cmp',
+        price: 100,
+        color: 'red',
+        description: 'description A',
+        size: '12',
+        os: 'windows',
+        userRatings: 4.2,
+        promotion: 'Discounted'
+      },
+      {
+        id: 8883834,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'First Cmp',
+        price: 100,
+        color: 'red',
+        description: 'description A',
+        size: '12',
+        os: 'windows',
+        userRatings: 4.2,
+        promotion: 'Discounted'
+      },
+      {
+        id: 37737734,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'First Cmp',
+        price: 100,
+        color: 'red',
+        description: 'description A',
+        size: '12',
+        os: 'windows',
+        userRatings: 4.2,
+        promotion: 'Discounted'
+      },
+      {
+        id: 244446664,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
         price: 100,
@@ -158,7 +254,187 @@ const categories = [
     title: 'laptops',
     items: [
       {
-        id: 0,
+        id: 73747460,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'HP',
+        price: 1000,
+        color: 'red',
+        touchscreen: 'yes',
+        description: 'one',
+        size: '17',
+        storage: "HDD",
+        os: 'windows',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'gaming',
+        userRatings: 4.1,
+        promotion: 'Discounted'
+
+      },
+      {
+        id: 4446640,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'HP',
+        price: 1000,
+        color: 'red',
+        touchscreen: 'yes',
+        description: 'one',
+        size: '17',
+        storage: "HDD",
+        os: 'windows',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'gaming',
+        userRatings: 4.1,
+        promotion: 'Discounted'
+
+      },
+      {
+        id: 46646640,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'HP',
+        price: 1000,
+        color: 'red',
+        touchscreen: 'yes',
+        description: 'one',
+        size: '17',
+        storage: "HDD",
+        os: 'windows',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'gaming',
+        userRatings: 4.1,
+        promotion: 'Discounted'
+
+      },
+      {
+        id: 455455450,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'HP',
+        price: 1000,
+        color: 'red',
+        touchscreen: 'yes',
+        description: 'one',
+        size: '17',
+        storage: "HDD",
+        os: 'windows',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'gaming',
+        userRatings: 4.1,
+        promotion: 'Discounted'
+
+      },
+      {
+        id: 46646664640,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'HP',
+        price: 1000,
+        color: 'red',
+        touchscreen: 'yes',
+        description: 'one',
+        size: '17',
+        storage: "HDD",
+        os: 'windows',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'gaming',
+        userRatings: 4.1,
+        promotion: 'Discounted'
+
+      },
+      {
+        id: 444477747740,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'HP',
+        price: 1000,
+        color: 'red',
+        touchscreen: 'yes',
+        description: 'one',
+        size: '17',
+        storage: "HDD",
+        os: 'windows',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'gaming',
+        userRatings: 4.1,
+        promotion: 'Discounted'
+
+      },
+      {
+        id: 94999940,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'HP',
+        price: 1000,
+        color: 'red',
+        touchscreen: 'yes',
+        description: 'one',
+        size: '17',
+        storage: "HDD",
+        os: 'windows',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'gaming',
+        userRatings: 4.1,
+        promotion: 'Discounted'
+
+      },
+      {
+        id: 646466460,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'HP',
+        price: 1000,
+        color: 'red',
+        touchscreen: 'yes',
+        description: 'one',
+        size: '17',
+        storage: "HDD",
+        os: 'windows',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'gaming',
+        userRatings: 4.1,
+        promotion: 'Discounted'
+
+      },
+      {
+        id: 5434430,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'HP',
+        price: 1000,
+        color: 'red',
+        touchscreen: 'yes',
+        description: 'one',
+        size: '17',
+        storage: "HDD",
+        os: 'windows',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'gaming',
+        userRatings: 4.1,
+        promotion: 'Discounted'
+
+      },
+      {
+        id: 3777377377330,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'HP',
+        price: 1000,
+        color: 'red',
+        touchscreen: 'yes',
+        description: 'one',
+        size: '17',
+        storage: "HDD",
+        os: 'windows',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'gaming',
+        userRatings: 4.1,
+        promotion: 'Discounted'
+
+      },
+      {
+        id: 4344344340,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'HP',
         price: 1000,
@@ -299,7 +575,24 @@ const categories = [
         id: 612,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
         title: 'MICROSOFT',
-        price: 133300,
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
+        userRatings: 4.2,
+        promotion: 'Discounted'
+      },
+      {
+        id: 612,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-08.jpg',
+        title: 'APPLE',
+        price: 300,
         color: 'green',
         touchscreen: 'no',
         description: 'seventy',
@@ -728,616 +1021,140 @@ const categories = [
 ];
 
 
-const itemsPerPage = 8;
+
+
+let currentCategoryIndex = 0; // Keep track of the current category index
 let currentPage = 1;
 
-function renderCards(category = null, page = 1) {
-  const cardsContainer = document.getElementById('cards');
-  cardsContainer.textContent = '';
-  cardsContainer.classList.add('d-grid', 'mx-2', 'grid-cols-1', 'sm:grid-cols-2', 'md:grid-cols-3', 'lg:grid-cols-4', 'gap-2', 'filterDiv');
+function renderCards(categoryIndex, page = 1) {
+  currentCategoryIndex = categoryIndex; // Update the current category index
+  currentPage = page; // Update the current page
 
-  const activeCategory = category || categories[0];
+  const itemsPerPage = 15;
   const startIndex = (page - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
 
-  const cards = activeCategory.items.slice(startIndex, endIndex).map((item, index) => {
+  const cardsContainer = document.getElementById('cards');
+  cardsContainer.innerHTML = '';
+  cardsContainer.classList.add('grid', 'grid-cols-1', 'sm:grid-cols-2', 'md:grid-cols-3', 'lg:grid-cols-5', 'gap-2');
+
+  const activeCategory = categories[categoryIndex];
+  const itemsToRender = activeCategory.items.slice(startIndex, endIndex);
+
+  itemsToRender.forEach(item => {
     const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme } = item;
+
     const card = document.createElement('div');
-    card.classList.add('product-card');
+    card.classList.add('product-card', 'group', 'justify-items-center', 'relative');
 
-    const cardLink = document.createElement('a');
-    cardLink.href = `#${activeCategory.title}`;
-    cardLink.classList.add('group', 'justify-items-center', 'relative');
-    card.appendChild(cardLink);
+    card.innerHTML = `
+      <div>
+        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+        </div>
+        <div class="d-flex justify-content-between">
+          <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
+          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="openModal('${title}')"></i>
+        </div>
+        <h3 class="mt-1 card-txt d-none text-gray-700 color">${color}</h3>
+        <h6 class="size d-none">${size}</h6>
+        <div class="d-flex justify-content-between">
+          <h6 class="price mt-1 card-txt text-gray-700 color">${price}</h6>
+          <i onclick="addToCart('${title}')"  class="bi bi-cart-plus"></i>
+        </div>
+        <h6 class="touch d-none">${touchscreen}</h6>
+        <h6 class="os d-none">${os}</h6>
+        <h6 class="os d-none">${theme}</h6>
+        <h6 class="diskstorage d-none">${storage}</h6>
+        <h6 class="generation d-none">${generation}</h6>
+        <h6 class="processor d-none">${processor}</h6>
+        <!-- Add other fields here -->
+      </div>
+    `;
 
-    const imageDiv = document.createElement('div');
-    imageDiv.classList.add('flex-shrink-0', 'overflow-hidden', 'rounded-md', 'border', 'border-gray-200');
-    const img = document.createElement('img');
-    img.src = image;
-    img.alt = 'Product';
-    img.className = 'aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7';
-    imageDiv.appendChild(img);
-    cardLink.appendChild(imageDiv);
-
-    const titleH3 = document.createElement('h3');
-    titleH3.textContent = title;
-    titleH3.classList.add('mt-1', 'text-sm', 'text-gray-700', 'name');
-    cardLink.appendChild(titleH3);
-
-    const colorH3 = document.createElement('h3');
-    colorH3.textContent = color;
-    colorH3.classList.add('mt-1', 'text-sm', 'text-gray-700', 'color');
-    cardLink.appendChild(colorH3);
-
-
-    const sizeH4 = document.createElement('h6');
-    sizeH4.textContent = size;
-    sizeH4.classList.add('size', 'd-none');
-    cardLink.appendChild(sizeH4);
-
-
-    const touchH4 = document.createElement('h6');
-    touchH4.textContent = touchscreen;
-    touchH4.classList.add('touch', 'd-none');
-    cardLink.appendChild(touchH4);
-
-    const osH4 = document.createElement('h6');
-    osH4.textContent = os;
-    osH4.classList.add('os', 'd-none');
-    cardLink.appendChild(osH4);
-
-
-    const storageH4 = document.createElement('h6');
-    storageH4.textContent = storage;
-    storageH4.classList.add('diskstorage', 'd-none');
-    cardLink.appendChild(storageH4);
-
-
-    const generationH4 = document.createElement('h6');
-    generationH4.textContent = generation;
-    generationH4.classList.add('generation', 'd-none');
-    cardLink.appendChild(generationH4);
-
-    const processorH4 = document.createElement('h6');
-    processorH4.textContent = processor;
-    processorH4.classList.add('processor', 'd-none');
-    cardLink.appendChild(processorH4);
-
-
-    const themeH4 = document.createElement('h6');
-    themeH4.textContent = theme;
-    themeH4.classList.add('theme', 'd-none');
-    cardLink.appendChild(themeH4);
-
-
-
-    const priceDiv = document.createElement('div');
-    priceDiv.textContent = `Ksh ${price}.00`;
-    priceDiv.classList.add('mt-1', 'font-medium', 'text-gray-900', 'price');
-    cardLink.appendChild(priceDiv);
-
-    const cartButton = document.createElement('button');
-    cartButton.classList.add('btn', 'position-absolute', 'bottom-0', 'end-0', 'mt-1');
-    cartButton.innerHTML = '<i class="bi bi-cart"></i>';
-    cartButton.onclick = function () {
-      addToCart(index, activeCategory.title);
-    };
-    cardLink.appendChild(cartButton);
-
-    const openModalButton = document.createElement('button');
-    openModalButton.classList.add('btn', 'position-absolute', 'top-0', 'end-0', 'mt-1', 'mr-1');
-    openModalButton.innerHTML = '<i class="bi bi-eye"></i>';
-    openModalButton.onclick = function () {
-      openModal(item);
-    };
-    cardLink.appendChild(openModalButton);
-
-
-
-
-    // Append the card to the cardsContainer
     cardsContainer.appendChild(card);
-    return card;
   });
 
-  return cards;
+  renderPagination(activeCategory.items.length, itemsPerPage, currentPage);
 }
 
-function updatePagination() {
-  const paginationNumbers = document.getElementById('pagination-numbers');
-  paginationNumbers.innerHTML = '';
+function renderPagination(totalItems, itemsPerPage, currentPage) {
+  const totalPages = Math.ceil(totalItems / itemsPerPage);
 
-  const totalPages = Math.ceil(categories[0].items.length / itemsPerPage);
+  const paginationContainer = document.getElementById('pagination');
+  paginationContainer.innerHTML = '';
 
   for (let i = 1; i <= totalPages; i++) {
-    const pageNumber = document.createElement('span');
-    pageNumber.textContent = i;
-    pageNumber.classList.add('page-number', 'cursor-pointer', 'mx-2', 'p-2', 'border', 'border-black', 'rounded');
+    const pageButton = document.createElement('button');
+    pageButton.textContent = i;
+    pageButton.classList.add('pagination-button');
     if (i === currentPage) {
-      pageNumber.classList.add('bg-red-200');
+      pageButton.classList.add('active');
     }
-    pageNumber.onclick = function () {
-      currentPage = i;
-      renderCards(null, currentPage);
-      updatePagination();
-    };
-    paginationNumbers.appendChild(pageNumber);
-  }
-
-  const prevButton = document.getElementById('prev-button');
-  const nextButton = document.getElementById('next-button');
-
-  if (currentPage === 1) {
-    prevButton.disabled = true;
-  } else {
-    prevButton.disabled = false;
-  }
-
-  if (currentPage === totalPages) {
-    nextButton.disabled = true;
-  } else {
-    nextButton.disabled = false;
+    pageButton.addEventListener('click', () => {
+      renderCards(currentCategoryIndex, i);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    paginationContainer.appendChild(pageButton);
   }
 }
 
+// Initial rendering
+renderCards(currentCategoryIndex, currentPage);
 
-document.getElementById('prev-button').addEventListener('click', () => {
-  if (currentPage > 1) {
-    currentPage--;
-    renderCards(null, currentPage);
-    updatePagination();
-  }
-});
+const categoryLinks = document.querySelectorAll('#category-nav a');
 
-document.getElementById('next-button').addEventListener('click', () => {
-  const totalPages = Math.ceil(categories[0].items.length / itemsPerPage);
-  if (currentPage < totalPages) {
-    currentPage++;
-    renderCards(null, currentPage);
-    updatePagination();
-  }
-});
 
-// Initial rendering and pagination setup
-renderCards(null, currentPage);
-updatePagination();
+categoryLinks[0].classList.add('active');
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const priceRangeInput = document.getElementById('priceRange');
-const priceOutputMin = document.getElementById('priceOutputMin');
-
-priceRangeInput.addEventListener('input', updatePriceOutputMin);
-
-function updatePriceOutputMin() {
-  const selectedPrice = priceRangeInput.value;
-  priceOutputMin.textContent = `Ksh${selectedPrice}`;
-}
-
-updatePriceOutputMin();
-
-//filters
-//color filter
-function filterCardsByColor(color) {
-  const cards = document.querySelectorAll('.product-card');
-  cards.forEach((card) => {
-    const cardColor = card.querySelector('.color').textContent.toLowerCase();
-    if (cardColor === color.toLowerCase() || color === 'all') {
-      card.style.display = 'block'; // Show the card
-    } else {
-      card.style.display = 'none'; // Hide the card
-    }
-  });
-}
-const colorSelector = document.getElementById('color-selector'); // Replace 'color-selector' with the actual ID of your color dropdown
-
-colorSelector.addEventListener('change', function () {
-  const selectedColor = colorSelector.value;
-  filterCardsByColor(selectedColor);
-});
-
-//brand filter
-
-function filterCardsByBrand(brand) {
-  const cards = document.querySelectorAll('.product-card');
-  cards.forEach((card) => {
-    const cardTitle = card.querySelector('.name').textContent.toLowerCase();
-    if (cardTitle === brand.toLowerCase() || brand === 'all') {
-      card.style.display = 'block'; // Show the card
-    } else {
-      card.style.display = 'none'; // Hide the card
-    }
-  });
-}
-
-const brandCheckboxes = document.querySelectorAll('.brand-filter-checkbox');
-
-brandCheckboxes.forEach((checkbox) => {
-  checkbox.addEventListener('change', function () {
-    const selectedBrands = [];
-    brandCheckboxes.forEach((cb) => {
-      if (cb.checked) {
-        selectedBrands.push(cb.value);
-      }
-    });
-
-    // If no checkboxes are selected, show all cards (brand='all')
-    const brandToFilter = selectedBrands.length === 0 ? 'all' : selectedBrands[0];
-    filterCardsByBrand(brandToFilter);
-  });
-});
-//brandToFilter end
-
-//screen size filter start
-
-function filterCardsBySize(size) {
-  const cards = document.querySelectorAll('.product-card');
-  cards.forEach((card) => {
-    const cardTitle = card.querySelector('.size').textContent.toLowerCase();
-    if (cardTitle === size.toLowerCase() || size === 'all') {
-      card.style.display = 'block'; // Show the card
-    } else {
-      card.style.display = 'none'; // Hide the card
-    }
-  });
-}
-
-const sizeCheckboxes = document.querySelectorAll('.size-filter-checkbox');
-
-sizeCheckboxes.forEach((checkbox) => {
-  checkbox.addEventListener('change', function () {
-    const selectedSizes = [];
-    sizeCheckboxes.forEach((sb) => {
-      if (sb.checked) {
-        selectedSizes.push(sb.value);
-      }
-    });
-
-    // If no checkboxes are selected, show all cards (size='all')
-    const sizeToFilter = selectedSizes.length === 0 ? 'all' : selectedSizes[0];
-    filterCardsBySize(sizeToFilter);
-  });
-});
-//screen size filter end
-
-//screen touch filter start
-
-function filterCardsByTouch(touchscreen) {
-  const cards = document.querySelectorAll('.product-card');
-  cards.forEach((card) => {
-    const cardTitle = card.querySelector('.touch').textContent.toLowerCase();
-    if (cardTitle === touchscreen.toLowerCase() || touchscreen === 'all') {
-      card.style.display = 'block'; // Show the card
-    } else {
-      card.style.display = 'none'; // Hide the card
-    }
-  });
-}
-
-const touchCheckboxes = document.querySelectorAll('.touch-filter-checkbox');
-
-touchCheckboxes.forEach((checkbox) => {
-  checkbox.addEventListener('change', function () {
-    const selectedTouch = [];
-    touchCheckboxes.forEach((cb) => {
-      if (cb.checked) {
-        selectedTouch.push(cb.value);
-      }
-    });
-
-
-    const touchToFilter = selectedTouch.length === 0 ? 'all' : selectedTouch[0];
-    filterCardsByTouch(touchToFilter);
-  });
-});
-//screen touch filter end
-
-//storage filter start
-
-function filterCardsBystorage(storage) {
-  const cards = document.querySelectorAll('.product-card');
-  cards.forEach((card) => {
-    const cardTitle = card.querySelector('.diskstorage').textContent.toLowerCase();
-    if (cardTitle === storage.toLowerCase() || storage === 'all') {
-      card.style.display = 'block'; // Show the card
-    } else {
-      card.style.display = 'none'; // Hide the card
-    }
-  });
-}
-
-const storageCheckboxes = document.querySelectorAll('.storage-filter-checkbox');
-
-storageCheckboxes.forEach((checkbox) => {
-  checkbox.addEventListener('change', function () {
-    const selectedstorage = [];
-    storageCheckboxes.forEach((cb) => {
-      if (cb.checked) {
-        selectedstorage.push(cb.value);
-      }
-    });
-
-
-    const storageToFilter = selectedstorage.length === 0 ? 'all' : selectedstorage[0];
-    filterCardsBystorage(storageToFilter);
-  });
-});
-//storage filter end
-
-
-//os filter start
-
-function filterCardsByos(os) {
-  const cards = document.querySelectorAll('.product-card');
-  cards.forEach((card) => {
-    const cardTitle = card.querySelector('.os').textContent.toLowerCase();
-    if (cardTitle === os.toLowerCase() || os === 'all') {
-      card.style.display = 'block'; // Show the card
-    } else {
-      card.style.display = 'none'; // Hide the card
-    }
-  });
-}
-
-const osCheckboxes = document.querySelectorAll('.os-filter-checkbox');
-
-osCheckboxes.forEach((checkbox) => {
-  checkbox.addEventListener('change', function () {
-    const selectedos = [];
-    osCheckboxes.forEach((cb) => {
-      if (cb.checked) {
-        selectedos.push(cb.value);
-      }
-    });
-
-
-    const osToFilter = selectedos.length === 0 ? 'all' : selectedos[0];
-    filterCardsByos(osToFilter);
-  });
-});
-//os filter end
-
-//generation filter start
-
-function filterCardsBygeneration(generation) {
-  const cards = document.querySelectorAll('.product-card');
-  cards.forEach((card) => {
-    const cardTitle = card.querySelector('.generation').textContent.toLowerCase();
-    if (cardTitle === generation.toLowerCase() || generation === 'all') {
-      card.style.display = 'block'; // Show the card
-    } else {
-      card.style.display = 'none'; // Hide the card
-    }
-  });
-}
-
-const generationCheckboxes = document.querySelectorAll('.generation-filter-checkbox');
-
-generationCheckboxes.forEach((checkbox) => {
-  checkbox.addEventListener('change', function () {
-    const selectedgeneration = [];
-    generationCheckboxes.forEach((cb) => {
-      if (cb.checked) {
-        selectedgeneration.push(cb.value);
-      }
-    });
-
-
-    const generationToFilter = selectedgeneration.length === 0 ? 'all' : selectedgeneration[0];
-    filterCardsBygeneration(generationToFilter);
-  });
-});
-//generation filter end
-
-
-//processor filter start
-
-function filterCardsByprocessor(processor) {
-  const cards = document.querySelectorAll('.product-card');
-  cards.forEach((card) => {
-    const cardTitle = card.querySelector('.processor').textContent.toLowerCase();
-    if (cardTitle === processor.toLowerCase() || processor === 'all') {
-      card.style.display = 'block'; // Show the card
-    } else {
-      card.style.display = 'none'; // Hide the card
-    }
-  });
-}
-
-const processorCheckboxes = document.querySelectorAll('.processor-filter-checkbox');
-
-processorCheckboxes.forEach((checkbox) => {
-  checkbox.addEventListener('change', function () {
-    const selectedprocessor = [];
-    processorCheckboxes.forEach((cb) => {
-      if (cb.checked) {
-        selectedprocessor.push(cb.value);
-      }
-    });
-
-
-    const processorToFilter = selectedprocessor.length === 0 ? 'all' : selectedprocessor[0];
-    filterCardsByprocessor(processorToFilter);
-  });
-});
-//processor filter end
-
-
-
-//theme filter start
-
-function filterCardsBytheme(theme) {
-  const cards = document.querySelectorAll('.product-card');
-  cards.forEach((card) => {
-    const cardTitle = card.querySelector('.theme').textContent.toLowerCase();
-    if (cardTitle === theme.toLowerCase() || theme === 'all') {
-      card.style.display = 'block'; // Show the card
-    } else {
-      card.style.display = 'none'; // Hide the card
-    }
-  });
-}
-
-const themeCheckboxes = document.querySelectorAll('.theme-filter-checkbox');
-
-themeCheckboxes.forEach((checkbox) => {
-  checkbox.addEventListener('change', function () {
-    const selectedtheme = [];
-    themeCheckboxes.forEach((cb) => {
-      if (cb.checked) {
-        selectedtheme.push(cb.value);
-      }
-    });
-
-
-    const themeToFilter = selectedtheme.length === 0 ? 'all' : selectedtheme[0];
-    filterCardsBytheme(themeToFilter);
-  });
-});
-//theme filter end
-
-//filters end
-
-let activeModal = null;
-
-function openModal(item) {
-  closeModal();
-  const modal = document.createElement('div');
-  modal.classList.add('modal', 'fixed', 'top-0', 'left-0', 'w-full', 'h-full', 'bg-opacity-50', 'bg-black', 'flex', 'justify-center', 'items-center');
-
-  const modalContent = document.createElement('div');
-  modalContent.classList.add('bg-white', 'p-4', 'rounded-md');
-  modal.appendChild(modalContent);
-  const { image, title, price, description, color, os, size, userRatings } = item;
-  modalContent.innerHTML = `
-
-  <div class='d-flex'>
-    <div class='col-4'>
-      <img src="${image}" alt="Product" class="max-h-96 object-contain m-1">
-    </div>
-   <div class='col-8 d-block justify-content-center text-center ml-4'>
-      <h3 class="text-lg font-bold">${title}</h3>
-      <p class="text-sm text-gray-700 mb-2">${description}</p>
-      <p class="text-lg font-medium">Price <br> Ksh ${price}.00</p>
-      <p class="text-lg font-medium">${os}</p>
-      <p class="text-lg font-medium">${color}</p>
-      <p class="text-lg font-medium">${size}</p>
-      <p class="text-lg font-medium">${userRatings}</p></div>
-  <div>
-  `;
-  document.body.appendChild(modal);
-  activeModal = modal;
-  modal.addEventListener('click', closeModal);
-}
-function closeModal() {
-  if (activeModal) {
-    activeModal.remove();
-    activeModal = null;
-  }
-}
-const categoryLinks = document.querySelectorAll('a[href^="#"]');
 categoryLinks.forEach(link => {
-  link.addEventListener('click', () => {
-    const categoryTitle = link.getAttribute('href').slice(1);
-    const category = categories.find(cat => cat.title === categoryTitle);
-    if (category) {
-      renderCards(category);
-    }
-  });
-});
-
-// Get the category navigation links
-const categoryLink = document.querySelectorAll('#category-nav a');
-
-// Set the first category link as active by default
-categoryLink[0].classList.add('activ');
-
-// Add a click event listener to each category link
-categoryLink.forEach(link => {
-  link.addEventListener('click', (event) => {
+  link.addEventListener('click', function (event) {
     event.preventDefault();
 
-    // Remove the "active" class from all links
-    categoryLink.forEach(link => {
-      link.classList.remove('activ');
+
+    categoryLinks.forEach(link => {
+      link.classList.remove('active');
     });
 
-    // Add the "active" class to the clicked link
-    link.classList.add('activ');
 
-    // Get the category title from the link's href
-    const categoryTitle = link.getAttribute('href').slice(1);
+    this.classList.add('active');
 
-    // Find the category object based on the selected title
+
+    const categoryTitle = this.getAttribute('href').slice(1);
+
+
     const selectedCategory = categories.find(category => category.title === categoryTitle);
 
-    // Render cards for the selected category
-    renderCards(selectedCategory);
+
+    renderCards(categories.indexOf(selectedCategory), 1);
   });
 });
 
 
-function createCardElement(image, title, price, color, index, categoryTitle) {
-  const card = document.createElement('div');
-  card.classList.add('product-card');
 
-  card.innerHTML = `
- <a href="#" class="group justify-items-center relative">
-  <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
-    <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-  </div>
-  <h3 class="mt-1 text-sm text-gray-700 name">${title}</h3>
-  <h3 class="mt-1 text-sm text-gray-700 color">${color}</h3>
-  <div class="d-flex justify-content-between">
-    <p class="mt-1 font-medium text-gray-900 price">Ksh ${price}.00</p>
-    <button class="mt-1 font-medium text-gray-900" onclick="addToCart(${index}, '${categoryTitle}')">
-      <i class="bi bi-cart"></i>
-    </button>
-  </div>
-</a>
-  `;
 
-  return card;
-}
+function addToCart(title) {
+  const selectedItem = categories.flatMap(category => category.items).find(item => item.title === title);
 
-function addToCart(index, categoryTitle) {
-  const selectedCategory = categories.find(category => category.title === categoryTitle);
-  const selectedItem = selectedCategory.items[index];
-  const existingCartItem = cart.find(item => item.id === selectedItem.id);
+  if (selectedItem) {
+    const existingCartItem = cart.find(item => item.id === selectedItem.id);
 
-  if (existingCartItem) {
-    existingCartItem.quantity++;
-    existingCartItem.totalPrice = existingCartItem.quantity * existingCartItem.price;
-  } else {
-    const newCartItem = {
-      ...selectedItem,
-      quantity: 1,
-      totalPrice: selectedItem.price
-    };
-    cart.push(newCartItem);
+    if (existingCartItem) {
+      existingCartItem.quantity++;
+      existingCartItem.totalPrice = existingCartItem.quantity * existingCartItem.price;
+    } else {
+      const newCartItem = {
+        ...selectedItem,
+        quantity: 1,
+        totalPrice: selectedItem.price
+      };
+      cart.push(newCartItem);
+    }
+
+    displayCart();
+    updateCartStorage();
   }
-
-  displayCart();
-  updateCartStorage();
 }
 
 function removeFromCart(index) {
@@ -1345,8 +1162,6 @@ function removeFromCart(index) {
   displayCart();
   updateCartStorage();
 }
-
-let cart = []
 
 function displayCart() {
   const cartItemContainer = document.getElementById('cart-item');
@@ -1435,9 +1250,159 @@ function loadCartFromStorage() {
   }
 }
 
-
 loadCartFromStorage();
 displayCart();
+
+
+
+
+
+// Define a generic filter function
+
+const filters = [
+  { element: document.getElementById('color-selector'), property: 'color' },
+  { element: document.querySelectorAll('.brand-filter-checkbox'), property: 'brand' },
+  { element: document.querySelectorAll('.size-filter-checkbox'), property: 'size' },
+  { element: document.querySelectorAll('.touch-filter-checkbox'), property: 'touch' },
+  { element: document.querySelectorAll('.storage-filter-checkbox'), property: 'diskstorage' },
+  { element: document.querySelectorAll('.os-filter-checkbox'), property: 'os' },
+  { element: document.querySelectorAll('.generation-filter-checkbox'), property: 'generation' },
+  { element: document.querySelectorAll('.processor-filter-checkbox'), property: 'processor' },
+  { element: document.querySelectorAll('.theme-filter-checkbox'), property: 'theme' },
+  { element: document.getElementById('priceRange'), property: 'price' }
+];
+
+filters.forEach(filter => {
+  if (filter.element) {
+    if (filter.property === 'price') {
+      filter.element.addEventListener('input', function () {
+        filterCardsByPrice(this.value);
+      });
+    } else if (filter.element instanceof NodeList) {
+      filter.element.forEach(checkbox => {
+        checkbox.addEventListener('change', function () {
+          handleCheckboxFilterChange(filter.property, filter.element);
+        });
+      });
+    } else {
+      filter.element.addEventListener('change', function () {
+        handleSingleFilterChange(filter.property, filter.element.value);
+      });
+    }
+  }
+});
+
+function handleCheckboxFilterChange(property, checkboxes) {
+  const selectedValues = Array.from(checkboxes)
+    .filter(checkbox => checkbox.checked)
+    .map(checkbox => checkbox.value);
+  const valueToFilter = selectedValues.length === 0 ? 'all' : selectedValues[0];
+  filterCards(property, valueToFilter);
+}
+
+function handleSingleFilterChange(property, value) {
+  filterCards(property, value);
+}
+
+
+
+function filterCards(property, value) {
+  const cards = document.querySelectorAll('.product-card');
+  cards.forEach((card) => {
+    const cardValue = card.querySelector(`.${property}`).textContent.toLowerCase();
+    if (cardValue === value.toLowerCase() || value === 'all') {
+      card.style.display = 'block';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+
+function filterCardsByPrice(selectedPrice) {
+  const cards = document.querySelectorAll('.product-card');
+  cards.forEach((card) => {
+    const cardPrice = parseFloat(card.querySelector('.price').textContent.replace('Ksh', '').replace(',', ''));
+    if (selectedPrice === 'all' || (cardPrice >= selectedPrice && cardPrice <= maxPrice)) {
+      card.style.display = 'block';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+
+const maxPrice = 10000; // Replace with your actual maximum price value
+
+const priceRangeInput = document.getElementById('priceRange');
+const priceOutputMin = document.getElementById('priceOutputMin');
+
+priceRangeInput.addEventListener('input', function () {
+  const selectedPrice = parseFloat(priceRangeInput.value);
+  priceOutputMin.textContent = `Ksh${selectedPrice}`;
+  filterCardsByPrice(selectedPrice);
+});
+
+priceOutputMin.textContent = `Ksh${priceRangeInput.value}`;
+
+renderCards(currentCategoryIndex, currentPage);
+
+const filterCategoryLinks = document.querySelectorAll('#category-nav a');
+filterCategoryLinks[0].classList.add('active');
+filterCategoryLinks.forEach(link => {
+  link.addEventListener('click', function (event) {
+    event.preventDefault();
+    filterCategoryLinks.forEach(link => {
+      link.classList.remove('active');
+    });
+    this.classList.add('active');
+    const categoryTitle = this.getAttribute('href').slice(1);
+    const selectedCategory = categories.find(category => category.title === categoryTitle);
+    renderCards(categories.indexOf(selectedCategory));
+  });
+});
+
+
+
+let activeModal = null;
+
+function openModal(item) {
+  closeModal();
+  const modal = document.createElement('div');
+  modal.classList.add('modal', 'fixed', 'top-0', 'left-0', 'w-full', 'h-full', 'bg-opacity-50', 'bg-black', 'flex', 'justify-center', 'items-center');
+
+  const modalContent = document.createElement('div');
+  modalContent.classList.add('bg-white', 'p-4', 'rounded-md');
+  modal.appendChild(modalContent);
+  const { image, title, price, description, color, os, size, userRatings } = item;
+  modalContent.innerHTML = `
+
+  <div class='d-flex'>
+    <div class='col-4'>
+      <img src="${image}" alt="Product" class="max-h-96 object-contain m-1">
+    </div>
+   <div class='col-8 d-block justify-content-center text-center ml-4'>
+      <h3 class="text-lg font-bold">${title}</h3>
+      <p class="text-sm text-gray-700 mb-2">${description}</p>
+      <p class="text-lg font-medium">Price <br> Ksh ${price}.00</p>
+      <p class="text-lg font-medium">${os}</p>
+      <p class="text-lg font-medium">${color}</p>
+      <p class="text-lg font-medium">${size}</p>
+      <p class="text-lg font-medium">${userRatings}</p></div>
+  <div>
+  `;
+  document.body.appendChild(modal);
+  activeModal = modal;
+  modal.addEventListener('click', closeModal);
+}
+function closeModal() {
+  if (activeModal) {
+    activeModal.remove();
+    activeModal = null;
+  }
+}
+
+
+
+
 
 document.addEventListener("DOMContentLoaded", function () {
   const categoriesDiv = document.getElementById("categories");

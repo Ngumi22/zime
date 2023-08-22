@@ -1,3 +1,15 @@
+:root {
+    --color1: #344E41;
+    --color2: #3A5A40;
+    --color3: #588157;
+    --color4: #A3B18A;
+    --color5: #DAD7CD;
+
+}
+
+
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -13,7 +25,7 @@ body {
 
 .navbar.with-shadow {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    background: rgb(24, 174, 185);
+    background: var(--color1);
 }
 
 
@@ -288,8 +300,8 @@ label {
 .product-card {
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    height: 320px;
-    width: 250px;
+    height: 250px;
+    width: 190px;
     padding: 1rem;
     transition: transform 0.2s;
 }
@@ -320,10 +332,35 @@ label {
 
 .cards-section {
     display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(4, 1fr);
+    margin-inline: .5rem;
 
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
 }
+
+.card-txt,
+.bi-cart-plus {
+    padding: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+
+.bi-cart-plus {
+    cursor: pointer;
+}
+
+.bi-eye {
+    display: none;
+}
+
+.product-card:hover .bi-eye {
+    display: block;
+    font-size: 18px;
+    cursor: pointer;
+}
+
 
 
 
@@ -386,29 +423,25 @@ label {
 }
 
 /* pagination */
-.pagination-container {
-    width: calc(100% - 2rem);
+.pagination {
     display: flex;
-    align-items: center;
-    justify-content: right;
-    position: absolute;
-    bottom: 0;
-    padding: 1rem 0;
     justify-content: center;
+    margin-top: 20px;
 }
 
-.paginations {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-
-    gap: 10px;
-    margin-inline: 10px;
+.pagination-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 16px;
+    color: #333;
+    padding: 5px 10px;
 }
 
-.paginations li {
-    border: 1px solid black;
-    border-radius: 6px;
-    padding: 10px;
+.pagination-button.active {
+    background-color: #333;
+    color: #fff;
 }
 
 /* pagination */
@@ -813,15 +846,89 @@ label {
 
 /* banner */
 
+/* pages */
+
+.pagination-container {
+    width: calc(100% - 2rem);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem 0;
+    justify-content: center;
+}
+
+.pagination-number,
+.pagination-button {
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: none;
+    margin: 0.25rem 0.25rem;
+    cursor: pointer;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: .2rem;
+}
+
+.pagination-number:hover,
+.pagination-button:not(.disabled):hover {
+    background: var(--color1);
+}
+
+.pagination-number.active {
+    color: var(--color1);
+    background: #0085b6;
+}
+
+/* pages */
+
+/* modal */
+
+/* Add this to your existing CSS */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Add more styles as needed */
+/* modal */
+
 /* footer */
 .footer-end {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+
 }
 
 .bottom {
     display: flex;
+    background: var(--color2);
 }
 
 /* footer */
