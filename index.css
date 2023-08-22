@@ -1,9 +1,20 @@
 :root {
-    --color1: #344E41;
-    --color2: #3A5A40;
-    --color3: #588157;
-    --color4: #A3B18A;
-    --color5: #DAD7CD;
+    --color1a: #344E41;
+    --color1b: #3A5A40;
+    --color1c: #588157;
+    --color1d: #A3B18A;
+    --color1e: #DAD7CD;
+
+    /* colors 2 */
+    --color2a: #081C15;
+    --color2b: #1B4332;
+    --color2c: #2D6A4F;
+    --color2d: #40916C;
+    --color2e: #52B788;
+    --color2f: #74C69D;
+    --color2g: #95D5B2;
+    --color2h: #B7E4C7;
+    --color2i: #D8F3DC;
 
 }
 
@@ -25,7 +36,7 @@ body {
 
 .navbar.with-shadow {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    background: var(--color1);
+    background: var(--color1a);
 }
 
 

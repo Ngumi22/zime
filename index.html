@@ -24,6 +24,8 @@
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
+    <link rel="shortcut icon" type="image/png" href="./images/logo.png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
@@ -154,33 +156,42 @@
                                         type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Products
                                     </button>
-                                    <ul class="dropdown-menu scrollmenu m-2">
-                                        <li class="nav-item px-2">
-                                            <a class="nav-link" href="#laptops">Laptops</a>
+
+                                    <ul class="dropdown-menu scrollmenu m-2" id="category-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link categories-link" href="#all">All</a>
                                         </li>
-                                        <li class="nav-item px-2">
-                                            <a class="nav-link" href="#computers">Computers</a>
+                                        <li class="nav-item">
+                                            <a class="nav-link categories-link" href="#laptops">Laptops</a>
                                         </li>
-                                        <li class="nav-item px-2">
-                                            <a class="nav-link" href="#phones">Phones & Tablets</a>
+                                        <li class="nav-item">
+                                            <a class="nav-link categories-link" href="#computers">Computers</a>
                                         </li>
-                                        <li class="nav-item px-2">
-                                            <a class="nav-link" href="#accessories">Accessories</a>
-                                        </li>
-                                        <li class="nav-item px-2">
-                                            <a class="nav-link" href="#printers">Printers</a>
-                                        </li>
-                                        <li class="nav-item px-2">
-                                            <a class="nav-link" href="#monitors">Monitors</a>
-                                        </li>
-                                        <li class="nav-item px-2">
-                                            <a class="nav-link" href="#networking">Networking & Security</a>
-                                        </li>
-                                        <li class="nav-item px-2">
-                                            <a class="nav-link" href="#deals">Deals & Offers</a>
+                                        <li class="nav-item">
+                                            <a class="nav-link categories-link" href="#networking">Networking &
+                                                Security</a>
                                         </li>
 
+                                        <li class="nav-item">
+                                            <a class="nav-link categories-link" href="#phones">Phones</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link categories-link" href="#accessories">Accessories</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link categories-link" href="#printers">Printers</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link categories-link" href="#monitors">Monitors</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link categories-link" href="#deals">Deals</a>
+                                        </li>
                                     </ul>
+
+
 
                                 </div>
 
@@ -222,102 +233,9 @@
         <section class="container-fluid my-5 justify-content-center hero-section g-0 align-content-center">
 
 
-            <div class="row m-2">
-                <div class="col-md-3">
-                    <div class="cardd p-1">
-                        <div class="d-flex justify-content-between align-items-center p-2">
-                            <a href="#laptops">
-                                <div class="flex-column lh-1 imagename"> <span>Laptops</span> </div>
-                            </a>
-                            <div> <img src="./images/lap4.png" height="100" width="100" /> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="cardd p-2">
-                        <div class="d-flex justify-content-between align-items-center p-2">
-                            <a href="#computers">
-                                <div class="flex-column lh-1 imagename"> <span>Computers</span> </div>
-                            </a>
-                            <div> <img
-                                    src="https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg"
-                                    height="100" width="100" /> </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="cardd p-2">
-                        <div class="d-flex justify-content-between align-items-center p-2">
-                            <a href="#phones">
-                                <div class="flex-column lh-1 imagename"> <span>Phones</span> </div>
-                            </a>
-                            <div> <img
-                                    src="https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg"
-                                    height="100" width="100" /> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="cardd p-2tr5">
-                        <div class="d-flex justify-content-between align-items-center p-2">
-                            <a href="#accessories">
-                                <div class="flex-column lh-1 imagename"> <span>Accessories</span> </div>
-                            </a>
-                            <div> <img
-                                    src="https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg"
-                                    height="100" width="100" /> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="cardd p-2">
-                        <div class="d-flex justify-content-between align-items-center p-2">
-                            <a href="#printers">
-                                <div class="flex-column lh-1 imagename"> <span>Printers</span> </div>
-                            </a>
-                            <div> <img
-                                    src="https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-06.jpg"
-                                    height="100" width="100" /> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="cardd p-2">
-                        <div class="d-flex justify-content-between align-items-center p-2">
-                            <a href="#monitors">
-                                <div class="flex-column lh-1 imagename"> <span>Monitors</span> </div>
-                            </a>
-                            <div> <img
-                                    src="https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-07.jpg"
-                                    height="100" width="100" /> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="cardd p-2">
-                        <div class="d-flex justify-content-between align-items-center p-2">
-                            <a href="#networking">
-                                <div class="flex-column lh-1 imagename"> <span>Networking & Security</span> </div>
-                            </a>
-                            <div> <img
-                                    src="https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-08.jpg"
-                                    height="100" width="100" /> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="cardd p-2">
-                        <div class="d-flex justify-content-between align-items-center p-2">
-                            <a href="#deals">
-                                <div class="flex-column lh-1 imagename"> <span>Deals</span> </div>
-                            </a>
-                            <div> <img
-                                    src="https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg"
-                                    height="100" width="100" /> </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="bannerr g-0">
+                <img src="./images/White and Gray Modern Real Estate Modern Home Banner.png" class="w-100"
+                    style="height: 14rem;">
             </div>
         </section>
 
@@ -391,7 +309,7 @@
         <section class="container-fluid my-5 pages g-0">
             <div class="search-wrapper d-flex">
                 <div class="ts-search-by-category ">
-                    <form class="d-flex" method="get" action="https://www.fgee.co.ke/">
+                    <form class="d-flex" method="get" action="">
                         <select class="select-category" name="term">
                             <option value="">All categories</option>
                             <option value="accessories">Accessories</option>
