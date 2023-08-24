@@ -3,9 +3,10 @@ const categories = [
     title: 'all',
     items: [
       {
-        id: 949494,
+        id: 9495594,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -15,9 +16,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 949555494,
+        id: 949556665494,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'microsoft',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -27,9 +29,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 5353534,
+        id: 5356663534,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'MICROSOFT',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -39,9 +42,23 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 3663634,
+        id: 36666663634,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        price: 100,
+        brand: 'MICROSOFT',
+        color: 'red',
+        description: 'description A',
+        size: '12',
+        os: 'windows',
+        userRatings: 4.2,
+        promotion: 'Discounted'
+      },
+      {
+        id: 94874444644,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'First Cmp',
+        brand: 'MICROSOFT',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -51,9 +68,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 94874644,
+        id: 3444434344,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'APPLE',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -63,9 +81,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 3434344,
+        id: 8884443834,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'LENOVO',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -75,9 +94,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 8883834,
+        id: 377374444734,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -87,9 +107,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 37737734,
+        id: 244444446664,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -99,9 +120,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 244446664,
+        id: 9494444494,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -111,9 +133,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 949494,
+        id: 9495544445494,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -123,9 +146,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 949555494,
+        id: 535354434,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -135,9 +159,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 5353534,
+        id: 36636556634,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -147,9 +172,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 3663634,
+        id: 948733444644,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -159,9 +185,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 94874644,
+        id: 34343333344,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -171,9 +198,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 3434344,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        id: 8883333834,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -183,9 +211,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 8883834,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        id: 377333337734,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -195,9 +224,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 37737734,
+        id: 244433346664,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -207,9 +237,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 244446664,
+        id: 949333494,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -219,9 +250,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 949494,
+        id: 949332555494,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -231,9 +263,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 949555494,
+        id: 5353455433534,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -243,9 +276,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 5353534,
+        id: 3667654333634,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -255,9 +289,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 3663634,
+        id: 948723454644,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -267,9 +302,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 94874644,
+        id: 34342345344,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -279,9 +315,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 3434344,
+        id: 888382345634,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -291,9 +328,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 8883834,
+        id: 3772345637734,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -303,9 +341,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 37737734,
+        id: 244423456746664,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -315,9 +354,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 244446664,
+        id: 94923456494,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -327,9 +367,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 949494,
+        id: 94952355494,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -339,9 +380,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 949555494,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        id: 53532323534,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -351,9 +393,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 5353534,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        id: 366361232134,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-07.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -363,9 +406,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 3663634,
+        id: 94812345554374644,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -375,9 +419,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 94874644,
+        id: 34323456787654344,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -387,9 +432,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 3434344,
+        id: 88831232834,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -399,9 +445,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 8883834,
+        id: 37734327734,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -411,21 +458,10 @@ const categories = [
         promotion: 'Discounted'
       },
       {
-        id: 37737734,
+        id: 24423432446664,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 244446664,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -438,6 +474,7 @@ const categories = [
         id: 1002,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-06.jpg',
         title: 'LENOVO',
+        brand: 'LENOVO',
         price: 500000,
         color: 'blue',
         touchscreen: 'no',
@@ -455,6 +492,7 @@ const categories = [
         id: 1003,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'APPLE',
+        brand: 'APPLE',
         price: 100,
         color: 'red',
         touchscreen: 'no',
@@ -472,6 +510,7 @@ const categories = [
         id: 1004,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
         title: 'DELL',
+        brand: 'DELL',
         price: 100,
         color: 'red',
         touchscreen: 'yes',
@@ -489,6 +528,7 @@ const categories = [
         id: 1005,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'ASUS',
+        brand: 'ASUS',
         price: 100,
         color: 'red',
         touchscreen: 'no',
@@ -506,6 +546,7 @@ const categories = [
         id: 1006,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'ACER',
+        brand: 'ACER',
         price: 100,
         color: 'red',
         touchscreen: 'no',
@@ -523,6 +564,7 @@ const categories = [
         id: 1007,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
         title: 'APPLE',
+        brand: 'APPLE',
         price: 113300,
         color: 'blue',
         touchscreen: 'yes',
@@ -540,6 +582,7 @@ const categories = [
         id: 1008,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'APPLE',
+        brand: 'APPLE',
         price: 100,
         color: 'red',
         touchscreen: 'no',
@@ -558,6 +601,7 @@ const categories = [
         id: 1009,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
         title: 'MICROSOFT',
+        brand: 'MICROSOFT',
         price: 133300,
         color: 'green',
         touchscreen: 'no',
@@ -581,24 +625,27 @@ const categories = [
         id: 73747460,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'HP',
+        brand: 'HP',
         price: 1000,
         color: 'red',
         touchscreen: 'yes',
         description: 'one',
-        size: '17',
+        size: '13',
         storage: "HDD",
         os: 'windows',
         generation: '13thgen',
         processor: 'core19',
         theme: 'gaming',
         userRatings: 4.1,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        brand: 'HP'
 
       },
       {
         id: 4446640,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'HP',
+        title: 'APPLE',
+        brand: 'APPLE',
         price: 1000,
         color: 'red',
         touchscreen: 'yes',
@@ -616,7 +663,8 @@ const categories = [
       {
         id: 46646640,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'HP',
+        title: 'APPLE',
+        brand: 'APPLE',
         price: 1000,
         color: 'red',
         touchscreen: 'yes',
@@ -634,7 +682,8 @@ const categories = [
       {
         id: 455455450,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'HP',
+        title: 'APPLE',
+        brand: 'APPLE',
         price: 1000,
         color: 'red',
         touchscreen: 'yes',
@@ -652,7 +701,8 @@ const categories = [
       {
         id: 46646664640,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'HP',
+        title: 'APPLE',
+        brand: 'APPLE',
         price: 1000,
         color: 'red',
         touchscreen: 'yes',
@@ -670,7 +720,8 @@ const categories = [
       {
         id: 444477747740,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'HP',
+        title: 'APPLE',
+        brand: 'APPLE',
         price: 1000,
         color: 'red',
         touchscreen: 'yes',
@@ -688,7 +739,8 @@ const categories = [
       {
         id: 94999940,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'HP',
+        title: 'APPLE',
+        brand: 'APPLE',
         price: 1000,
         color: 'red',
         touchscreen: 'yes',
@@ -706,7 +758,8 @@ const categories = [
       {
         id: 646466460,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'HP',
+        title: 'APPLE',
+        brand: 'APPLE',
         price: 1000,
         color: 'red',
         touchscreen: 'yes',
@@ -725,6 +778,7 @@ const categories = [
         id: 5434430,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'HP',
+        brand: 'HP',
         price: 1000,
         color: 'red',
         touchscreen: 'yes',
@@ -743,6 +797,7 @@ const categories = [
         id: 3777377377330,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'HP',
+        brand: 'HP',
         price: 1000,
         color: 'red',
         touchscreen: 'yes',
@@ -761,6 +816,7 @@ const categories = [
         id: 4344344340,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'HP',
+        brand: 'HP',
         price: 1000,
         color: 'red',
         touchscreen: 'yes',
@@ -779,6 +835,7 @@ const categories = [
         id: 1,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'LENOVO',
+        brand: 'LENOVO',
         price: 500000,
         color: 'blue',
         touchscreen: 'no',
@@ -796,6 +853,7 @@ const categories = [
         id: 2,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'APPLE',
+        brand: 'APPLE',
         price: 100,
         color: 'red',
         touchscreen: 'no',
@@ -813,6 +871,7 @@ const categories = [
         id: 3,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'DELL',
+        brand: 'DELL',
         price: 100,
         color: 'red',
         touchscreen: 'yes',
@@ -830,6 +889,7 @@ const categories = [
         id: 4,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'ASUS',
+        brand: 'ASUS',
         price: 100,
         color: 'red',
         touchscreen: 'no',
@@ -847,6 +907,7 @@ const categories = [
         id: 5,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'ACER',
+        brand: 'ACER',
         price: 100,
         color: 'red',
         touchscreen: 'no',
@@ -864,6 +925,7 @@ const categories = [
         id: 512,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
         title: 'APPLE',
+        brand: 'APPLE',
         price: 113300,
         color: 'blue',
         touchscreen: 'yes',
@@ -881,6 +943,7 @@ const categories = [
         id: 6,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'APPLE',
+        brand: 'APPLE',
         price: 100,
         color: 'red',
         touchscreen: 'no',
@@ -899,6 +962,7 @@ const categories = [
         id: 612,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
         title: 'MICROSOFT',
+        brand: 'MICROSOFT',
         price: 1300,
         color: 'green',
         touchscreen: 'no',
@@ -916,6 +980,7 @@ const categories = [
         id: 612,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-08.jpg',
         title: 'APPLE',
+        brand: 'APPLE',
         price: 300,
         color: 'green',
         touchscreen: 'no',
@@ -939,6 +1004,7 @@ const categories = [
         id: 4,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Cmp',
+        brand: 'HP',
         price: 100,
         color: 'red',
         description: 'description A',
@@ -951,8 +1017,9 @@ const categories = [
         id: 5,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
         title: 'Second Comp',
+        brand: 'HP',
         price: 1000,
-        color: 'red',
+        color: 'blue',
         description: 'description B',
         size: '12',
         userRatings: 4.2,
@@ -962,8 +1029,9 @@ const categories = [
         id: 6,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
         title: 'Third Comp',
+        brand: 'HP',
         price: 2000,
-        color: 'red',
+        color: 'green',
         description: 'description C',
         size: '12',
         userRatings: 4.2,
@@ -973,8 +1041,9 @@ const categories = [
         id: 7,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Fourth Comp',
+        brand: 'HP',
         price: 200,
-        color: 'red',
+        color: 'yellow',
         description: 'description D',
         size: '12',
         userRatings: 4.2,
@@ -990,6 +1059,7 @@ const categories = [
         id: 30,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
         title: 'First Phone',
+        brand: 'HP',
         price: 300,
         color: 'red',
         description: 'description A',
@@ -1001,6 +1071,7 @@ const categories = [
         id: 31,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second Phone',
+        brand: 'HP',
         price: 4000,
         color: 'yellow',
         description: 'description B',
@@ -1012,6 +1083,7 @@ const categories = [
         id: 32,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second Phone',
+        brand: 'HP',
         price: 1400,
         color: 'yellow',
         description: 'description C',
@@ -1023,6 +1095,7 @@ const categories = [
         id: 33,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second Phone',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description E',
@@ -1034,6 +1107,7 @@ const categories = [
         id: 34,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second Phone',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description F',
@@ -1051,6 +1125,7 @@ const categories = [
         id: 10,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
         title: 'First Accessories',
+        brand: 'HP',
         price: 300,
         color: 'blue',
         description: 'description B',
@@ -1062,6 +1137,7 @@ const categories = [
         id: 11,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second Accessories',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description B',
@@ -1073,6 +1149,7 @@ const categories = [
         id: 12,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second Accessories',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description B',
@@ -1084,6 +1161,7 @@ const categories = [
         id: 13,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second Accessories',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description B',
@@ -1101,6 +1179,7 @@ const categories = [
         id: 20,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
         title: 'First Printer',
+        brand: 'HP',
         price: 300,
         color: 'blue',
         description: 'description B',
@@ -1112,6 +1191,7 @@ const categories = [
         id: 21,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second Printers',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description B',
@@ -1122,6 +1202,7 @@ const categories = [
         id: 22,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second Printers',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description B',
@@ -1132,6 +1213,7 @@ const categories = [
         id: 23,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second Printers',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description B',
@@ -1148,6 +1230,7 @@ const categories = [
         id: 90,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
         title: 'First Monitors',
+        brand: 'HP',
         price: 300,
         color: 'blue',
         description: 'description B',
@@ -1158,6 +1241,7 @@ const categories = [
         id: 91,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second Monitors',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description B',
@@ -1168,6 +1252,7 @@ const categories = [
         id: 92,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second Monitors',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description B',
@@ -1178,6 +1263,7 @@ const categories = [
         id: 93,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second Monitors',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description B',
@@ -1195,6 +1281,7 @@ const categories = [
         id: 50,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
         title: 'First network',
+        brand: 'HP',
         price: 300,
         color: 'blue',
         description: 'description B',
@@ -1205,6 +1292,7 @@ const categories = [
         id: 51,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second network',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description B',
@@ -1215,6 +1303,7 @@ const categories = [
         id: 52,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Third network',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description B',
@@ -1225,6 +1314,7 @@ const categories = [
         id: 53,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Fourth network',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description B',
@@ -1235,6 +1325,7 @@ const categories = [
         id: 54,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Fifth network',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description B',
@@ -1245,6 +1336,7 @@ const categories = [
         id: 55,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Sixth network',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description B',
@@ -1255,6 +1347,7 @@ const categories = [
         id: 56,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Seventh network',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description B',
@@ -1272,6 +1365,7 @@ const categories = [
         id: 70,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
         title: 'First deal',
+        brand: 'HP',
         price: 300,
         color: 'blue',
         description: 'description B',
@@ -1282,6 +1376,7 @@ const categories = [
         id: 71,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second deal',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description B',
@@ -1292,6 +1387,7 @@ const categories = [
         id: 72,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second deal',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description B',
@@ -1302,6 +1398,7 @@ const categories = [
         id: 73,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second deal',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description B',
@@ -1312,6 +1409,7 @@ const categories = [
         id: 74,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second deal',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description B',
@@ -1322,6 +1420,7 @@ const categories = [
         id: 75,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second deal',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description B',
@@ -1332,6 +1431,7 @@ const categories = [
         id: 76,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second deal',
+        brand: 'HP',
         price: 400,
         color: 'yellow',
         description: 'description B',
@@ -1346,13 +1446,15 @@ const categories = [
 
 
 
-
-let currentCategoryIndex = 0; // Keep track of the current category index
+let currentCategoryIndex = 0;
 let currentPage = 1;
+let cart = [];
+
+
 
 function renderCards(categoryIndex, page = 1) {
-  currentCategoryIndex = categoryIndex; // Update the current category index
-  currentPage = page; // Update the current page
+  currentCategoryIndex = categoryIndex;
+  currentPage = page;
 
   const itemsPerPage = 15;
   const startIndex = (page - 1) * itemsPerPage;
@@ -1366,10 +1468,12 @@ function renderCards(categoryIndex, page = 1) {
   const itemsToRender = activeCategory.items.slice(startIndex, endIndex);
 
   itemsToRender.forEach(item => {
-    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme } = item;
+    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand } = item;
 
     const card = document.createElement('div');
     card.classList.add('product-card', 'group', 'justify-items-center', 'relative');
+
+    card.setAttribute('data-category', categoryIndex); // Set data-category attribute
 
     card.innerHTML = `
       <div>
@@ -1384,11 +1488,12 @@ function renderCards(categoryIndex, page = 1) {
         <h6 class="size d-none">${size}</h6>
         <div class="d-flex justify-content-between">
           <h6 class="price mt-1 card-txt text-gray-700 color">${price}</h6>
-          <i onclick="addToCart('${title}')"  class="bi bi-cart-plus"></i>
+          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
         </div>
         <h6 class="touch d-none">${touchscreen}</h6>
-        <h6 class="os d-none">${os}</h6>
-        <h6 class="os d-none">${theme}</h6>
+        <h6 class="theme d-none">${os}</h6>
+        <h6 class="brand d-none">${brand}</h6>
+        <h6 class="theme d-none">${theme}</h6>
         <h6 class="diskstorage d-none">${storage}</h6>
         <h6 class="generation d-none">${generation}</h6>
         <h6 class="processor d-none">${processor}</h6>
@@ -1423,40 +1528,26 @@ function renderPagination(totalItems, itemsPerPage, currentPage) {
   }
 }
 
-// Initial rendering
 renderCards(currentCategoryIndex, currentPage);
 
 const categoryLinks = document.querySelectorAll('#category-nav a');
-
-
 categoryLinks[0].classList.add('active');
-
 
 categoryLinks.forEach(link => {
   link.addEventListener('click', function (event) {
     event.preventDefault();
 
-
     categoryLinks.forEach(link => {
       link.classList.remove('active');
     });
 
-
     this.classList.add('active');
 
-
     const categoryTitle = this.getAttribute('href').slice(1);
-
-
     const selectedCategory = categories.find(category => category.title === categoryTitle);
-
-
     renderCards(categories.indexOf(selectedCategory), 1);
   });
 });
-
-
-
 
 function addToCart(title) {
   const selectedItem = categories.flatMap(category => category.items).find(item => item.title === title);
@@ -1579,12 +1670,8 @@ displayCart();
 
 
 
-
-
-// Define a generic filter function
-
 const filters = [
-  { element: document.getElementById('color-selector'), property: 'color' },
+  { element: document.querySelectorAll('.color-filter-checkbox'), property: 'color' },
   { element: document.querySelectorAll('.brand-filter-checkbox'), property: 'brand' },
   { element: document.querySelectorAll('.size-filter-checkbox'), property: 'size' },
   { element: document.querySelectorAll('.touch-filter-checkbox'), property: 'touch' },
@@ -1616,10 +1703,10 @@ filters.forEach(filter => {
   }
 });
 
-function handleCheckboxFilterChange(property, checkboxes) {
-  const selectedValues = Array.from(checkboxes)
-    .filter(checkbox => checkbox.checked)
-    .map(checkbox => checkbox.value);
+function handleCheckboxFilterChange(property, radio) {
+  const selectedValues = Array.from(radio)
+    .filter(radio => radio.checked)
+    .map(radio => radio.value);
   const valueToFilter = selectedValues.length === 0 ? 'all' : selectedValues[0];
   filterCards(property, valueToFilter);
 }
@@ -1628,18 +1715,31 @@ function handleSingleFilterChange(property, value) {
   filterCards(property, value);
 }
 
-
-
 function filterCards(property, value) {
   const cards = document.querySelectorAll('.product-card');
+  let hasMatchingItems = false; // Track if any matching items are found
+
   cards.forEach((card) => {
     const cardValue = card.querySelector(`.${property}`).textContent.toLowerCase();
-    if (cardValue === value.toLowerCase() || value === 'all') {
+    const cardCategory = card.getAttribute('data-category');
+
+    if ((cardValue === value.toLowerCase() || value === 'all') && (cardCategory === currentCategoryIndex.toString() || value === 'all')) {
       card.style.display = 'block';
+      hasMatchingItems = true;
     } else {
       card.style.display = 'none';
     }
   });
+
+  renderPagination(cards.length, 15, 1);
+
+  // Display error message if no matching items are found
+  const errorMessageElement = document.getElementById('error-message');
+  if (!hasMatchingItems) {
+    errorMessageElement.textContent = 'No matching items found.';
+  } else {
+    errorMessageElement.textContent = ''; // Clear the error message
+  }
 }
 
 function filterCardsByPrice(selectedPrice) {
@@ -1654,7 +1754,7 @@ function filterCardsByPrice(selectedPrice) {
   });
 }
 
-const maxPrice = 500000; // Replace with your actual maximum price value
+const maxPrice = 500000;
 
 const priceRangeInput = document.getElementById('priceRange');
 const priceOutputMin = document.getElementById('priceOutputMin');
@@ -1667,10 +1767,8 @@ priceRangeInput.addEventListener('input', function () {
 
 priceOutputMin.textContent = `Ksh${priceRangeInput.value}`;
 
-renderCards(currentCategoryIndex, currentPage);
-
 const filterCategoryLinks = document.querySelectorAll('#category-nav a');
-filterCategoryLinks[0].classList.add('active');
+filterCategoryLinks[0].classList.add('active'); //all is active class by default
 filterCategoryLinks.forEach(link => {
   link.addEventListener('click', function (event) {
     event.preventDefault();
@@ -1683,6 +1781,14 @@ filterCategoryLinks.forEach(link => {
     renderCards(categories.indexOf(selectedCategory));
   });
 });
+
+// Initial rendering
+
+
+
+
+
+
 
 
 
@@ -1698,25 +1804,26 @@ function openModal(item) {
   modal.appendChild(modalContent);
   const { image, title, price, description, color, os, size, userRatings } = item;
   modalContent.innerHTML = `
-
-  <div class='d-flex'>
-    <div class='col-4'>
-      <img src="${image}" alt="Product" class="max-h-96 object-contain m-1">
+    <div class='d-flex'>
+      <div class='col-4'>
+        <img src="${image}" alt="Product" class="max-h-96 object-contain m-1">
+      </div>
+      <div class='col-8 d-block justify-content-center text-center ml-4'>
+        <h3 class="text-lg font-bold">${title}</h3>
+        <p class="text-sm text-gray-700 mb-2">${description}</p>
+        <p class="text-lg font-medium">Price <br> Ksh ${price}.00</p>
+        <p class="text-lg font-medium">${os}</p>
+        <p class="text-lg font-medium">${color}</p>
+        <p class="text-lg font-medium">${size}</p>
+        <p class="text-lg font-medium">${userRatings}</p>
+      </div>
     </div>
-   <div class='col-8 d-block justify-content-center text-center ml-4'>
-      <h3 class="text-lg font-bold">${title}</h3>
-      <p class="text-sm text-gray-700 mb-2">${description}</p>
-      <p class="text-lg font-medium">Price <br> Ksh ${price}.00</p>
-      <p class="text-lg font-medium">${os}</p>
-      <p class="text-lg font-medium">${color}</p>
-      <p class="text-lg font-medium">${size}</p>
-      <p class="text-lg font-medium">${userRatings}</p></div>
-  <div>
   `;
   document.body.appendChild(modal);
   activeModal = modal;
   modal.addEventListener('click', closeModal);
 }
+
 function closeModal() {
   if (activeModal) {
     activeModal.remove();
