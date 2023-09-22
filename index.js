@@ -2,531 +2,29 @@ const categories = [
   {
     title: 'all',
     items: [
-      {
-        id: 9495594,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 949556665494,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'microsoft',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 5356663534,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'MICROSOFT',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 36666663634,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        price: 100,
-        brand: 'MICROSOFT',
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 94874444644,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'MICROSOFT',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 3444434344,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'APPLE',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 8884443834,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'LENOVO',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 377374444734,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 244444446664,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 9494444494,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 9495544445494,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 535354434,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 36636556634,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 948733444644,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 34343333344,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 8883333834,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 377333337734,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 244433346664,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 949333494,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 949332555494,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 5353455433534,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 3667654333634,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 948723454644,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 34342345344,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 888382345634,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 3772345637734,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 244423456746664,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 94923456494,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 94952355494,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 53532323534,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 366361232134,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-07.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 94812345554374644,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 34323456787654344,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 88831232834,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 37734327734,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 24423432446664,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 1002,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-06.jpg',
-        title: 'LENOVO',
-        brand: 'LENOVO',
-        price: 500000,
-        color: 'blue',
-        touchscreen: 'no',
-        description: 'two',
-        size: '15',
-        storage: "HDD",
-        os: 'windows',
-        generation: '12thgen',
-        processor: 'core17',
-        theme: 'business',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 1003,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'APPLE',
-        brand: 'APPLE',
-        price: 100,
-        color: 'red',
-        touchscreen: 'no',
-        description: 'three',
-        size: '20',
-        storage: "HDD",
-        os: 'windows',
-        generation: '11thgen',
-        processor: 'core15',
-        theme: 'programming',
-        userRatings: 4.3,
-        promotion: 'Discounted'
-      },
-      {
-        id: 1004,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
-        title: 'DELL',
-        brand: 'DELL',
-        price: 100,
-        color: 'red',
-        touchscreen: 'yes',
-        description: 'four',
-        size: '22',
-        storage: "HDD",
-        os: 'windows',
-        generation: '10thgen',
-        processor: 'core13',
-        theme: 'gaming',
-        userRatings: 4.4,
-        promotion: 'Discounted'
-      },
+
       {
         id: 1005,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'HP',
+        brand: 'HP',
+        price: 100,
+        color: 'red',
+        touchscreen: 'no',
+        description: 'five',
+        size: '24',
+        storage: "HDD",
+        os: 'windows',
+        generation: '13thgen',
+        processor: 'ryzen3',
+        theme: 'gaming',
+        userRatings: 4.2,
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+      },
+      {
+        id: 10099,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg',
         title: 'ASUS',
         brand: 'ASUS',
         price: 100,
@@ -540,11 +38,13 @@ const categories = [
         processor: 'ryzen3',
         theme: 'gaming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
       },
       {
         id: 1006,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
         title: 'ACER',
         brand: 'ACER',
         price: 100,
@@ -558,12 +58,13 @@ const categories = [
         processor: 'm1',
         theme: 'business',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
         id: 1007,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
-        title: 'APPLE',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+        title: 'APPLE1',
         brand: 'APPLE',
         price: 113300,
         color: 'blue',
@@ -576,11 +77,13 @@ const categories = [
         processor: 'ryzen1',
         theme: 'gaming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
       },
       {
         id: 1008,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'APPLE',
         brand: 'APPLE',
         price: 100,
@@ -594,315 +97,18 @@ const categories = [
         processor: 'ryzen2',
         theme: 'gaming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
 
-      {
-        id: 1009,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
-        title: 'MICROSOFT',
-        brand: 'MICROSOFT',
-        price: 133300,
-        color: 'green',
-        touchscreen: 'no',
-        description: 'seventy',
-        size: '32',
-        storage: "HDD + SSD",
-        os: 'linux',
-        generation: '13thgen',
-        processor: 'core19',
-        theme: 'programming',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      // Add more items for the 'laptops' category
+
+
     ]
   },
   {
     title: 'laptops',
     items: [
-      {
-        id: 73747460,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'HP',
-        brand: 'HP',
-        price: 1000,
-        color: 'red',
-        touchscreen: 'yes',
-        description: 'one',
-        size: '13',
-        storage: "HDD",
-        os: 'windows',
-        generation: '13thgen',
-        processor: 'core19',
-        theme: 'gaming',
-        userRatings: 4.1,
-        promotion: 'Discounted',
-        brand: 'HP'
 
-      },
-      {
-        id: 4446640,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'APPLE',
-        brand: 'APPLE',
-        price: 1000,
-        color: 'red',
-        touchscreen: 'yes',
-        description: 'one',
-        size: '17',
-        storage: "HDD",
-        os: 'windows',
-        generation: '13thgen',
-        processor: 'core19',
-        theme: 'gaming',
-        userRatings: 4.1,
-        promotion: 'Discounted'
-
-      },
-      {
-        id: 46646640,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'APPLE',
-        brand: 'APPLE',
-        price: 1000,
-        color: 'red',
-        touchscreen: 'yes',
-        description: 'one',
-        size: '17',
-        storage: "HDD",
-        os: 'windows',
-        generation: '13thgen',
-        processor: 'core19',
-        theme: 'gaming',
-        userRatings: 4.1,
-        promotion: 'Discounted'
-
-      },
-      {
-        id: 455455450,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'APPLE',
-        brand: 'APPLE',
-        price: 1000,
-        color: 'red',
-        touchscreen: 'yes',
-        description: 'one',
-        size: '17',
-        storage: "HDD",
-        os: 'windows',
-        generation: '13thgen',
-        processor: 'core19',
-        theme: 'gaming',
-        userRatings: 4.1,
-        promotion: 'Discounted'
-
-      },
-      {
-        id: 46646664640,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'APPLE',
-        brand: 'APPLE',
-        price: 1000,
-        color: 'red',
-        touchscreen: 'yes',
-        description: 'one',
-        size: '17',
-        storage: "HDD",
-        os: 'windows',
-        generation: '13thgen',
-        processor: 'core19',
-        theme: 'gaming',
-        userRatings: 4.1,
-        promotion: 'Discounted'
-
-      },
-      {
-        id: 444477747740,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'APPLE',
-        brand: 'APPLE',
-        price: 1000,
-        color: 'red',
-        touchscreen: 'yes',
-        description: 'one',
-        size: '17',
-        storage: "HDD",
-        os: 'windows',
-        generation: '13thgen',
-        processor: 'core19',
-        theme: 'gaming',
-        userRatings: 4.1,
-        promotion: 'Discounted'
-
-      },
-      {
-        id: 94999940,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'APPLE',
-        brand: 'APPLE',
-        price: 1000,
-        color: 'red',
-        touchscreen: 'yes',
-        description: 'one',
-        size: '17',
-        storage: "HDD",
-        os: 'windows',
-        generation: '13thgen',
-        processor: 'core19',
-        theme: 'gaming',
-        userRatings: 4.1,
-        promotion: 'Discounted'
-
-      },
-      {
-        id: 646466460,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'APPLE',
-        brand: 'APPLE',
-        price: 1000,
-        color: 'red',
-        touchscreen: 'yes',
-        description: 'one',
-        size: '17',
-        storage: "HDD",
-        os: 'windows',
-        generation: '13thgen',
-        processor: 'core19',
-        theme: 'gaming',
-        userRatings: 4.1,
-        promotion: 'Discounted'
-
-      },
-      {
-        id: 5434430,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'HP',
-        brand: 'HP',
-        price: 1000,
-        color: 'red',
-        touchscreen: 'yes',
-        description: 'one',
-        size: '17',
-        storage: "HDD",
-        os: 'windows',
-        generation: '13thgen',
-        processor: 'core19',
-        theme: 'gaming',
-        userRatings: 4.1,
-        promotion: 'Discounted'
-
-      },
-      {
-        id: 3777377377330,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'HP',
-        brand: 'HP',
-        price: 1000,
-        color: 'red',
-        touchscreen: 'yes',
-        description: 'one',
-        size: '17',
-        storage: "HDD",
-        os: 'windows',
-        generation: '13thgen',
-        processor: 'core19',
-        theme: 'gaming',
-        userRatings: 4.1,
-        promotion: 'Discounted'
-
-      },
-      {
-        id: 4344344340,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'HP',
-        brand: 'HP',
-        price: 1000,
-        color: 'red',
-        touchscreen: 'yes',
-        description: 'one',
-        size: '17',
-        storage: "HDD",
-        os: 'windows',
-        generation: '13thgen',
-        processor: 'core19',
-        theme: 'gaming',
-        userRatings: 4.1,
-        promotion: 'Discounted'
-
-      },
-      {
-        id: 1,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'LENOVO',
-        brand: 'LENOVO',
-        price: 500000,
-        color: 'blue',
-        touchscreen: 'no',
-        description: 'two',
-        size: '15',
-        storage: "HDD",
-        os: 'windows',
-        generation: '12thgen',
-        processor: 'core17',
-        theme: 'business',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 2,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'APPLE',
-        brand: 'APPLE',
-        price: 100,
-        color: 'red',
-        touchscreen: 'no',
-        description: 'three',
-        size: '20',
-        storage: "HDD",
-        os: 'windows',
-        generation: '11thgen',
-        processor: 'core15',
-        theme: 'programming',
-        userRatings: 4.3,
-        promotion: 'Discounted'
-      },
-      {
-        id: 3,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'DELL',
-        brand: 'DELL',
-        price: 100,
-        color: 'red',
-        touchscreen: 'yes',
-        description: 'four',
-        size: '22',
-        storage: "HDD",
-        os: 'windows',
-        generation: '10thgen',
-        processor: 'core13',
-        theme: 'gaming',
-        userRatings: 4.4,
-        promotion: 'Discounted'
-      },
-      {
-        id: 4,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'ASUS',
-        brand: 'ASUS',
-        price: 100,
-        color: 'red',
-        touchscreen: 'no',
-        description: 'five',
-        size: '24',
-        storage: "HDD",
-        os: 'windows',
-        generation: '13thgen',
-        processor: 'ryzen3',
-        theme: 'gaming',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
       {
         id: 5,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
@@ -919,7 +125,8 @@ const categories = [
         processor: 'm1',
         theme: 'business',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
         id: 512,
@@ -937,11 +144,12 @@ const categories = [
         processor: 'ryzen1',
         theme: 'gaming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
         id: 6,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
         title: 'APPLE',
         brand: 'APPLE',
         price: 100,
@@ -955,12 +163,13 @@ const categories = [
         processor: 'ryzen2',
         theme: 'gaming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
 
       {
         id: 612,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'MICROSOFT',
         brand: 'MICROSOFT',
         price: 1300,
@@ -974,14 +183,22 @@ const categories = [
         processor: 'core19',
         theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
+
+
+    ]
+  },
+  {
+    title: 'computers',
+    items: [
       {
-        id: 612,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-08.jpg',
-        title: 'APPLE',
-        brand: 'APPLE',
-        price: 300,
+        id: 43,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'First Cmp',
+        brand: 'First Cmp',
+        price: 1300,
         color: 'green',
         touchscreen: 'no',
         description: 'seventy',
@@ -992,62 +209,65 @@ const categories = [
         processor: 'core19',
         theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      // Add more items for the 'laptops' category
-    ]
-  },
-  {
-    title: 'computers',
-    items: [
-      {
-        id: 4,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        title: 'First Cmp',
-        brand: 'HP',
-        price: 100,
-        color: 'red',
-        description: 'description A',
-        size: '12',
-        os: 'windows',
-        userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
-        id: 5,
+        id: 44,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
-        title: 'Second Comp',
-        brand: 'HP',
-        price: 1000,
-        color: 'blue',
-        description: 'description B',
-        size: '12',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 6,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
-        title: 'Third Comp',
-        brand: 'HP',
-        price: 2000,
+        title: 'Second Cmp',
+        brand: 'Second Cmp',
+        price: 1300,
         color: 'green',
-        description: 'description C',
-        size: '12',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
-        id: 7,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        title: 'Fourth Comp',
-        brand: 'HP',
-        price: 200,
-        color: 'yellow',
-        description: 'description D',
-        size: '12',
+        id: 45,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+        title: 'Third Cmp',
+        brand: 'Third Cmp',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+      },
+      {
+        id: 47,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg',
+        title: 'Fourth Cmp',
+        brand: 'Fourth Cmp',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
+        userRatings: 4.2,
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       // Add more items for the Computers category
     ]
@@ -1057,65 +277,81 @@ const categories = [
     items: [
       {
         id: 30,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Phone',
-        brand: 'HP',
-        price: 300,
-        color: 'red',
-        description: 'description A',
-        size: '12',
+        brand: 'First Phone',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
         id: 31,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        title: 'Second Phone',
-        brand: 'HP',
-        price: 4000,
-        color: 'yellow',
-        description: 'description B',
-        size: '12',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+        title: 'First Cmp',
+        brand: 'First Cmp',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
         id: 32,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
         title: 'Second Phone',
         brand: 'HP',
-        price: 1400,
-        color: 'yellow',
-        description: 'description C',
-        size: '12',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
         id: 33,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second Phone',
         brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description E',
-        size: '12',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
-      {
-        id: 34,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        title: 'Second Phone',
-        brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description F',
-        size: '12',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      // Add more items for the Phones & Tablets category
+
     ]
   },
   {
@@ -1123,53 +359,81 @@ const categories = [
     items: [
       {
         id: 10,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Accessories',
         brand: 'HP',
-        price: 300,
-        color: 'blue',
-        description: 'description B',
-        size: '12',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
         id: 11,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
         title: 'Second Accessories',
         brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description B',
-        size: '12',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
         id: 12,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
         title: 'Second Accessories',
         brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description B',
-        size: '14',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
         id: 13,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second Accessories',
         brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description B',
-        size: '14',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
-      // Add more items for the Phones & Tablets category
+
     ]
   },
   {
@@ -1177,50 +441,81 @@ const categories = [
     items: [
       {
         id: 20,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Printer',
         brand: 'HP',
-        price: 300,
-        color: 'blue',
-        description: 'description B',
-        size: '14',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
         id: 21,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
         title: 'Second Printers',
         brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description B',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
         id: 22,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
         title: 'Second Printers',
         brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description B',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
         id: 23,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second Printers',
         brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description B',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
-      // Add more items for the Phones & Tablets category
+
     ]
   },
   {
@@ -1228,49 +523,81 @@ const categories = [
     items: [
       {
         id: 90,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First Monitors',
         brand: 'HP',
-        price: 300,
-        color: 'blue',
-        description: 'description B',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
         id: 91,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
         title: 'Second Monitors',
         brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description B',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
         id: 92,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
         title: 'Second Monitors',
         brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description B',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
         id: 93,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second Monitors',
         brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description B',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
-      // Add more items for the Phones & Tablets category
+
     ]
   },
 
@@ -1279,82 +606,82 @@ const categories = [
     items: [
       {
         id: 50,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First network',
         brand: 'HP',
-        price: 300,
-        color: 'blue',
-        description: 'description B',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
         id: 51,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
         title: 'Second network',
         brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description B',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
         id: 52,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
         title: 'Third network',
         brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description B',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
         id: 53,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Fourth network',
         brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description B',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
-      {
-        id: 54,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        title: 'Fifth network',
-        brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description B',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 55,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        title: 'Sixth network',
-        brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description B',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 56,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        title: 'Seventh network',
-        brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description B',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      // Add more items for the Phones & Tablets category
+
+
     ]
   },
 
@@ -1363,88 +690,85 @@ const categories = [
     items: [
       {
         id: 70,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'First deal',
         brand: 'HP',
-        price: 300,
-        color: 'blue',
-        description: 'description B',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
         id: 71,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
         title: 'Second deal',
         brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description B',
-        userRatings: 4.7,
-        promotion: 'Discounted'
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
+        userRatings: 4.2,
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
         id: 72,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
         title: 'Second deal',
         brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description B',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
       {
         id: 73,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
         title: 'Second deal',
         brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description B',
+        price: 1300,
+        color: 'green',
+        touchscreen: 'no',
+        description: 'seventy',
+        size: '32',
+        storage: "HDD + SSD",
+        os: 'linux',
+        generation: '13thgen',
+        processor: 'core19',
+        theme: 'programming',
         userRatings: 4.2,
-        promotion: 'Discounted'
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
-      {
-        id: 74,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        title: 'Second deal',
-        brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description B',
-        userRatings: 4.2,
-        promotion: 'Discounted'
-      },
-      {
-        id: 75,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        title: 'Second deal',
-        brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description B',
-        userRatings: 4.8,
-        promotion: 'Discounted'
-      },
-      {
-        id: 76,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        title: 'Second deal',
-        brand: 'HP',
-        price: 400,
-        color: 'yellow',
-        description: 'description B',
-        userRatings: 4.9,
-        promotion: 'Discounted'
-      },
-      // Add more items
+
     ]
   },
-  // Add more categories
+
 ];
-
-
 
 let currentCategoryIndex = 0;
 let currentPage = 1;
@@ -1455,7 +779,6 @@ let cart = [];
 function renderCards(categoryIndex, page = 1) {
   currentCategoryIndex = categoryIndex;
   currentPage = page;
-
   const itemsPerPage = 15;
   const startIndex = (page - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
@@ -1468,7 +791,7 @@ function renderCards(categoryIndex, page = 1) {
   const itemsToRender = activeCategory.items.slice(startIndex, endIndex);
 
   itemsToRender.forEach(item => {
-    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand } = item;
+    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = item;
 
     const card = document.createElement('div');
     card.classList.add('product-card', 'group', 'justify-items-center', 'relative');
@@ -1478,16 +801,16 @@ function renderCards(categoryIndex, page = 1) {
     card.innerHTML = `
       <div>
         <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
-          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
         </div>
         <div class="d-flex justify-content-between">
           <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
-          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="openModal('${title}')"></i>
+          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
         </div>
-        <h3 class="mt-1 card-txt d-none text-gray-700 color">${color}</h3>
+        <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
         <h6 class="size d-none">${size}</h6>
         <div class="d-flex justify-content-between">
-          <h6 class="price mt-1 card-txt text-gray-700 color">${price}</h6>
+          <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
           <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
         </div>
         <h6 class="touch d-none">${touchscreen}</h6>
@@ -1500,6 +823,14 @@ function renderCards(categoryIndex, page = 1) {
         <!-- Add other fields here -->
       </div>
     `;
+
+    const titleElement = card.querySelector('.name');
+    titleElement.addEventListener('click', () => {
+      // Redirect to the single.html page with the product details in the query string
+      const queryParams = new URLSearchParams();
+      queryParams.append(`${title}`, brand); // Assuming 'id' is your product's unique identifier
+      window.location.href = `single.html?${queryParams.toString()}`;
+    });
 
     cardsContainer.appendChild(card);
   });
@@ -1530,7 +861,7 @@ function renderPagination(totalItems, itemsPerPage, currentPage) {
 
 renderCards(currentCategoryIndex, currentPage);
 
-const categoryLinks = document.querySelectorAll('#category-nav a');
+const categoryLinks = document.querySelectorAll('#category-nav, #cat-nav a');
 categoryLinks[0].classList.add('active');
 
 categoryLinks.forEach(link => {
@@ -1565,11 +896,13 @@ function addToCart(title) {
         totalPrice: selectedItem.price
       };
       cart.push(newCartItem);
+
     }
 
     displayCart();
     updateCartStorage();
   }
+
 }
 
 function removeFromCart(index) {
@@ -1593,7 +926,7 @@ function displayCart() {
     totalElement.textContent = 'Ksh 0.00';
   } else {
     cart.forEach((item, index) => {
-      const { image, title, price, color, quantity, totalPrice } = item;
+      const { image, title, price, quantity, totalPrice } = item;
       total += totalPrice;
       count += quantity;
 
@@ -1601,27 +934,24 @@ function displayCart() {
       cartItem.classList.add('flex', 'py-6');
 
       cartItem.innerHTML = `
-        <div class="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
-          <img src="${image}" alt="Product">
+      <div class="d-flex border-bottom p-2">
+
+        <div class="w-25 h-100 p-1 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+          <img src="${image}" alt="Product" class="img-fluid h-auto">
         </div>
 
-        <div class="ml-4 flex flex-1 flex-col">
-          <div>
-            <div class="flex justify-between text-base font-medium text-gray-900">
-              <h3>
-                <a>${title}</a>
-              </h3>
-              <p class="ml-4 unit-price">Ksh ${price}.00</p>
-            </div>
-            <p class="mt-1 text-sm text-dark">${color}</p>
-          </div>
-          <div class="flex flex-1 items-end justify-between text-sm">
-            <p class="text-dark">Quantity <input id="quantity-${index}" min="1" name="quantity" value="${quantity}" type="number" class="form-control form-control-sm" onchange="updateQuantity(${index}, this.value)"></p>
-            <div class="flex">
-              <button type="button" onclick="removeFromCart(${index})" class="font-medium text-indigo-600 hover:text-indigo-500">Remove</button>
-            </div>
-          </div>
+        <div class="d-block">
+            <a class="fw-bold cart-text">${title}</a>
+              <p class="cart-text d-flex"> Quantity: <input id="quantity-${index}" min="1" name="quantity" value="${quantity}" type="number" class="form-btn" onchange="updateQuantity(${index}, this.value)">
+              </p>
+            <p class="unit-price cart-text">Ksh ${price}.00</p>
         </div>
+
+        <div class="">
+            <button type="button" onclick="removeFromCart(${index})" class="font-medium fw-bold text-danger">X</button>
+        </div>
+
+      </div>
       `;
 
       cartItemContainer.appendChild(cartItem);
@@ -1666,6 +996,14 @@ function loadCartFromStorage() {
 }
 
 loadCartFromStorage();
+displayCart();
+
+
+const cartItemContainer = document.getElementById('cart-items');
+const countElement = document.getElementById('count');
+const totalElement = document.getElementById('cart-total');
+
+// Call the displayCart function to populate the cart items and total
 displayCart();
 
 
@@ -1782,54 +1120,78 @@ filterCategoryLinks.forEach(link => {
   });
 });
 
-// Initial rendering
+
+function showProductDetails(title) {
+  const modalId = 'productModal';
+
+  // Check if the modal already exists, if not, create it
+  let modal = document.getElementById(modalId);
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.classList.add('modal', 'fade');
+    modal.id = modalId;
+    modal.tabIndex = '-1';
+    modal.setAttribute('aria-labelledby', 'productModalLabel');
+    modal.setAttribute('aria-hidden', 'true');
+
+    const modalDialog = document.createElement('div');
+    modalDialog.classList.add('modal-dialog');
+
+    const modalContent = document.createElement('div');
+    modalContent.classList.add('modal-content');
+
+    modalDialog.appendChild(modalContent);
+    modal.appendChild(modalDialog);
+    document.body.appendChild(modal);
+  }
+
+  // Populate modal with product details
+  const product = categories[currentCategoryIndex].items.find(item => item.title === title);
+  if (product) {
+    const modalContent = document.querySelector(`#${modalId} .modal-content`);
+    modalContent.innerHTML = `
+            <div class="modal-header w-75 d-flex">
+
+                <div class="w-25 h-100 p-1 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+                        <img src="${product.image}" alt="Product" class="img-fluid h-auto">
+
+                </div>
+
+                <div class="d-block m-auto">
+
+                  <h5 class="modal-title" id="productModalLabel">${product.title}</h5>
+                  <div class="modal-body m-auto">
+                    <p>${product.price}</p>
+
+                    <p>${product.color}</p>
+
+                    <p>${product.userRatings}</p>
+
+                    <p>${product.description}</p>
+
+                    <button onclick="addToCart('${title}')" class="btn btn-success my-3 px-4 py-2">Add To Cart</button>
+
+                  </div>
+
+                  <div class="modal-footer top-0 right-0 position-absolute">
+                    <button type="button" class="btn" data-bs-dismiss="modal">X</button>
+                  </div>
+
+                </div>
 
 
+            </div>
+    `;
 
-
-
-
-
-
-
-let activeModal = null;
-
-function openModal(item) {
-  closeModal();
-  const modal = document.createElement('div');
-  modal.classList.add('modal', 'fixed', 'top-0', 'left-0', 'w-full', 'h-full', 'bg-opacity-50', 'bg-black', 'flex', 'justify-center', 'items-center');
-
-  const modalContent = document.createElement('div');
-  modalContent.classList.add('bg-white', 'p-4', 'rounded-md');
-  modal.appendChild(modalContent);
-  const { image, title, price, description, color, os, size, userRatings } = item;
-  modalContent.innerHTML = `
-    <div class='d-flex'>
-      <div class='col-4'>
-        <img src="${image}" alt="Product" class="max-h-96 object-contain m-1">
-      </div>
-      <div class='col-8 d-block justify-content-center text-center ml-4'>
-        <h3 class="text-lg font-bold">${title}</h3>
-        <p class="text-sm text-gray-700 mb-2">${description}</p>
-        <p class="text-lg font-medium">Price <br> Ksh ${price}.00</p>
-        <p class="text-lg font-medium">${os}</p>
-        <p class="text-lg font-medium">${color}</p>
-        <p class="text-lg font-medium">${size}</p>
-        <p class="text-lg font-medium">${userRatings}</p>
-      </div>
-    </div>
-  `;
-  document.body.appendChild(modal);
-  activeModal = modal;
-  modal.addEventListener('click', closeModal);
-}
-
-function closeModal() {
-  if (activeModal) {
-    activeModal.remove();
-    activeModal = null;
+    // Show the modal
+    const productModal = new bootstrap.Modal(modal);
+    productModal.show();
   }
 }
+
+
+
+
 
 
 
@@ -1896,59 +1258,922 @@ $(document).ready(function () {
 
 
 
-// JavaScript code for smooth drag-to-scroll functionality
-const scrollerContainer = document.querySelector('.scroller-container');
-const mediaScroller = document.getElementById('mediaScroller');
-let isMouseDown = false;
-let startX;
-let scrollLeft;
-
-scrollerContainer.addEventListener('mousedown', (e) => {
-  isMouseDown = true;
-  startX = e.pageX - mediaScroller.offsetLeft;
-  scrollLeft = mediaScroller.scrollLeft;
-});
-
-scrollerContainer.addEventListener('mouseleave', () => {
-  isMouseDown = false;
-});
-
-scrollerContainer.addEventListener('mouseup', () => {
-  isMouseDown = false;
-});
-
-scrollerContainer.addEventListener('mousemove', (e) => {
-  if (!isMouseDown) return;
-  e.preventDefault();
-  const x = e.pageX - mediaScroller.offsetLeft;
-  const walk = (x - startX) * .1; // You can adjust the scroll speed here
-
-  // Smoothly scroll to the new position
-  mediaScroller.scrollBy({ left: -walk, behavior: 'smooth' });
-});
 
 
 
 
-function hasScrolled() {
-  const navbar = document.querySelector('.navbar');
-  const scrollPosition = window.scrollY;
 
-  if (scrollPosition > 1) {
-    navbar.classList.add('with-shadow');
-  } else {
-    navbar.classList.remove('with-shadow');
-  }
+
+
+const featuredProducts = [
+  {
+    id: 10015,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+    title: 'HP',
+    brand: 'HP',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 100199,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg',
+    title: 'ASUS',
+    brand: 'ASUS',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10016,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+    title: 'ACER',
+    brand: 'ACER',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'six',
+    size: '13',
+    storage: "eMMC",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'm1',
+    theme: 'business',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 10017,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+    title: 'APPLE1',
+    brand: 'APPLE',
+    price: 113300,
+    color: 'blue',
+    touchscreen: 'yes',
+    description: 'sixty',
+    size: '24',
+    storage: "SSD",
+    os: 'mac',
+    generation: '5thgen',
+    processor: 'ryzen1',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10018,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    title: 'APPLE',
+    brand: 'APPLE',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'seven',
+    size: '13',
+    storage: "SSD",
+    os: 'ios',
+    generation: '13thgen',
+    processor: 'ryzen2',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+];
+
+function renderFeaturedProducts() {
+
+  const featuredContainer = document.getElementById('featured');
+  featuredContainer.innerHTML = '';
+  featuredContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5', 'g-0', 'my-5');
+
+  featuredProducts.forEach(feature => {
+    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = feature
+
+
+    const card = document.createElement('div');
+    card.classList.add('product-card', 'group', 'justify-items-center', 'border-1', 'border-grey', 'p-2', 'relative');
+
+    card.innerHTML = `
+      <div>
+        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+        </div>
+        <div class="d-flex justify-content-between">
+          <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
+          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
+        </div>
+        <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
+        <h6 class="size d-none">${size}</h6>
+        <div class="d-flex justify-content-between">
+          <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
+          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
+        </div>
+        <h6 class="touch d-none">${touchscreen}</h6>
+        <h6 class="theme d-none">${os}</h6>
+        <h6 class="brand d-none">${brand}</h6>
+        <h6 class="theme d-none">${theme}</h6>
+        <h6 class="diskstorage d-none">${storage}</h6>
+        <h6 class="generation d-none">${generation}</h6>
+        <h6 class="processor d-none">${processor}</h6>
+        <!-- Add other fields here -->
+      </div>
+    `;
+
+    featuredContainer.appendChild(card);
+  });
+
 }
-
-window.addEventListener('scroll', hasScrolled);
-
+renderFeaturedProducts()
 
 
+const popularProducts = [
+  {
+    id: 10015,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+    title: 'HP',
+    brand: 'HP',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 100199,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg',
+    title: 'ASUS',
+    brand: 'ASUS',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
 
-//pagination
+  },
+  {
+    id: 10016,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+    title: 'ACER',
+    brand: 'ACER',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'six',
+    size: '13',
+    storage: "eMMC",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'm1',
+    theme: 'business',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 10017,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+    title: 'APPLE1',
+    brand: 'APPLE',
+    price: 113300,
+    color: 'blue',
+    touchscreen: 'yes',
+    description: 'sixty',
+    size: '24',
+    storage: "SSD",
+    os: 'mac',
+    generation: '5thgen',
+    processor: 'ryzen1',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10018,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    title: 'APPLE',
+    brand: 'APPLE',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'seven',
+    size: '13',
+    storage: "SSD",
+    os: 'ios',
+    generation: '13thgen',
+    processor: 'ryzen2',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 10015,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+    title: 'HP',
+    brand: 'HP',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 100199,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg',
+    title: 'ASUS',
+    brand: 'ASUS',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10016,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+    title: 'ACER',
+    brand: 'ACER',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'six',
+    size: '13',
+    storage: "eMMC",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'm1',
+    theme: 'business',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 10017,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+    title: 'APPLE1',
+    brand: 'APPLE',
+    price: 113300,
+    color: 'blue',
+    touchscreen: 'yes',
+    description: 'sixty',
+    size: '24',
+    storage: "SSD",
+    os: 'mac',
+    generation: '5thgen',
+    processor: 'ryzen1',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10018,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    title: 'APPLE',
+    brand: 'APPLE',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'seven',
+    size: '13',
+    storage: "SSD",
+    os: 'ios',
+    generation: '13thgen',
+    processor: 'ryzen2',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+];
+
+function renderPopularProducts() {
+
+  const popularContainer = document.getElementById('popular');
+  popularContainer.innerHTML = '';
+  popularContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5', 'g-0', 'my-5');
+
+  popularProducts.forEach(popular => {
+    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = popular
+
+
+    const card = document.createElement('div');
+    card.classList.add('product-card', 'group', 'justify-items-center', 'border-1', 'border-grey', 'p-2', 'relative');
+
+    card.innerHTML = `
+      <div>
+        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+        </div>
+        <div class="d-flex justify-content-between">
+          <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
+          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
+        </div>
+        <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
+        <h6 class="size d-none">${size}</h6>
+        <div class="d-flex justify-content-between">
+          <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
+          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
+        </div>
+        <h6 class="touch d-none">${touchscreen}</h6>
+        <h6 class="theme d-none">${os}</h6>
+        <h6 class="brand d-none">${brand}</h6>
+        <h6 class="theme d-none">${theme}</h6>
+        <h6 class="diskstorage d-none">${storage}</h6>
+        <h6 class="generation d-none">${generation}</h6>
+        <h6 class="processor d-none">${processor}</h6>
+        <!-- Add other fields here -->
+      </div>
+    `;
+
+    popularContainer.appendChild(card);
+  });
+
+}
+renderPopularProducts()
+
+
+
+const newProducts = [
+  {
+    id: 10015,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+    title: 'HP',
+    brand: 'HP',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 100199,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg',
+    title: 'ASUS',
+    brand: 'ASUS',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10016,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+    title: 'ACER',
+    brand: 'ACER',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'six',
+    size: '13',
+    storage: "eMMC",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'm1',
+    theme: 'business',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 10017,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+    title: 'APPLE1',
+    brand: 'APPLE',
+    price: 113300,
+    color: 'blue',
+    touchscreen: 'yes',
+    description: 'sixty',
+    size: '24',
+    storage: "SSD",
+    os: 'mac',
+    generation: '5thgen',
+    processor: 'ryzen1',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10018,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    title: 'APPLE',
+    brand: 'APPLE',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'seven',
+    size: '13',
+    storage: "SSD",
+    os: 'ios',
+    generation: '13thgen',
+    processor: 'ryzen2',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 10015,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+    title: 'HP',
+    brand: 'HP',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 100199,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg',
+    title: 'ASUS',
+    brand: 'ASUS',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10016,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+    title: 'ACER',
+    brand: 'ACER',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'six',
+    size: '13',
+    storage: "eMMC",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'm1',
+    theme: 'business',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 10017,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+    title: 'APPLE1',
+    brand: 'APPLE',
+    price: 113300,
+    color: 'blue',
+    touchscreen: 'yes',
+    description: 'sixty',
+    size: '24',
+    storage: "SSD",
+    os: 'mac',
+    generation: '5thgen',
+    processor: 'ryzen1',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10018,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    title: 'APPLE',
+    brand: 'APPLE',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'seven',
+    size: '13',
+    storage: "SSD",
+    os: 'ios',
+    generation: '13thgen',
+    processor: 'ryzen2',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+];
+
+function renderNewProducts() {
+
+  const newestContainer = document.getElementById('newest');
+  newestContainer.innerHTML = '';
+  newestContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5', 'g-0', 'my-5');
+
+  newProducts.forEach(newest => {
+    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = newest
+
+
+    const card = document.createElement('div');
+    card.classList.add('product-card', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
+
+    card.innerHTML = `
+      <div>
+        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+        </div>
+        <div class="d-flex justify-content-between">
+          <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
+          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
+        </div>
+        <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
+        <h6 class="size d-none">${size}</h6>
+        <div class="d-flex justify-content-between">
+          <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
+          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
+        </div>
+        <h6 class="touch d-none">${touchscreen}</h6>
+        <h6 class="theme d-none">${os}</h6>
+        <h6 class="brand d-none">${brand}</h6>
+        <h6 class="theme d-none">${theme}</h6>
+        <h6 class="diskstorage d-none">${storage}</h6>
+        <h6 class="generation d-none">${generation}</h6>
+        <h6 class="processor d-none">${processor}</h6>
+        <!-- Add other fields here -->
+      </div>
+    `;
+
+    newestContainer.appendChild(card);
+  });
+
+}
+renderNewProducts()
+
+
+
+const likedProducts = [
+  {
+    id: 10015,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+    title: 'HP',
+    brand: 'HP',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 100199,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg',
+    title: 'ASUS',
+    brand: 'ASUS',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10016,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+    title: 'ACER',
+    brand: 'ACER',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'six',
+    size: '13',
+    storage: "eMMC",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'm1',
+    theme: 'business',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 10017,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+    title: 'APPLE1',
+    brand: 'APPLE',
+    price: 113300,
+    color: 'blue',
+    touchscreen: 'yes',
+    description: 'sixty',
+    size: '24',
+    storage: "SSD",
+    os: 'mac',
+    generation: '5thgen',
+    processor: 'ryzen1',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10018,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    title: 'APPLE',
+    brand: 'APPLE',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'seven',
+    size: '13',
+    storage: "SSD",
+    os: 'ios',
+    generation: '13thgen',
+    processor: 'ryzen2',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 10015,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+    title: 'HP',
+    brand: 'HP',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 100199,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg',
+    title: 'ASUS',
+    brand: 'ASUS',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10016,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+    title: 'ACER',
+    brand: 'ACER',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'six',
+    size: '13',
+    storage: "eMMC",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'm1',
+    theme: 'business',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 10017,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+    title: 'APPLE1',
+    brand: 'APPLE',
+    price: 113300,
+    color: 'blue',
+    touchscreen: 'yes',
+    description: 'sixty',
+    size: '24',
+    storage: "SSD",
+    os: 'mac',
+    generation: '5thgen',
+    processor: 'ryzen1',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10018,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    title: 'APPLE',
+    brand: 'APPLE',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'seven',
+    size: '13',
+    storage: "SSD",
+    os: 'ios',
+    generation: '13thgen',
+    processor: 'ryzen2',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+];
+
+function renderLikedProducts() {
+
+  const likedContainer = document.getElementById('liked');
+  likedContainer.innerHTML = '';
+  likedContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5', 'g-0', 'my-5');
+
+  newProducts.forEach(liked => {
+    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = liked
+
+
+    const card = document.createElement('div');
+    card.classList.add('product-card', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
+
+    card.innerHTML = `
+      <div>
+        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+        </div>
+        <div class="d-flex justify-content-between">
+          <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
+          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
+        </div>
+        <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
+        <h6 class="size d-none">${size}</h6>
+        <div class="d-flex justify-content-between">
+          <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
+          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
+        </div>
+        <h6 class="touch d-none">${touchscreen}</h6>
+        <h6 class="theme d-none">${os}</h6>
+        <h6 class="brand d-none">${brand}</h6>
+        <h6 class="theme d-none">${theme}</h6>
+        <h6 class="diskstorage d-none">${storage}</h6>
+        <h6 class="generation d-none">${generation}</h6>
+        <h6 class="processor d-none">${processor}</h6>
+        <!-- Add other fields here -->
+      </div>
+    `;
+
+    likedContainer.appendChild(card);
+  });
+
+}
+renderLikedProducts()
 
 
 
 
-//pagination end
+const hideMe = document.getElementById('hideMe');
+let isHidden = false;
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 0) { // Adjust the scroll threshold as needed
+    if (!isHidden) {
+      hideMe.classList.add('d-none');
+      isHidden = true;
+    }
+  } else {
+    if (isHidden) {
+      hideMe.classList.remove('d-none');
+      isHidden = false;
+    }
+  }
+});
+
+const hideMes = document.getElementById('hideMes');
+let isHiddens = false;
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 0) { // Adjust the scroll threshold as needed
+    if (!isHiddens) {
+      hideMes.classList.add('d-none');
+      isHiddens = true;
+    }
+  } else {
+    if (isHiddens) {
+      hideMes.classList.remove('d-none');
+      isHiddens = false;
+    }
+  }
+});
