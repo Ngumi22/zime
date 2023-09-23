@@ -17,6 +17,32 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <link href="index.css" rel="stylesheet">
+
+
+    <style>
+        .card {
+            -webkit-text-size-adjust: 100%;
+            color: #333;
+            cursor: auto;
+            font-family: Poppins, Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+            font-weight: 400;
+            -webkit-font-smoothing: initial;
+            list-style: none;
+            font-size: 12px;
+            box-sizing: border-box;
+            display: block;
+            background-color: transparent;
+            padding: .78571rem;
+            border: 1px solid #e8e8e8;
+            flex: 1;
+            position: relative;
+            margin-bottom: 0;
+            border-color: #e8e8e8;
+            border-top-color: transparent;
+            border-left-color: #e8e8e8;
+        }
+    </style>
 </head>
 
 <body>
@@ -441,23 +467,94 @@
     </nav>
 
     <main>
-        <div class="offcanvas-body d-block">
-            <h3>SHOPPING CART</h3>
-            <section class="cart-container">
-                <div class="my-2" id="cart-item">Your Cart is
-                    Empty
+
+        <article class="card ">
+            <figure class="card-figure">
+                <a href="https://sarah3.mybigcommerce.com/furniture-utility-caddy/">
+                    <img class="card-image"
+                        src="https://cdn11.bigcommerce.com/s-9dhvgwc9o4/images/stencil/500x659/products/144/919/03__86729.1489898479.jpg?c=2"
+                        alt="Furniture Utility Caddy" title="Furniture Utility Caddy">
+                    <img class="card-image"
+                        src="https://cdn11.bigcommerce.com/s-9dhvgwc9o4/images/stencil/500x659/products/144/877/05__98575.1489898232.jpg?c=2"
+                        alt="Furniture Utility Caddy" title="Furniture Utility Caddy">
+                </a>
+                <figcaption class="card-figcaption">
+                    <div class="card-figcaption-body">
+                        <div class="card-buttons">
+                            <a href="https://sarah3.mybigcommerce.com/cart.php?action=add&amp;product_id=144"
+                                class="button button--small card-figcaption-button">Add to Cart</a>
+
+
+                            <a href="#" class="button button--small card-figcaption-button quickview"
+                                data-product-id="144">Quick view</a>
+                        </div>
+                    </div>
+                </figcaption>
+            </figure>
+            <div class="card-body">
+                <p class="card-text" data-test-info-type="productRating">
+                    <span class="rating--small">
+                        <span class="icon icon--ratingFull">
+                            <svg>
+                                <use xlink:href="#icon-star"></use>
+                            </svg>
+                        </span>
+                        <span class="icon icon--ratingFull">
+                            <svg>
+                                <use xlink:href="#icon-star"></use>
+                            </svg>
+                        </span>
+                        <span class="icon icon--ratingEmpty">
+                            <svg>
+                                <use xlink:href="#icon-star"></use>
+                            </svg>
+                        </span>
+                        <span class="icon icon--ratingEmpty">
+                            <svg>
+                                <use xlink:href="#icon-star"></use>
+                            </svg>
+                        </span>
+                        <span class="icon icon--ratingEmpty">
+                            <svg>
+                                <use xlink:href="#icon-star"></use>
+                            </svg>
+                        </span>
+                        <!-- snippet location product_rating -->
+                        <span class="rating-number">(<a
+                                href="https://sarah3.mybigcommerce.com/furniture-utility-caddy/#product-reviews"></a>)</span>
+                    </span>
+                </p>
+
+                <h4 class="card-title">
+                    <a href="https://sarah3.mybigcommerce.com/furniture-utility-caddy/">Furniture Utility Caddy</a>
+                </h4>
+
+                <div class="card-text" data-test-info-type="price">
+                    <div class="price-section price-section--withoutTax ">
+                        <span data-product-price-without-tax="" class="price price--withoutTax">$45.95</span>
+                    </div>
                 </div>
-                <div class="foot justify-content-around d-flex mt-3">
-                    <h3 class="fw-bold mt-2">Total</h3>
-                    <h3 id="total" class="mt-2 fw-bold">Ksh 0.00</h3>
-                </div>
-                <div class="justify-content-center mt-4 mb-2 d-flex">
-                    <button id="checkout-button" class="btn border-1 border-black" disabled>Continue to
-                        checkout</button>
-                </div>
-            </section>
-        </div>
+
+                <p class="card-text" data-test-info-type="brandName">OFS</p>
+            </div>
+        </article>
+
+
+
     </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

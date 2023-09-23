@@ -999,12 +999,12 @@ loadCartFromStorage();
 displayCart();
 
 
-const cartItemContainer = document.getElementById('cart-items');
-const countElement = document.getElementById('count');
-const totalElement = document.getElementById('cart-total');
+const checkoutButton = document.getElementById("checkout-button");
 
-// Call the displayCart function to populate the cart items and total
-displayCart();
+checkoutButton.addEventListener("click", () => {
+  // Redirect to the cart.html page
+  window.location.href = "cart.html";
+});
 
 
 
