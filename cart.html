@@ -398,33 +398,35 @@
 
     <main>
         <section class="cart1 container m-auto">
-            <div class="cart1-element cart-container1">
+            <h3 class="text-center my-5 fw-bolder">YOUR CART</h3>
+
+            <div class="cart1-element container m-auto">
+                <ul class="cart-container1">
+                    <li class="cart-container1-elements cart-elements1">Item</li>
+                    <li class="cart-container1-elements cart-elements2">Quantity</li>
+                    <li class="cart-container1-elements cart-elements3">Price</li>
+                    <li class="cart-container1-elements cart-elements4">Remove from Cart</li>
+                </ul>
+            </div>
+
+            <div class="cart1-element art-container m-auto">
+                <div class="my-2" id="cart-items">
+                    <!-- Cart items will be displayed here -->
+                </div>
+
+                <div class="foot justify-content-around d-flex mt-3">
+                    <h3 class="fw-bold mt-2">Total</h3>
+                    <h3 id="cart-total" class="mt-2 fw-bold">Ksh 0.00</h3>
+                </div>
+
+                <div class="justify-content-center mt-4 mb-2 d-flex">
+                    <button id="checkout" class="btn border-1 border-black">Checkout</button>
+                    <button class="btn mx-5 border-1 border-black"><a href="./index.html">Continue
+                            Shopping</a></button>
+                </div>
 
             </div>
 
-
-
-
-            <div class="cart1-element cart-container2">
-                <h3 class="text-center fw-bolder">YOUR CART</h3>
-                <section class="cart-container">
-                    <div class="my-2" id="cart-items">
-                        <!-- Cart items will be displayed here -->
-                    </div>
-
-                    <div class="foot justify-content-around d-flex mt-3">
-                        <h3 class="fw-bold mt-2">Total</h3>
-                        <h3 id="cart-total" class="mt-2 fw-bold">Ksh 0.00</h3>
-                    </div>
-
-                    <div class="justify-content-center mt-4 mb-2 d-flex">
-                        <button id="checkout" class="btn border-1 border-black">Checkout</button>
-                        <button class="btn mx-5 border-1 border-black"><a href="./index.html">Continue
-                                Shopping</a></button>
-                    </div>
-
-                </section>
-            </div>
         </section>
     </main>
 

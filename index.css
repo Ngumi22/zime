@@ -336,6 +336,22 @@ main {
 
 /* SECTION3 END */
 
+/* brands section */
+.brands-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: grey;
+}
+
+.brand-element img {
+    width: 70%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
+
+/* brands section end */
 
 /* SECTION7 */
 .section7 {
@@ -411,15 +427,70 @@ main {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin: 1rem 0;
+}
 
+.cart-container1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-bottom: 1px solid gray;
 
 }
 
-.cart-elements {
+.cart-container1-elements {
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.cart-elements,
+.cart-container1-elements {
     display: flex;
     align-items: center;
-    margin: auto;
+    justify-content: center;
 }
+
+.cart-elements1 {
+
+    grid-column: 1 / 3;
+
+}
+
+button:focus,
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.qty-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qty-container .input-qty {
+    text-align: center;
+    padding: 6px 10px;
+    border: 1px solid #d4d4d4;
+    max-width: 80px;
+}
+
+.qty-container .qty-btn-minus,
+.qty-container .qty-btn-plus {
+    border: 1px solid #d4d4d4;
+    padding: 10px 13px;
+    font-size: 15px;
+    height: 38px;
+    width: 38px;
+    transition: 0.3s;
+}
+
+.qty-container .qty-btn-plus {
+    margin-left: -1px;
+}
+
+.qty-container .qty-btn-minus {
+    margin-right: -1px;
+}
+
 
 /*  checkoutpage end */
 
@@ -525,6 +596,36 @@ main {
         border: 1px solid black;
         padding: 10px;
     }
+
+    /* checkout */
+
+
+    .cart-elements,
+    .cart-elements {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .qty-container .input-qty {
+        text-align: center;
+        padding: 1px;
+        border: 1px solid #d4d4d4;
+        max-width: 40px;
+    }
+
+    .qty-container .qty-btn-minus,
+    .qty-container .qty-btn-plus {
+        border: 1px solid #d4d4d4;
+        padding: 0;
+        font-size: 15px;
+        height: 28px;
+        width: 28px;
+        transition: 0.3s;
+    }
+
+    /* checkoutpage end */
 }
 
 @media (min-width: 576px) {

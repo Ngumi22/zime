@@ -20,37 +20,38 @@ function renderCartItems() {
             cartItem.classList.add('cart-item');
 
             cartItem.innerHTML = `
-                <div class="cart-element">
+                <div class="cart-element border-bottom py-2">
                     <div class="w-25 h-100 p-1 flex-shrink-0 overflow-hidden cart-elements rounded-md border border-gray-200">
                         <img src="${image}" alt="Product" class="img-fluid h-auto">
                     </div>
 
-                    <div class="cart-elements">
+                    <div class="cart-elementss">
                         <a class="fw-bold cart-text">${title}</a>
                     </div>
 
-                    <div class="cart-elements d-block">
-                        <h2>Quantity:</h2>
-                        <p class="cart-text d-flex">
-                            <input id="quantity-${index}"
-                                min="1"
-                                name="quantity"
-                                value="${quantity}"
-                                type="number"
-                                class="form-btn"
-                                onchange="updateQuantity(this, ${index}, this.value)">
-                        </p>
+                    <div class="qty-container">
+                        <button class="qty-btn-minus btn-primary btn-rounded mr-1" type="button" onclick="decreaseQuantity(${index})"><i class="bi bi-dash"></i></button>
+                        <input
+                            id="quantity-${index}"
+                            min="1"
+                            name="quantity"
+                            value="${quantity}"
+                            type="text"
+                            class="form-btn input-qty input-rounded"
+                            readonly
+                        >
+                        <button class="qty-btn-plus btn-primary btn-rounded ml-1" type="button" onclick="increaseQuantity(${index})"><i class="bi bi-plus"></i></button>
                     </div>
 
                     <div class="cart-elements">
-                        <p class="unit-price cart-text">Ksh ${price}.00</p>
+                        <p class="item-total cart-text" id="item-total-${index}">Ksh ${(price * quantity).toFixed(2)}</p>
                     </div>
 
                     <div class="cart-elements">
+
                         <button type="button" onclick="removeFromCart(${index})" class="font-medium fw-bold text-danger">X</button>
                     </div>
                 </div>
-
             `;
 
             cartItemsContainer.appendChild(cartItem);
@@ -62,32 +63,49 @@ function renderCartItems() {
     }
 }
 
-function updateQuantity(inputElement, index, newQuantity) {
+function updatePrice(index) {
     const cartItem = cart[index];
+    const itemTotalElement = document.getElementById(`item-total-${index}`);
+    const unitPrice = cartItem.price;
+    const quantity = cartItem.quantity;
+    const itemTotal = unitPrice * quantity;
 
-    // Update the quantity of the cart item
-    cartItem.quantity = parseInt(newQuantity);
-
-    // Calculate the new total price for the item
-    cartItem.totalPrice = cartItem.quantity * cartItem.price;
-
-    // Update the cart storage
-    updateCartStorage();
-
-    // Update the total price for all items in the cart
-    updateTotalPrice();
-
-    // Additionally, you can update the unit price if needed
-    const unitPriceElement = inputElement.closest('.cart-item').querySelector('.unit-price');
-    unitPriceElement.textContent = `Ksh ${cartItem.price * cartItem.quantity}.00`;
+    itemTotalElement.textContent = `Ksh ${itemTotal.toFixed(2)}`;
 }
 
+function increaseQuantity(index) {
+    const quantityInput = document.getElementById(`quantity-${index}`);
+    const cartItem = cart[index];
+
+    cartItem.quantity += 1;
+    quantityInput.value = cartItem.quantity;
+
+    updatePrice(index); // Update the price when increasing quantity
+
+    updateCartStorage();
+    updateTotalPrice();
+}
+
+function decreaseQuantity(index) {
+    const quantityInput = document.getElementById(`quantity-${index}`);
+    const cartItem = cart[index];
+
+    if (cartItem.quantity > 1) {
+        cartItem.quantity -= 1;
+        quantityInput.value = cartItem.quantity;
+
+        updatePrice(index); // Update the price when decreasing quantity
+
+        updateCartStorage();
+        updateTotalPrice();
+    }
+}
 
 function updateTotalPrice() {
     let total = 0;
 
     cart.forEach((item) => {
-        total += item.totalPrice;
+        total += item.price * item.quantity;
     });
 
     totalElement.textContent = `Ksh ${total.toFixed(2)}`;
