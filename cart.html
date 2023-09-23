@@ -57,51 +57,7 @@
             </div>
 
             <div class="icons-bar">
-                <div class="cart-bar">
 
-
-                    <a aria-label="cart"
-                        class="bg-transparent cart-icon cursor-pointer border-0 text-current hover:text-link-primary-hover icons rounded-md focus-visible-outline-default underline font-bold relative w-5 h-5 md:w-6 md:h-6"
-                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"
-                        id="addToCart">
-                        <i class="bi bi-cart3"></i>
-                        <span
-                            class="badge bg-danger position-absolute top-0 start-100 translate-middle badge rounded-pill"
-                            id="count"></span></a>
-
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
-                        aria-labelledby="offcanvasRightLabel">
-
-
-
-                        <div class="offcanvas-body d-block">
-                            <h3 class="text-center fw-bolder">SHOPPING CART</h3>
-                            <section class="cart-container">
-
-                                <div class="my-2" id="cart-item">Your Cart is
-                                    Empty
-                                </div>
-
-
-                                <div class="foot justify-content-around d-flex mt-3">
-                                    <h3 class="fw-bold mt-2">Total</h3>
-                                    <h3 id="total" class="mt-2 fw-bold">Ksh 0.00</h3>
-                                </div>
-
-                                <div class="justify-content-center mt-4 mb-2 d-flex">
-                                    <button id="checkout-button" class="btn border-1 border-black">Continue to
-                                        checkout</button>
-
-                                </div>
-
-                            </section>
-                        </div>
-
-
-                    </div>
-
-
-                </div>
                 <div class="offcanvas-menu justify-content-start d-flex mx-3 col-1 menu2">
                     <button class="btn offcanvas-btn" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
@@ -441,21 +397,35 @@
     </nav>
 
     <main>
-        <div class="offcanvas-body d-block">
-            <h3 class="text-center fw-bolder">SHOPPING CART</h3>
-            <section class="cart-container">
-                <div class="my-2" id="cart-items">
-                    <!-- Cart items will be displayed here -->
-                </div>
-                <div class="foot justify-content-around d-flex mt-3">
-                    <h3 class="fw-bold mt-2">Total</h3>
-                    <h3 id="cart-total" class="mt-2 fw-bold">Ksh 0.00</h3>
-                </div>
-                <div class="justify-content-center mt-4 mb-2 d-flex">
-                    <button id="checkout-button" class="btn border-1 border-black">Checkout</button>
-                </div>
-            </section>
-        </div>
+        <section class="cart1 container m-auto">
+            <div class="cart1-element cart-container1">
+
+            </div>
+
+
+
+
+            <div class="cart1-element cart-container2">
+                <h3 class="text-center fw-bolder">YOUR CART</h3>
+                <section class="cart-container">
+                    <div class="my-2" id="cart-items">
+                        <!-- Cart items will be displayed here -->
+                    </div>
+
+                    <div class="foot justify-content-around d-flex mt-3">
+                        <h3 class="fw-bold mt-2">Total</h3>
+                        <h3 id="cart-total" class="mt-2 fw-bold">Ksh 0.00</h3>
+                    </div>
+
+                    <div class="justify-content-center mt-4 mb-2 d-flex">
+                        <button id="checkout" class="btn border-1 border-black">Checkout</button>
+                        <button class="btn mx-5 border-1 border-black"><a href="./index.html">Continue
+                                Shopping</a></button>
+                    </div>
+
+                </section>
+            </div>
+        </section>
     </main>
 
 

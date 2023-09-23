@@ -372,6 +372,8 @@ main {
 /* SECTION8 END */
 
 /* SECTION9 */
+
+
 .section9 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -403,6 +405,23 @@ main {
 
 /* SECTION9 END */
 
+
+/* checkoutpage */
+.cart-element {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 1rem 0;
+
+
+}
+
+.cart-elements {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+/*  checkoutpage end */
 
 
 
