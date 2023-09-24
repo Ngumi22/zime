@@ -936,7 +936,7 @@ function displayCart() {
       cartItem.innerHTML = `
       <div class="d-flex border-bottom p-2">
 
-        <div class="w-25 h-100 p-1 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+        <div class="w-25 h-100 p-1 flex-shrink-0 overflow-hidden rounded-md border mx-2 border-gray-200">
           <img src="${image}" alt="Product" class="img-fluid h-auto">
         </div>
 
@@ -999,12 +999,7 @@ loadCartFromStorage();
 displayCart();
 
 
-const checkoutButton = document.getElementById("checkout-button");
 
-checkoutButton.addEventListener("click", () => {
-  // Redirect to the cart.html page
-  window.location.href = "cart.html";
-});
 
 
 
@@ -1900,103 +1895,8 @@ renderNewProducts()
 
 
 const likedProducts = [
-  {
-    id: 10015,
-    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-    title: 'HP',
-    brand: 'HP',
-    price: 100,
-    color: 'red',
-    touchscreen: 'no',
-    description: 'five',
-    size: '24',
-    storage: "HDD",
-    os: 'windows',
-    generation: '13thgen',
-    processor: 'ryzen3',
-    theme: 'gaming',
-    userRatings: 4.2,
-    promotion: 'Discounted',
-    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
-  },
-  {
-    id: 100199,
-    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg',
-    title: 'ASUS',
-    brand: 'ASUS',
-    price: 100,
-    color: 'red',
-    touchscreen: 'no',
-    description: 'five',
-    size: '24',
-    storage: "HDD",
-    os: 'windows',
-    generation: '13thgen',
-    processor: 'ryzen3',
-    theme: 'gaming',
-    userRatings: 4.2,
-    promotion: 'Discounted',
-    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
 
-  },
-  {
-    id: 10016,
-    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
-    title: 'ACER',
-    brand: 'ACER',
-    price: 100,
-    color: 'red',
-    touchscreen: 'no',
-    description: 'six',
-    size: '13',
-    storage: "eMMC",
-    os: 'windows',
-    generation: '13thgen',
-    processor: 'm1',
-    theme: 'business',
-    userRatings: 4.2,
-    promotion: 'Discounted',
-    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
-  },
-  {
-    id: 10017,
-    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
-    title: 'APPLE1',
-    brand: 'APPLE',
-    price: 113300,
-    color: 'blue',
-    touchscreen: 'yes',
-    description: 'sixty',
-    size: '24',
-    storage: "SSD",
-    os: 'mac',
-    generation: '5thgen',
-    processor: 'ryzen1',
-    theme: 'gaming',
-    userRatings: 4.2,
-    promotion: 'Discounted',
-    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
 
-  },
-  {
-    id: 10018,
-    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-    title: 'APPLE',
-    brand: 'APPLE',
-    price: 100,
-    color: 'red',
-    touchscreen: 'no',
-    description: 'seven',
-    size: '13',
-    storage: "SSD",
-    os: 'ios',
-    generation: '13thgen',
-    processor: 'ryzen2',
-    theme: 'gaming',
-    userRatings: 4.2,
-    promotion: 'Discounted',
-    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
-  },
   {
     id: 10015,
     image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
@@ -2102,7 +2002,7 @@ function renderLikedProducts() {
   likedContainer.innerHTML = '';
   likedContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5', 'g-0', 'my-5');
 
-  newProducts.forEach(liked => {
+  likedProducts.forEach(liked => {
     const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = liked
 
 
@@ -2165,7 +2065,7 @@ const hideMes = document.getElementById('hideMes');
 let isHiddens = false;
 
 window.addEventListener('scroll', () => {
-  if (window.scrollY > 0) { // Adjust the scroll threshold as needed
+  if (window.scrollY > 0) {
     if (!isHiddens) {
       hideMes.classList.add('d-none');
       isHiddens = true;
@@ -2176,4 +2076,21 @@ window.addEventListener('scroll', () => {
       isHiddens = false;
     }
   }
+});
+
+const checkoutButton = document.getElementById("checkout-button");
+
+checkoutButton.addEventListener("click", () => {
+  window.location.href = "cart.html";
+});
+
+
+var toastEl = document.getElementById('liveToast');
+
+// Create a new Bootstrap Toast instance
+var liveToast = new bootstrap.Toast(toastEl);
+
+// Show the toast when the page loads
+window.addEventListener('load', function () {
+  liveToast.show();
 });
