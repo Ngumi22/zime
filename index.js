@@ -785,7 +785,7 @@ function renderCards(categoryIndex, page = 1) {
 
   const cardsContainer = document.getElementById('cards');
   cardsContainer.innerHTML = '';
-  cardsContainer.classList.add('grid', 'grid-cols-1', 'sm:grid-cols-2', 'md:grid-cols-3', 'lg:grid-cols-5', 'gap-2');
+  cardsContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-6', 'g-0', 'my-5');
 
   const activeCategory = categories[categoryIndex];
   const itemsToRender = activeCategory.items.slice(startIndex, endIndex);
@@ -794,7 +794,7 @@ function renderCards(categoryIndex, page = 1) {
     const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = item;
 
     const card = document.createElement('div');
-    card.classList.add('product-card', 'group', 'justify-items-center', 'relative');
+    card.classList.add('product-card', 'group', 'justify-items-center', 'border-1', 'border-grey', 'p-2', 'relative');
 
     card.setAttribute('data-category', categoryIndex); // Set data-category attribute
 
@@ -1252,6 +1252,40 @@ $(document).ready(function () {
 
 
 
+const hideMes = document.getElementById('hideMes');
+let isHiddens = false;
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 0) {
+    if (!isHiddens) {
+      hideMes.classList.add('d-none');
+      isHiddens = true;
+    }
+  } else {
+    if (isHiddens) {
+      hideMes.classList.remove('d-none');
+      isHiddens = false;
+    }
+  }
+});
+
+const checkoutButton = document.getElementById("checkout-button");
+
+checkoutButton.addEventListener("click", () => {
+  window.location.href = "cart.html";
+});
+
+
+var toastEl = document.getElementById('liveToast');
+
+// Create a new Bootstrap Toast instance
+var liveToast = new bootstrap.Toast(toastEl);
+
+// Show the toast when the page loads
+window.addEventListener('load', function () {
+  liveToast.show();
+});
+
 
 
 
@@ -1364,7 +1398,7 @@ function renderFeaturedProducts() {
 
   const featuredContainer = document.getElementById('featured');
   featuredContainer.innerHTML = '';
-  featuredContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5', 'g-0', 'my-5');
+  featuredContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-6', 'g-0', 'my-5');
 
   featuredProducts.forEach(feature => {
     const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = feature
@@ -1607,7 +1641,7 @@ function renderPopularProducts() {
 
   const popularContainer = document.getElementById('popular');
   popularContainer.innerHTML = '';
-  popularContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5', 'g-0', 'my-5');
+  popularContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-6', 'g-0', 'my-5');
 
   popularProducts.forEach(popular => {
     const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = popular
@@ -1851,7 +1885,7 @@ function renderNewProducts() {
 
   const newestContainer = document.getElementById('newest');
   newestContainer.innerHTML = '';
-  newestContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5', 'g-0', 'my-5');
+  newestContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-6', 'g-0', 'my-5');
 
   newProducts.forEach(newest => {
     const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = newest
@@ -2000,7 +2034,7 @@ function renderLikedProducts() {
 
   const likedContainer = document.getElementById('liked');
   likedContainer.innerHTML = '';
-  likedContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5', 'g-0', 'my-5');
+  likedContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-6', 'g-0', 'my-5');
 
   likedProducts.forEach(liked => {
     const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = liked
@@ -2041,56 +2075,601 @@ function renderLikedProducts() {
 }
 renderLikedProducts()
 
+//business laptops
+const businessLaptops = [
 
 
+  {
+    id: 10015,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+    title: 'HP',
+    brand: 'HP',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 100199,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg',
+    title: 'ASUS',
+    brand: 'ASUS',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
 
-const hideMe = document.getElementById('hideMe');
-let isHidden = false;
+  },
+  {
+    id: 10016,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+    title: 'ACER',
+    brand: 'ACER',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'six',
+    size: '13',
+    storage: "eMMC",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'm1',
+    theme: 'business',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 10017,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+    title: 'APPLE1',
+    brand: 'APPLE',
+    price: 113300,
+    color: 'blue',
+    touchscreen: 'yes',
+    description: 'sixty',
+    size: '24',
+    storage: "SSD",
+    os: 'mac',
+    generation: '5thgen',
+    processor: 'ryzen1',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
 
-window.addEventListener('scroll', () => {
-  if (window.scrollY > 0) { // Adjust the scroll threshold as needed
-    if (!isHidden) {
-      hideMe.classList.add('d-none');
-      isHidden = true;
-    }
-  } else {
-    if (isHidden) {
-      hideMe.classList.remove('d-none');
-      isHidden = false;
-    }
-  }
-});
+  },
+  {
+    id: 10018,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    title: 'APPLE',
+    brand: 'APPLE',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'seven',
+    size: '13',
+    storage: "SSD",
+    os: 'ios',
+    generation: '13thgen',
+    processor: 'ryzen2',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+];
 
-const hideMes = document.getElementById('hideMes');
-let isHiddens = false;
+function renderBusinessLaptops() {
 
-window.addEventListener('scroll', () => {
-  if (window.scrollY > 0) {
-    if (!isHiddens) {
-      hideMes.classList.add('d-none');
-      isHiddens = true;
-    }
-  } else {
-    if (isHiddens) {
-      hideMes.classList.remove('d-none');
-      isHiddens = false;
-    }
-  }
-});
+  const businessContainer = document.getElementById('business1');
+  businessContainer.innerHTML = '';
+  businessContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-6', 'g-0', 'my-5');
 
-const checkoutButton = document.getElementById("checkout-button");
-
-checkoutButton.addEventListener("click", () => {
-  window.location.href = "cart.html";
-});
+  businessLaptops.forEach(business => {
+    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = business
 
 
-var toastEl = document.getElementById('liveToast');
+    const card = document.createElement('div');
+    card.classList.add('product-card', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
 
-// Create a new Bootstrap Toast instance
-var liveToast = new bootstrap.Toast(toastEl);
+    card.innerHTML = `
+      <div>
+        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+        </div>
+        <div class="d-flex justify-content-between">
+          <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
+          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
+        </div>
+        <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
+        <h6 class="size d-none">${size}</h6>
+        <div class="d-flex justify-content-between">
+          <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
+          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
+        </div>
+        <h6 class="touch d-none">${touchscreen}</h6>
+        <h6 class="theme d-none">${os}</h6>
+        <h6 class="brand d-none">${brand}</h6>
+        <h6 class="theme d-none">${theme}</h6>
+        <h6 class="diskstorage d-none">${storage}</h6>
+        <h6 class="generation d-none">${generation}</h6>
+        <h6 class="processor d-none">${processor}</h6>
+        <!-- Add other fields here -->
+      </div>
+    `;
 
-// Show the toast when the page loads
-window.addEventListener('load', function () {
-  liveToast.show();
-});
+    businessContainer.appendChild(card);
+  });
+
+}
+renderBusinessLaptops()
+//business laptops
+
+
+//gaming laptops
+const gamingLaptops = [
+
+
+  {
+    id: 10015,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+    title: 'HP',
+    brand: 'HP',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 100199,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg',
+    title: 'ASUS',
+    brand: 'ASUS',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10016,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+    title: 'ACER',
+    brand: 'ACER',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'six',
+    size: '13',
+    storage: "eMMC",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'm1',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 10017,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+    title: 'APPLE1',
+    brand: 'APPLE',
+    price: 113300,
+    color: 'blue',
+    touchscreen: 'yes',
+    description: 'sixty',
+    size: '24',
+    storage: "SSD",
+    os: 'mac',
+    generation: '5thgen',
+    processor: 'ryzen1',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10018,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    title: 'APPLE',
+    brand: 'APPLE',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'seven',
+    size: '13',
+    storage: "SSD",
+    os: 'ios',
+    generation: '13thgen',
+    processor: 'ryzen2',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+];
+
+function renderGamingLaptops() {
+
+  const gamingContainer = document.getElementById('gaming1');
+  gamingContainer.innerHTML = '';
+  gamingContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-6', 'g-0', 'my-5');
+
+  gamingLaptops.forEach(gaming => {
+    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = gaming
+
+
+    const card = document.createElement('div');
+    card.classList.add('product-card', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
+
+    card.innerHTML = `
+      <div>
+        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+        </div>
+        <div class="d-flex justify-content-between">
+          <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
+          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
+        </div>
+        <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
+        <h6 class="size d-none">${size}</h6>
+        <div class="d-flex justify-content-between">
+          <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
+          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
+        </div>
+        <h6 class="touch d-none">${touchscreen}</h6>
+        <h6 class="theme d-none">${os}</h6>
+        <h6 class="brand d-none">${brand}</h6>
+        <h6 class="theme d-none">${theme}</h6>
+        <h6 class="diskstorage d-none">${storage}</h6>
+        <h6 class="generation d-none">${generation}</h6>
+        <h6 class="processor d-none">${processor}</h6>
+        <!-- Add other fields here -->
+      </div>
+    `;
+
+    gamingContainer.appendChild(card);
+  });
+
+}
+renderGamingLaptops()
+//gaming laptops
+
+
+//premium laptops
+const premiumLaptops = [
+
+
+  {
+    id: 10015,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+    title: 'HP',
+    brand: 'HP',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'premium',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 100199,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg',
+    title: 'ASUS',
+    brand: 'ASUS',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'premium',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10016,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+    title: 'ACER',
+    brand: 'ACER',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'six',
+    size: '13',
+    storage: "eMMC",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'm1',
+    theme: 'premium',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 10017,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+    title: 'APPLE1',
+    brand: 'APPLE',
+    price: 113300,
+    color: 'blue',
+    touchscreen: 'yes',
+    description: 'sixty',
+    size: '24',
+    storage: "SSD",
+    os: 'mac',
+    generation: '5thgen',
+    processor: 'ryzen1',
+    theme: 'premium',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10018,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    title: 'APPLE',
+    brand: 'APPLE',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'seven',
+    size: '13',
+    storage: "SSD",
+    os: 'ios',
+    generation: '13thgen',
+    processor: 'ryzen2',
+    theme: 'premium',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+];
+
+function renderPremiumLaptops() {
+
+  const premiumContainer = document.getElementById('premium1');
+  premiumContainer.innerHTML = '';
+  premiumContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-6', 'g-0', 'my-5');
+
+  premiumLaptops.forEach(premium => {
+    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = premium
+
+
+    const card = document.createElement('div');
+    card.classList.add('product-card', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
+
+    card.innerHTML = `
+      <div>
+        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+        </div>
+        <div class="d-flex justify-content-between">
+          <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
+          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
+        </div>
+        <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
+        <h6 class="size d-none">${size}</h6>
+        <div class="d-flex justify-content-between">
+          <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
+          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
+        </div>
+        <h6 class="touch d-none">${touchscreen}</h6>
+        <h6 class="theme d-none">${os}</h6>
+        <h6 class="brand d-none">${brand}</h6>
+        <h6 class="theme d-none">${theme}</h6>
+        <h6 class="diskstorage d-none">${storage}</h6>
+        <h6 class="generation d-none">${generation}</h6>
+        <h6 class="processor d-none">${processor}</h6>
+        <!-- Add other fields here -->
+      </div>
+    `;
+
+    premiumContainer.appendChild(card);
+  });
+
+}
+renderPremiumLaptops()
+//premium laptops
+
+
+//devs laptops
+const devsLaptops = [
+
+
+  {
+    id: 10015,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    title: 'HP',
+    brand: 'HP',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'devs',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 100199,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg',
+    title: 'ASUS',
+    brand: 'ASUS',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'five',
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'devs',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10016,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+    title: 'ACER',
+    brand: 'ACER',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'six',
+    size: '13',
+    storage: "eMMC",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'm1',
+    theme: 'devs',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 10017,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+    title: 'APPLE1',
+    brand: 'APPLE',
+    price: 113300,
+    color: 'blue',
+    touchscreen: 'yes',
+    description: 'sixty',
+    size: '24',
+    storage: "SSD",
+    os: 'mac',
+    generation: '5thgen',
+    processor: 'ryzen1',
+    theme: 'devs',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10018,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    title: 'APPLE',
+    brand: 'APPLE',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'seven',
+    size: '13',
+    storage: "SSD",
+    os: 'ios',
+    generation: '13thgen',
+    processor: 'ryzen2',
+    theme: 'devs',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+];
+
+function renderDevsLaptops() {
+
+  const devsContainer = document.getElementById('devs1');
+  devsContainer.innerHTML = '';
+  devsContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-6', 'g-0', 'my-5');
+
+  devsLaptops.forEach(devs => {
+    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = devs
+
+
+    const card = document.createElement('div');
+    card.classList.add('product-card', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
+
+    card.innerHTML = `
+      <div>
+        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+        </div>
+        <div class="d-flex justify-content-between">
+          <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
+          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
+        </div>
+        <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
+        <h6 class="size d-none">${size}</h6>
+        <div class="d-flex justify-content-between">
+          <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
+          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
+        </div>
+        <h6 class="touch d-none">${touchscreen}</h6>
+        <h6 class="theme d-none">${os}</h6>
+        <h6 class="brand d-none">${brand}</h6>
+        <h6 class="theme d-none">${theme}</h6>
+        <h6 class="diskstorage d-none">${storage}</h6>
+        <h6 class="generation d-none">${generation}</h6>
+        <h6 class="processor d-none">${processor}</h6>
+        <!-- Add other fields here -->
+      </div>
+    `;
+
+    devsContainer.appendChild(card);
+  });
+
+}
+renderDevsLaptops()
+//devs laptops
