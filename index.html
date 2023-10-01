@@ -147,8 +147,8 @@
 
 
     <main>
-        <section class="section1 container-fluid">
-            <div class="section1-element h-100 section1-inner1 col-6">
+        <section class="section1 container">
+            <div class="section1-element h-100 section1-inner1 col-8">
                 <div id="main-carousel" class="carousel carousel-dark slide">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="0" class="active"
@@ -194,7 +194,7 @@
                 </div>
             </div>
 
-            <div class="section1-element h-100 section1-inner2 col-5">
+            <div class="section1-element h-100 section1-inner2 col-4">
 
                 <div class="section1-inner2-element section1-inner2-element1">
                     <img src="./images/beatsblack.jpg" class="img-fluid section1-img" />
@@ -254,66 +254,10 @@
         </section> -->
 
 
-        <section class="features container-fluid">
-            <div class="feature-elements container m-auto">
-                <div class="feature-inner">
-                    <div class="feature-inner-element">
-                        <div class="media-left media-middle feature-icon">
-                            <i class="bi bi-cash"></i>
-                        </div>
-                        <div class="feature-text">
-                            <strong>Payment</strong><br> Convenient Payment
-                        </div>
-                    </div>
-                </div>
-                <div class="feature-inner">
-                    <div class="feature-inner-element">
-                        <div class="media-left media-middle feature-icon">
-                            <i class="bi bi-truck"></i>
-                        </div>
-                        <div class="feature-text">
-                            <strong>Same day Delivery</strong><br> Countrywide
-                        </div>
-                    </div>
-                </div>
-
-                <div class="feature-inner">
-                    <div class="feature-inner-element">
-                        <div class="media-left media-middle feature-icon">
-                            <i class="bi bi-arrow-counterclockwise"></i>
-                        </div>
-                        <div class="feature-text">
-                            <strong>Warranty</strong><br> for free return
-                        </div>
-                    </div>
-                </div>
-
-                <div class="feature-inner">
-                    <div class="feature-inner-element">
-                        <div class="media-left media-middle feature-icon">
-                            <i class="bi bi-tag"></i>
-                        </div>
-                        <div class="media-body media-middle feature-text">
-                            <strong>Only Best</strong> <br> Brands
-                        </div>
-                    </div>
-                </div>
-
-                <div class="feature-inner">
-                    <div class="feature-inner-element">
-                        <div class="media-left media-middle feature-icon">
-                            <i class="bi bi-tag"></i>
-                        </div>
-                        <div class="media-body media-middle feature-text">
-                            <strong>Support</strong> <br> 24/7
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
 
-        <section class="section2 row container-fluid">
+
+        <section class="section2 bg-white py-5 row container">
             <div class="bottom-nav-element bottom-nav-inner1 col">
                 <div class="search-wrapper" method="get" action="">
                     <select class="select-category" name="term">
@@ -608,13 +552,13 @@
             </div>
         </section>
 
-        <section class="section3 container">
+        <section class="section3 bg-white container-fluid p-3">
 
-            <div class="row">
+            <div class="section3-inner">
 
-                <div class="col-lg-3 overflow-y-scroll vertical-scroll" id="category-section">
+                <div class="col-lg-3 section3-element overflow-y-scroll vertical-scroll" id="category-section">
                     <div class="category-header">
-                        <h1 class="">CATEGORIES</h1>
+                        <h2 class="category-heading">CATEGORIES</h2>
                     </div>
 
                     <div class="categories" id="categories">
@@ -650,10 +594,10 @@
                                 <a class="nav-link categories-link" href="#deals">Deals</a>
                             </li>
                         </ul>
-                        <button class="showmore my-2" id="showMoreBtn">Show More</button>
+
                     </div>
 
-                    <h1 class="fw-bold mt-2">Filter By:</h1>
+                    <h1 class="fw-bold mt-4">Filter By:</h1>
                     <div class="filters d-block">
                         <div class="border-1 border-black brands my-2">
                             <h1 class="p-2 toggle-header"> Brand <i class="float-end bi-chevron-down my-auto"></i>
@@ -1173,55 +1117,114 @@
                     </div>
                 </div>
 
-                <div class="col-lg-9">
+                <div class="col-lg-9 section3-element">
 
-
-                    <div class="w-100 h-auto cards-section" id="cards">
-
-                    </div>
-
-
+                    <div class="cards-section" id="cards"></div>
 
                     <p id="error-message" class="text-red-500 fw-bolder text-center"></p>
-                    <div id="pagination" class="pagination"></div>
+
+                    <div id="pagination" class="pagination w-25 m-auto"></div>
+
                 </div>
             </div>
         </section>
 
-        <section class="section-banners my-2 container-fluid">
+        <section class="section-banners my-2 container">
             <div class="columns-2 p-4 m-auto row container">
-                <a class="banner col" href="https://bds.co.ke">
+                <a class="banner col" href="./index.html">
                     <img src="./images/two-banner-1.jpg" alt="">
                 </a>
-                <a class="banner col" href="https://bds.co.ke">
+                <a class="banner col" href="./index.html">
                     <img src="./images/two-banner-2.jpg" alt="">
                 </a>
-                <a class="banner col" href="https://bds.co.ke">
+                <a class="banner col" href="./index.html">
                     <img src="./images/two-banner-2.jpg" alt="">
                 </a>
             </div>
         </section>
 
-        <section class="section4 container">
-            <h2 class="category-header">Featured Products</h2>
-            <div id="featured"></div>
+
+        <section class="container">
+
+            <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item text-center" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                        aria-selected="true">Best selling</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                        aria-selected="false">Cheapest</button>
+                </li>
+
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                    tabindex="0">
+                    <div id="best-selling"></div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                    tabindex="0">
+                    <div id="cheapest"></div>
+                </div>
+
+
+            </div>
+
         </section>
 
-        <section class="section-banners my-2 container-fluid">
+        <section class="section-banners my-2 container">
+            <div class="columns-2 p-4 m-auto row container">
+                <a class="banner col" href="./index.html">
+                    <img src="./images/two-banner-1.jpg" alt="">
+                </a>
+                <a class="banner col" href="./index.html">
+                    <img src="./images/two-banner-2.jpg" alt="">
+                </a>
+            </div>
+        </section>
+
+        <section class="container">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                        type="button" role="tab" aria-controls="nav-home" aria-selected="true">Featured
+                        Products</button>
+                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                        type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Most Popular</button>
+
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+                    tabindex="0">
+                    <div id="featured"></div>
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
+                    tabindex="0">
+                    <div id="popular"></div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="section-banners my-2 container">
             <div class="columns-2 container">
-                <a class="banner" href="https://bds.co.ke">
+                <a class="banner" href="./index.html">
                     <img src="./images/two-banner-1.jpg" alt="">
                 </a>
-                <a class="banner" href="https://bds.co.ke">
+                <a class="banner" href="./index.html">
                     <img src="./images/two-banner-2.jpg" alt="">
                 </a>
             </div>
         </section>
 
 
-        <section class="container-fluid my-5 tabs-block m-auto row">
+        <section class="container my-5 tabs-block m-auto row">
             <div class="col">
-                <a class="banner h-100" href="https://bds.co.ke">
+                <a class="banner h-100" href="./index.html">
                     <img src="./images/banner1.jpg" alt="" class="h-100 img-fluid overflow-hidden">
                 </a>
             </div>
@@ -1275,17 +1278,13 @@
 
         </section>
 
-        <section class="section5 container">
-            <h2 class="category-header">Most Popular</h2>
-            <div id="popular"></div>
-        </section>
 
-        <section class="section-banners my-2 container-fluid">
+        <section class="section-banners my-2 container">
             <div class="columns-2 container">
-                <a class="banner" href="https://bds.co.ke">
+                <a class="banner" href="./index.html">
                     <img src="./images/two-banner-1.jpg" alt="">
                 </a>
-                <a class="banner" href="https://bds.co.ke">
+                <a class="banner" href="./index.html">
                     <img src="./images/two-banner-2.jpg" alt="">
                 </a>
             </div>
@@ -1296,12 +1295,12 @@
             <div id="newest"></div>
         </section>
 
-        <section class="section-banners my-2 container-fluid">
+        <section class="section-banners my-2 container">
             <div class="columns-2 container">
-                <a class="banner" href="https://bds.co.ke">
+                <a class="banner" href="./index.html">
                     <img src="./images/two-banner-1.jpg" alt="">
                 </a>
-                <a class="banner" href="https://bds.co.ke">
+                <a class="banner" href="./index.html">
                     <img src="./images/two-banner-2.jpg" alt="">
                 </a>
             </div>
@@ -1342,8 +1341,6 @@
             </div>
         </section>
 
-
-
         <section class="section8 my-5 container">
             <div class="section8-element">
                 <p>SUBSCRIBE TO OUR NEWSLETTER</p>
@@ -1365,6 +1362,64 @@
                 </div>
             </div>
             <div class="section8-element"></div>
+        </section>
+
+        <section class="features my-5 container">
+
+            <div class="feature-inner">
+                <div class="feature-inner-element">
+                    <div class="media-left media-middle feature-icon">
+                        <i class="bi bi-cash"></i>
+                    </div>
+                    <div class="feature-text">
+                        <strong>Payment</strong><br> Convenient Payment
+                    </div>
+                </div>
+            </div>
+            <div class="feature-inner">
+                <div class="feature-inner-element">
+                    <div class="media-left media-middle feature-icon">
+                        <i class="bi bi-truck"></i>
+                    </div>
+                    <div class="feature-text">
+                        <strong>Same day Delivery</strong><br> Countrywide
+                    </div>
+                </div>
+            </div>
+
+            <div class="feature-inner">
+                <div class="feature-inner-element">
+                    <div class="media-left media-middle feature-icon">
+                        <i class="bi bi-arrow-counterclockwise"></i>
+                    </div>
+                    <div class="feature-text">
+                        <strong>Warranty</strong><br> for free return
+                    </div>
+                </div>
+            </div>
+
+            <div class="feature-inner">
+                <div class="feature-inner-element">
+                    <div class="media-left media-middle feature-icon">
+                        <i class="bi bi-tag"></i>
+                    </div>
+                    <div class="media-body media-middle feature-text">
+                        <strong>Only Best</strong> <br> Brands
+                    </div>
+                </div>
+            </div>
+
+            <div class="feature-inner">
+                <div class="feature-inner-element">
+                    <div class="media-left media-middle feature-icon">
+                        <i class="bi bi-tag"></i>
+                    </div>
+                    <div class="media-body media-middle feature-text">
+                        <strong>Support</strong> <br> 24/7
+                    </div>
+                </div>
+            </div>
+
         </section>
 
         <section class="reviews container">

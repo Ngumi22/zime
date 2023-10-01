@@ -18,31 +18,6 @@
 
     <link href="index.css" rel="stylesheet">
 
-
-    <style>
-        .card {
-            -webkit-text-size-adjust: 100%;
-            color: #333;
-            cursor: auto;
-            font-family: Poppins, Arial, Helvetica, sans-serif;
-            line-height: 1.5;
-            font-weight: 400;
-            -webkit-font-smoothing: initial;
-            list-style: none;
-            font-size: 12px;
-            box-sizing: border-box;
-            display: block;
-            background-color: transparent;
-            padding: .78571rem;
-            border: 1px solid #e8e8e8;
-            flex: 1;
-            position: relative;
-            margin-bottom: 0;
-            border-color: #e8e8e8;
-            border-top-color: transparent;
-            border-left-color: #e8e8e8;
-        }
-    </style>
 </head>
 
 <body>
@@ -71,8 +46,8 @@
 
         <header class="main-header container-fluid">
 
-            <div class="logobar">
-                <img src="images/logo2.png" class="logo" alt="BDS DIGITAL SOLUTIONS" />
+            <div class="logobar my-3">
+                <a href="./index.html"><img src="images/logo1.png" class="logo" alt="BDS DIGITAL SOLUTIONS" /></a>
             </div>
 
             <div class="searchbar">
@@ -167,402 +142,92 @@
 
         </header>
 
-        <div class="bottom-nav container-fluid scroll-hide" id="hideMe">
 
-            <div class="bottom-nav-element bottom-nav-inner1">
-                <div class="search-wrapper" method="get" action="">
-                    <select class="select-category" name="term">
-                        <option value="">All categories</option>
-                        <option value="accessories">Accessories</option>
-                        <option value="cables">Cables</option>
-                        <option value="charging-cable">Charging Cable</option>
-                        <option value="cameras">Cameras</option>
-                        <option value="canon-cameras">Canon Cameras</option>
-                        <option value="nikon-cameras">Nikon Cameras</option>
-                        <option value="sony-cameras">Sony Cameras</option>
-                        <option value="webcams">Webcams</option>
-                        <option value="docking-station">Docking Station</option>
-                        <option value="home-audio">Home Audio</option>
-                        <option value="headphones">Headphones</option>
-                        <option value="earbuds">Earbuds
-                        </option>
-                        <option value="earphones">Earphones
-                        </option>
-                        <option value="headsets">Headsets
-                        </option>
-                        <option value="speakers">Speakers</option>
-                        <option value="home-theatre">Home
-                            Theatre</option>
-                        <option value="mini-speakers">Mini
-                            Speakers
-                        </option>
-                        <option value="portable-speakers">
-                            Portable
-                            Speakers</option>
-                        <option value="laptop-accessories">Laptop Accessories</option>
-                        <option value="extension">Extension</option>
-                        <option value="hdmi-splitters">HDMI
-                            splitters
-                        </option>
-                        <option value="hub-adapters">Hub
-                            Adapters</option>
-                        <option value="power-extensions">Power
-                            Extensions
-                        </option>
-                        <option value="laptop-bags">Laptop bags</option>
-                        <option value="school-bags">School
-                            Bags</option>
-                        <option value="university-bags">
-                            University Bags
-                        </option>
-                        <option value="laptop-chargers">Laptop Chargers</option>
-                        <option value="hp-laptops-chargers">HP
-                            Laptops
-                            Chargers</option>
-                        <option value="lenovo-laptops-chargers">
-                            Lenovo
-                            Laptops Chargers</option>
-                        <option value="macbooks-chargers">
-                            MacBooks
-                            Chargers</option>
-                        <option value="toshiba-laptops">
-                            Toshiba Laptops
-                            Chargers</option>
-                        <option value="laptop-stands">Laptop Stands</option>
-                        <option value="laptop-screen-replacement">Laptop Screen Replacement
-                        </option>
-                        <option value="mouse">Mouse</option>
-                        <option value="dell-mouse">Dell Mouse</option>
-                        <option value="hp-mouse">HP Mouse</option>
-                        <option value="microsoft-mouse">Microsoft Mouse</option>
-                        <option value="power-banks">Power Banks</option>
-                        <option value="presentation-remotes">Presentation Remotes</option>
-                        <option value="smart-home-devices">Smart Home Devices</option>
-                        <option value="smart-watches">Smartwatches</option>
-                        <option value="tv-streaming-device">TV Streaming Device</option>
-                        <option value="voice-recorders">voice Recorders</option>
-                        <option value="computing">Computing</option>
-                        <option value="desktops">Desktops</option>
-                        <option value="all-in-one-desktops">All-in-One Desktops
-                        </option>
-                        <option value="dell-desktops">DELL Desktops</option>
-                        <option value="ex-uk-desktops">EX UK Desktops</option>
-                        <option value="hp-desktops">HP desktops</option>
-                        <option value="lenovo-desktop">Lenovo Desktop</option>
-                        <option value="workstation">Workstation</option>
-                        <option value="keyboard">Keyboard</option>
-                        <option value="keyboard-mouse-combos">keyboard/mouse
-                            Combos</option>
-                        <option value="laptop">Laptops</option>
-                        <option value="asus-laptops">Asus Laptops</option>
-                        <option value="dell-laptops">Dell Laptops</option>
-                        <option value="ex-uk-laptops">EX UK Laptops</option>
-                        <option value="hp-laptops">HP Laptops</option>
-                        <option value="lenovo">Lenovo Laptops</option>
-                        <option value="macbook-air">MacBook Air</option>
-                        <option value="macbooks">MacBooks</option>
-                        <option value="microsoft-surface-pro">Microsoft surface
-                            pro</option>
-                        <option value="monitors">Monitors</option>
-                        <option value="18-5-inch-monitors">18.5 Inch Monitors
-                        </option>
-                        <option value="20-inch-monitors">20 Inch Monitors
-                        </option>
-                        <option value="22-inch-monitors">22 Inch Monitors
-                        </option>
-                        <option value="24-inch-monitors">24 Inch Monitors
-                        </option>
-                        <option value="27-inch-monitors">27 Inch Monitors
-                        </option>
-                        <option value="4k-monitors">4K Monitors</option>
-                        <option value="dell-monitors">Dell Monitors</option>
-                        <option value="hp-monitors">HP Monitors</option>
-                        <option value="quad-hd-monitors">Quad HD Monitors
-                        </option>
-                        <option value="phones-and-tablets">Phones and Tablets</option>
-                        <option value="office-phones">Office phones</option>
-                        <option value="tablets">Tablets</option>
-                        <option value="power-supply-units">Power Supply Units</option>
-                        <option value="projectors">Projectors</option>
-                        <option value="acer-projectors">Acer Projectors</option>
-                        <option value="benq-projectors">Benq Projectors</option>
-                        <option value="epson-projectors">Epson Projectors
-                        </option>
-                        <option value="optoma-projectors">Optoma Projectors
-                        </option>
-                        <option value="philips-projectors">Philips Projectors
-                        </option>
-                        <option value="projector-screens">Projector Screens
-                        </option>
-                        <option value="sony-projectors">Sony Projectors</option>
-                        <option value="viewsonic-projectors">ViewSonic
-                            Projectors</option>
-                        <option value="ram">RAM</option>
-                        <option value="servers">Servers</option>
-                        <option value="dell-servers">Dell Servers</option>
-                        <option value="hp-servers">HP Servers</option>
-                        <option value="storage-hard-drives">Server Hard drives
-                        </option>
-                        <option value="memory-upgrades">Server Memory</option>
-                        <option value="software">Software</option>
-                        <option value="anti-virus">Anti-Virus</option>
-                        <option value="storage">Storage</option>
-                        <option value="cd-rw-r">CD-RW/R</option>
-                        <option value="duplicator">Duplicator</option>
-                        <option value="dvd-writer">DVD Writer</option>
-                        <option value="external-casing">External Casing</option>
-                        <option value="flash-disks">Flash Disks</option>
-                        <option value="lexar-flash-disks">
-                            Lexar Flash
-                            Disks</option>
-                        <option value="hard-drives">Hard Drives</option>
-                        <option value="external-hard-drives">
-                            External Hard
-                            Drives</option>
-                        <option value="seagate-external-hard-disks">
-                            Seagate External
-                            Hard Disks
-                        </option>
-                        <option value="toshiba-hard-drives">
-                            Toshiba Hard
-                            Drives</option>
-                        <option value="transcend-hard-drives">
-                            Transcend Hard
-                            Drives
-                        </option>
-                        <option value="wd-external-hard-drives">
-                            WD External Hard
-                            Drives
-                        </option>
-                        <option value="internal-hard-disk">
-                            Internal Hard
-                            Disk</option>
-                        <option value="lexar-internal-ssd">
-                            Lexar Internal
-                            SSD</option>
-                        <option value="micro-sd-cards">Micro SD Cards</option>
-                        <option value="lexar-microsd-card">
-                            Lexar MicroSD
-                            Card</option>
-                        <option value="ssds">SSDs</option>
-                        <option value="external-ssds">External
-                            SSDs
-                        </option>
-                        <option value="lexar-hard-drives">
-                            Lexar External
-                            SSDs</option>
-                        <option value="surveillance-hard-drives">Surveillance
-                            Hard Drives
-                        </option>
-                        <option value="gaming">Gaming</option>
-                        <option value="game-consoles">Game Consoles</option>
-                        <option value="gaming-accessories">Gaming Accessories</option>
-                        <option value="game-pads">Game Pads</option>
-                        <option value="gaming-headsets">Gaming Headsets</option>
-                        <option value="gaming-desktops">Gaming Desktops</option>
-                        <option value="gaming-keyboards">Gaming Keyboards</option>
-                        <option value="gaming-laptops">Gaming Laptops</option>
-                        <option value="gaming-monitors">Gaming Monitors</option>
-                        <option value="gaming-mouse">Gaming Mouse</option>
-                        <option value="graphics-card">Graphics Card</option>
-                        <option value="amd-graphics-cards">AMD Graphics Cards
-                        </option>
-                        <option value="nvidia-graphics-cards">Nvidia Graphics
-                            Cards</option>
-                        <option value="networking-accessories">Networking</option>
-                        <option value="access-point">Access Point</option>
-                        <option value="adapter">Adapter</option>
-                        <option value="modem">Modem</option>
-                        <option value="networking-cables">Networking cables</option>
-                        <option value="cat-6-cables">Cat 6 cables</option>
-                        <option value="pcie-cards">PCIe Cards</option>
-                        <option value="routers">Routers</option>
-                        <option value="linksys-routers">Linksys Routers</option>
-                        <option value="portable-wifi">Portable WiFi</option>
-                        <option value="tp-link-routers">TP-Link Routers</option>
-                        <option value="switches">Switches</option>
-                        <option value="d-link-switches">D-Link Switches</option>
-                        <option value="tp-link-switches">TP-Link Switches
-                        </option>
-                        <option value="ubiquiti">Ubiquiti</option>
-                        <option value="office-equipment">Office Equipment</option>
-                        <option value="blower">Blower</option>
-                        <option value="cleaning-agents">Cleaning Agents</option>
-                        <option value="etr-machines">ETR Machines</option>
-                        <option value="laminator-and-binder">Laminator and Binder</option>
-                        <option value="money-counter">Money Counter</option>
-                        <option value="money-detector">Money Detector</option>
-                        <option value="paper-cutters">Paper Cutters</option>
-                        <option value="point-of-sale">Point of Sale</option>
-                        <option value="shredders">Shredders</option>
-                        <option value="atlas-shredders">Atlas Shredders</option>
-                        <option value="fellowes-shredders">Fellowes Shredders
-                        </option>
-                        <option value="rexel-shredders">Rexel shredders</option>
-                        <option value="printing">Printing</option>
-                        <option value="copiers">Copiers</option>
-                        <option value="canon-copiers">Canon Copiers</option>
-                        <option value="kyocera-copiers">Kyocera Copiers</option>
-                        <option value="printer-consumables">Printer Consumables</option>
-                        <option value="american-colors">American Colors</option>
-                        <option value="epson">Epson Cartridges</option>
-                        <option value="ink-cartridges">Ink Cartridges</option>
-                        <option value="mercury">Mercury Cartridges</option>
-                        <option value="toners-cartridges">Toners &amp;
-                            Cartridges</option>
-                        <option value="printers">Printers</option>
-                        <option value="canon-printers">Canon Printers</option>
-                        <option value="epson-printers">Epson Printers</option>
-                        <option value="hp-printers">HP printers</option>
-                        <option value="hp-laserjet-printers">
-                            HP Laserjet
-                            Printers</option>
-                        <option value="hp-officejet-printers">
-                            HP Officejet
-                            Printers</option>
-                        <option value="inkjet-printers">InkJet Printers</option>
-                        <option value="kyocera">Kyocera Printers</option>
-                        <option value="label-printers">Label Printers</option>
-                        <option value="receipt-printers">Receipt Printers
-                        </option>
-                        <option value="toshiba-printers">Toshiba Printers
-                        </option>
-                        <option value="scanners">Scanners</option>
-                        <option value="surveillance-power-solutions">Surveillance &amp; Power Solutions</option>
-                        <option value="surveillance">Surveillance</option>
-                        <option value="access-control">Biometric Access Control
-                        </option>
-                        <option value="cctv">CCTV</option>
-                        <option value="dvr">DVR</option>
-                        <option value="vehicle-surveillance">
-                            Vehicle
-                            Surveillance</option>
-                        <option value="ups">UPS</option>
-                        <option value="apc-ups">APC UPS</option>
-                        <option value="eaton-ups">Eaton UPS</option>
-                        <option value="jc-tech-ups">JC Tech UPS</option>
-                        <option value="lightwave-ups">Lightwave UPS</option>
-                        <option value="mecer-ups">Mecer UPS</option>
-                        <option value="mercury-ups">Mercury UPS</option>
-                        <option value="meser-ups">Meser UPS</option>
-                        <option value="replacement-battery">Replacement Battery
-                        </option>
-                        <option value="unomat-ups">Unomat UPS</option>
-                        <option value="vertiv-ups">Vertiv UPS</option>
-                    </select>
-
-
-                </div>
-            </div>
-
-            <span class="vertical-line"></span>
-
-            <div class="bottom-nav-element bottom-nav-inner2">
-                <a class="bottom-inner-text">Shipping and Return</a>
-                <a class="bottom-inner-text">Contact Us</a>
-                <a class="bottom-inner-text">Blog</a>
-            </div>
-
-        </div>
     </nav>
-
     <main>
 
-        <article class="card ">
-            <figure class="card-figure">
-                <a href="https://sarah3.mybigcommerce.com/furniture-utility-caddy/">
-                    <img class="card-image"
-                        src="https://cdn11.bigcommerce.com/s-9dhvgwc9o4/images/stencil/500x659/products/144/919/03__86729.1489898479.jpg?c=2"
-                        alt="Furniture Utility Caddy" title="Furniture Utility Caddy">
-                    <img class="card-image"
-                        src="https://cdn11.bigcommerce.com/s-9dhvgwc9o4/images/stencil/500x659/products/144/877/05__98575.1489898232.jpg?c=2"
-                        alt="Furniture Utility Caddy" title="Furniture Utility Caddy">
-                </a>
-                <figcaption class="card-figcaption">
-                    <div class="card-figcaption-body">
-                        <div class="card-buttons">
-                            <a href="https://sarah3.mybigcommerce.com/cart.php?action=add&amp;product_id=144"
-                                class="button button--small card-figcaption-button">Add to Cart</a>
+        <section class="singles-section container">
+            <img id="product-image" src="" style="height: 400px;" alt="Product Image">
+            <div class="single-info">
+                <h1 id="product-title"></h1>
+
+                <p id="product-price"></p>
 
 
-                            <a href="#" class="button button--small card-figcaption-button quickview"
-                                data-product-id="144">Quick view</a>
-                        </div>
-                    </div>
-                </figcaption>
-            </figure>
-            <div class="card-body">
-                <p class="card-text" data-test-info-type="productRating">
-                    <span class="rating--small">
-                        <span class="icon icon--ratingFull">
-                            <svg>
-                                <use xlink:href="#icon-star"></use>
-                            </svg>
-                        </span>
-                        <span class="icon icon--ratingFull">
-                            <svg>
-                                <use xlink:href="#icon-star"></use>
-                            </svg>
-                        </span>
-                        <span class="icon icon--ratingEmpty">
-                            <svg>
-                                <use xlink:href="#icon-star"></use>
-                            </svg>
-                        </span>
-                        <span class="icon icon--ratingEmpty">
-                            <svg>
-                                <use xlink:href="#icon-star"></use>
-                            </svg>
-                        </span>
-                        <span class="icon icon--ratingEmpty">
-                            <svg>
-                                <use xlink:href="#icon-star"></use>
-                            </svg>
-                        </span>
-                        <!-- snippet location product_rating -->
-                        <span class="rating-number">(<a
-                                href="https://sarah3.mybigcommerce.com/furniture-utility-caddy/#product-reviews"></a>)</span>
-                    </span>
-                </p>
-
-                <h4 class="card-title">
-                    <a href="https://sarah3.mybigcommerce.com/furniture-utility-caddy/">Furniture Utility Caddy</a>
-                </h4>
-
-                <div class="card-text" data-test-info-type="price">
-                    <div class="price-section price-section--withoutTax ">
-                        <span data-product-price-without-tax="" class="price price--withoutTax">$45.95</span>
-                    </div>
-                </div>
-
-                <p class="card-text" data-test-info-type="brandName">OFS</p>
+                <p id="product-color"></p>
+                <p id="product-touchscreen"></p>
+                <p id="product-size"></p>
+                <p id="product-os"></p>
+                <p id="product-processor"></p>
+                <p id="product-generation"></p>
+                <p id="product-storage"></p>
+                <p id="product-ratings"></p>
+                <p id="product-description"></p>
             </div>
-        </article>
-
-
+        </section>
 
     </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
 
     <script src="index.js"></script>
     <script src="script.js"></script>
+
+    <script>
+        const queryParams = new URLSearchParams(window.location.search);
+
+        const productTitle = queryParams.get('title');
+        const productImage = queryParams.get('image');
+        const productDescription = queryParams.get('description');
+        const productPrice = queryParams.get('price');
+        const productColor = queryParams.get('color');
+        const productScreen = queryParams.get('touchscreen');
+        const productSize = queryParams.get('size');
+        const productOs = queryParams.get('os');
+        const productProcessor = queryParams.get('processor');
+        const productGeneration = queryParams.get('generation');
+        const productStorage = queryParams.get('storage');
+        const productRatings = queryParams.get('userRatings');
+
+
+        const titleElement = document.getElementById('product-title');
+        titleElement.textContent = productTitle;
+
+        const descriptionElement = document.getElementById('product-description');
+        descriptionElement.textContent = productDescription;
+
+        const priceElement = document.getElementById('product-price');
+        priceElement.textContent = productPrice;
+
+        const imageElement = document.getElementById('product-image');
+        imageElement.src = productImage;
+
+        const colorElement = document.getElementById('product-color');
+        colorElement.textContent = productColor;
+
+        const touchscreen = document.getElementById('product-touchscreen');
+        touchscreen.textContent = productScreen;
+
+        const sizeElement = document.getElementById('product-size');
+        sizeElement.textContent = productSize;
+
+        const osElement = document.getElementById('product-os');
+        osElement.textContent = productOs;
+
+        const processorElement = document.getElementById('product-processor');
+        processorElement.textContent = productProcessor;
+
+        const generationElement = document.getElementById('product-generation');
+        generationElement.textContent = productGeneration;
+
+        const stotageElement = document.getElementById('product-storage');
+        stotageElement.textContent = productStorage;
+
+        const ratingsElement = document.getElementById('product-ratings');
+        ratingsElement.textContent = productRatings;
+
+    </script>
 
 </body>
 

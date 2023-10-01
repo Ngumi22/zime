@@ -3,6 +3,25 @@ const categories = [
     title: 'all',
     items: [
 
+
+      {
+        id: 103205,
+        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+        title: 'HP',
+        brand: 'HP',
+        price: 100,
+        color: 'red',
+        touchscreen: 'no',
+        size: '24',
+        storage: "HDD",
+        os: 'windows',
+        generation: '13thgen',
+        processor: 'ryzen3',
+        theme: 'gaming',
+        userRatings: 2.5,
+        promotion: 'Discounted',
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+      },
       {
         id: 1005,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
@@ -11,14 +30,13 @@ const categories = [
         price: 100,
         color: 'red',
         touchscreen: 'no',
-        description: 'five',
         size: '24',
         storage: "HDD",
         os: 'windows',
         generation: '13thgen',
         processor: 'ryzen3',
         theme: 'gaming',
-        userRatings: 4.2,
+        userRatings: 3,
         promotion: 'Discounted',
         description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
       },
@@ -30,7 +48,6 @@ const categories = [
         price: 100,
         color: 'red',
         touchscreen: 'no',
-        description: 'five',
         size: '24',
         storage: "HDD",
         os: 'windows',
@@ -50,7 +67,6 @@ const categories = [
         price: 100,
         color: 'red',
         touchscreen: 'no',
-        description: 'six',
         size: '13',
         storage: "eMMC",
         os: 'windows',
@@ -69,7 +85,6 @@ const categories = [
         price: 113300,
         color: 'blue',
         touchscreen: 'yes',
-        description: 'sixty',
         size: '24',
         storage: "SSD",
         os: 'mac',
@@ -81,25 +96,7 @@ const categories = [
         description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
 
       },
-      {
-        id: 1008,
-        image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        title: 'APPLE',
-        brand: 'APPLE',
-        price: 100,
-        color: 'red',
-        touchscreen: 'no',
-        description: 'seven',
-        size: '13',
-        storage: "SSD",
-        os: 'ios',
-        generation: '13thgen',
-        processor: 'ryzen2',
-        theme: 'gaming',
-        userRatings: 4.2,
-        promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
-      },
+
 
 
 
@@ -117,7 +114,6 @@ const categories = [
         price: 100,
         color: 'red',
         touchscreen: 'no',
-        description: 'six',
         size: '13',
         storage: "eMMC",
         os: 'windows',
@@ -136,7 +132,6 @@ const categories = [
         price: 113300,
         color: 'blue',
         touchscreen: 'yes',
-        description: 'sixty',
         size: '24',
         storage: "SSD",
         os: 'mac',
@@ -155,7 +150,6 @@ const categories = [
         price: 100,
         color: 'red',
         touchscreen: 'no',
-        description: 'seven',
         size: '13',
         storage: "SSD",
         os: 'ios',
@@ -175,7 +169,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -201,7 +194,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -220,7 +212,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -239,7 +230,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -258,7 +248,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -283,7 +272,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -302,7 +290,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -321,7 +308,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -340,7 +326,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -365,7 +350,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -384,7 +368,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -403,7 +386,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -422,7 +404,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -447,7 +428,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -466,7 +446,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -485,7 +464,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -504,7 +482,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -529,7 +506,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -548,7 +524,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -567,7 +542,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -586,7 +560,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -612,7 +585,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -631,7 +603,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -650,7 +621,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -669,7 +639,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -696,7 +665,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -715,7 +683,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -734,7 +701,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -753,7 +719,6 @@ const categories = [
         price: 1300,
         color: 'green',
         touchscreen: 'no',
-        description: 'seventy',
         size: '32',
         storage: "HDD + SSD",
         os: 'linux',
@@ -779,56 +744,61 @@ let cart = [];
 function renderCards(categoryIndex, page = 1) {
   currentCategoryIndex = categoryIndex;
   currentPage = page;
-  const itemsPerPage = 15;
+  const itemsPerPage = 10;
   const startIndex = (page - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
 
   const cardsContainer = document.getElementById('cards');
   cardsContainer.innerHTML = '';
-  cardsContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-6', 'g-0', 'my-5');
+  cardsContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5', 'w-100',);
 
   const activeCategory = categories[categoryIndex];
   const itemsToRender = activeCategory.items.slice(startIndex, endIndex);
 
   itemsToRender.forEach(item => {
-    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = item;
+    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id, userRatings, description } = item;
+
+
 
     const card = document.createElement('div');
-    card.classList.add('product-card', 'group', 'justify-items-center', 'border-1', 'border-grey', 'p-2', 'relative');
+    card.classList.add('product-card', 'p-2', 'border-1');
 
     card.setAttribute('data-category', categoryIndex); // Set data-category attribute
 
+    const starRatingHTML = generateStarRatingHTML(userRatings, 'blue', 'black');
     card.innerHTML = `
+
       <div>
-        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
-          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-        </div>
-        <div class="d-flex justify-content-between">
-          <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
-          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
-        </div>
-        <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
-        <h6 class="size d-none">${size}</h6>
-        <div class="d-flex justify-content-between">
-          <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
-          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
-        </div>
-        <h6 class="touch d-none">${touchscreen}</h6>
-        <h6 class="theme d-none">${os}</h6>
-        <h6 class="brand d-none">${brand}</h6>
-        <h6 class="theme d-none">${theme}</h6>
-        <h6 class="diskstorage d-none">${storage}</h6>
-        <h6 class="generation d-none">${generation}</h6>
-        <h6 class="processor d-none">${processor}</h6>
-        <!-- Add other fields here -->
-      </div>
+				<img src="${image}" alt="Product" class="imgggg">
+				<div class="product-info mt-2 text-center">
+					<h3 class="name">${title}</h3>
+					<h6 class="price">${price}</h6>
+          <p>${starRatingHTML}</p>
+					<button class="product-btn" onclick="addToCart('${title}')">Buy Now</button>
+				</div>
+			</div>
+
     `;
+
+
 
     const titleElement = card.querySelector('.name');
     titleElement.addEventListener('click', () => {
-      // Redirect to the single.html page with the product details in the query string
       const queryParams = new URLSearchParams();
-      queryParams.append(`${title}`, brand); // Assuming 'id' is your product's unique identifier
+
+      queryParams.append('title', title);
+      queryParams.append('image', image);
+      queryParams.append('userRatings', userRatings);
+      queryParams.append('price', price);
+      queryParams.append('description', description);
+      queryParams.append('color', color);
+      queryParams.append('touchscreen', touchscreen);
+      queryParams.append('size', size);
+      queryParams.append('os', os);
+      queryParams.append('processor', processor);
+      queryParams.append('generation', generation);
+      queryParams.append('storage', storage);
+
       window.location.href = `single.html?${queryParams.toString()}`;
     });
 
@@ -853,13 +823,39 @@ function renderPagination(totalItems, itemsPerPage, currentPage) {
     }
     pageButton.addEventListener('click', () => {
       renderCards(currentCategoryIndex, i);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 600, behavior: 'smooth' });
     });
     paginationContainer.appendChild(pageButton);
   }
 }
 
+function generateStarRatingHTML(userRatings, starColor = 'blue', emptyStarColor = 'black') {
+  const totalStars = 5;
+  const fullStars = Math.floor(userRatings);
+  const decimalPart = userRatings % 1;
+  const emptyStars = totalStars - fullStars - (decimalPart >= 0.5 ? 1 : 0);
+
+  let starHTML = '';
+
+  for (let i = 0; i < fullStars; i++) {
+    starHTML += `<span class="star filled-star" style="color: ${starColor}">&#9733;</span>`;
+  }
+
+  if (decimalPart >= 0.5) {
+    starHTML += `<span class="star half-star" style="color: ${starColor}">&#9733;</span>`;
+  }
+
+  for (let i = 0; i < emptyStars; i++) {
+    starHTML += `<span class="star" style="color: ${emptyStarColor}">&#9733;</span>`;
+  }
+
+  return starHTML;
+}
+
 renderCards(currentCategoryIndex, currentPage);
+
+
+
 
 const categoryLinks = document.querySelectorAll('#category-nav, #cat-nav a');
 categoryLinks[0].classList.add('active');
@@ -905,11 +901,7 @@ function addToCart(title) {
 
 }
 
-function removeFromCart(index) {
-  cart.splice(index, 1);
-  displayCart();
-  updateCartStorage();
-}
+
 
 function displayCart() {
   const cartItemContainer = document.getElementById('cart-item');
@@ -967,6 +959,14 @@ function displayCart() {
     });
   }
 }
+
+function removeFromCart(index) {
+  cart.splice(index, 1);
+  displayCart();
+  updateCartStorage();
+}
+
+
 
 function updateQuantity(index, newQuantity) {
   const cartItem = cart[index];
@@ -1145,37 +1145,28 @@ function showProductDetails(title) {
   if (product) {
     const modalContent = document.querySelector(`#${modalId} .modal-content`);
     modalContent.innerHTML = `
-            <div class="modal-header w-75 d-flex">
-
-                <div class="w-25 h-100 p-1 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
-                        <img src="${product.image}" alt="Product" class="img-fluid h-auto">
-
-                </div>
-
-                <div class="d-block m-auto">
-
-                  <h5 class="modal-title" id="productModalLabel">${product.title}</h5>
-                  <div class="modal-body m-auto">
-                    <p>${product.price}</p>
-
-                    <p>${product.color}</p>
-
-                    <p>${product.userRatings}</p>
-
-                    <p>${product.description}</p>
-
-                    <button onclick="addToCart('${title}')" class="btn btn-success my-3 px-4 py-2">Add To Cart</button>
-
-                  </div>
-
-                  <div class="modal-footer top-0 right-0 position-absolute">
-                    <button type="button" class="btn" data-bs-dismiss="modal">X</button>
-                  </div>
-
-                </div>
 
 
-            </div>
+      <div class="card modal-header">
+        <nav>
+          <svg class="arrow" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><polygon points="352,115.4 331.3,96 160,256 331.3,416 352,396.7 201.5,256 " stroke="#727272"/></svg>
+          Back to all Plants
+          <svg class="heart" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" stroke="#727272" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M340.8,98.4c50.7,0,91.9,41.3,91.9,92.3c0,26.2-10.9,49.8-28.3,66.6L256,407.1L105,254.6c-15.8-16.6-25.6-39.1-25.6-63.9  c0-51,41.1-92.3,91.9-92.3c38.2,0,70.9,23.4,84.8,56.8C269.8,121.9,302.6,98.4,340.8,98.4 M340.8,83C307,83,276,98.8,256,124.8  c-20-26-51-41.8-84.8-41.8C112.1,83,64,131.3,64,190.7c0,27.9,10.6,54.4,29.9,74.6L245.1,418l10.9,11l10.9-11l148.3-149.8  c21-20.3,32.8-47.9,32.8-77.5C448,131.3,399.9,83,340.8,83L340.8,83z" stroke="#727272"/></svg>
+        </nav>
+        <div class="photo">
+          <img src="${product.image}" alt="Product" class="img-fluid h-auto">
+        </div>
+        <div class="description">
+          <h5 class="modal-title" id="productModalLabel">${product.title}</h5>
+          <p>${product.color}</p>
+          <p>${product.userRatings}</p>
+          <p>${product.price}</p>
+          <p>${product.description}</p>
+          <button onclick="addToCart('${title}')" class="btn btn-success my-3 px-4 py-2">Add To Cart</button>
+          <button>Wishlist</button>
+        </div>
+      </div>
+
     `;
 
     // Show the modal
@@ -1193,32 +1184,14 @@ function showProductDetails(title) {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-  const categoriesDiv = document.getElementById("categories");
   const filtersDiv = document.querySelector(".filters");
   const showMoreBtn = document.getElementById("showMoreBtn");
   const showMoreFiltersBtn = document.getElementById("showMoreFiltersBtn"); // Corrected ID
 
   // Initial setup to hide extra categories if there are more than 4
-  const categoriesList = categoriesDiv.querySelectorAll(".nav-item");
-  if (categoriesList.length > 4) {
-    for (let i = 4; i < categoriesList.length; i++) {
-      categoriesList[i].style.display = "none";
-    }
-    showMoreBtn.style.display = "block";
-  }
 
-  showMoreBtn.addEventListener("click", function () {
-    categoriesDiv.classList.toggle("expanded"); // Toggle the expanded class for categories
 
-    // Update the button text based on the state
-    const areCategoriesExpanded = categoriesDiv.classList.contains("expanded");
-    showMoreBtn.textContent = areCategoriesExpanded ? "Show Less" : "Show More";
 
-    // Show/hide the hidden categories based on the state
-    for (let i = 4; i < categoriesList.length; i++) {
-      categoriesList[i].style.display = areCategoriesExpanded ? "block" : "none";
-    }
-  });
 
   // Initial setup to hide extra filters if there are more than 4
   const filtersList = filtersDiv.querySelectorAll(".border-1.my-2");
@@ -1234,7 +1207,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Update the button text based on the state
     const areFiltersExpanded = filtersDiv.classList.contains("expanded");
-    showMoreFiltersBtn.textContent = areFiltersExpanded ? "Show Less" : "Show More";
+    showMoreFiltersBtn.textContent = areFiltersExpanded ? "Show Less" : "Show All Filters";
 
     // Show/hide the hidden filters based on the state
     for (let i = 4; i < filtersList.length; i++) {
@@ -1303,7 +1276,7 @@ const featuredProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'five',
+
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -1322,7 +1295,7 @@ const featuredProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'five',
+
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -1342,7 +1315,7 @@ const featuredProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'six',
+
     size: '13',
     storage: "eMMC",
     os: 'windows',
@@ -1398,14 +1371,14 @@ function renderFeaturedProducts() {
 
   const featuredContainer = document.getElementById('featured');
   featuredContainer.innerHTML = '';
-  featuredContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-6', 'g-0', 'my-5');
+  featuredContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-4', 'g-0');
 
   featuredProducts.forEach(feature => {
     const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = feature
 
 
     const card = document.createElement('div');
-    card.classList.add('product-card', 'group', 'justify-items-center', 'border-1', 'border-grey', 'p-2', 'relative');
+    card.classList.add('product-cards', 'group', 'justify-items-center', 'p-2', 'relative');
 
     card.innerHTML = `
       <div>
@@ -1422,14 +1395,6 @@ function renderFeaturedProducts() {
           <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
           <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
         </div>
-        <h6 class="touch d-none">${touchscreen}</h6>
-        <h6 class="theme d-none">${os}</h6>
-        <h6 class="brand d-none">${brand}</h6>
-        <h6 class="theme d-none">${theme}</h6>
-        <h6 class="diskstorage d-none">${storage}</h6>
-        <h6 class="generation d-none">${generation}</h6>
-        <h6 class="processor d-none">${processor}</h6>
-        <!-- Add other fields here -->
       </div>
     `;
 
@@ -1449,7 +1414,7 @@ const popularProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'five',
+
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -1468,7 +1433,7 @@ const popularProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'five',
+
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -1488,7 +1453,7 @@ const popularProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'six',
+
     size: '13',
     storage: "eMMC",
     os: 'windows',
@@ -1546,7 +1511,7 @@ const popularProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'five',
+
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -1565,7 +1530,7 @@ const popularProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'five',
+
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -1585,7 +1550,7 @@ const popularProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'six',
+
     size: '13',
     storage: "eMMC",
     os: 'windows',
@@ -1641,14 +1606,14 @@ function renderPopularProducts() {
 
   const popularContainer = document.getElementById('popular');
   popularContainer.innerHTML = '';
-  popularContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-6', 'g-0', 'my-5');
+  popularContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-4', 'g-0');
 
   popularProducts.forEach(popular => {
     const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = popular
 
 
     const card = document.createElement('div');
-    card.classList.add('product-card', 'group', 'justify-items-center', 'border-1', 'border-grey', 'p-2', 'relative');
+    card.classList.add('product-cards', 'group', 'justify-items-center', 'p-2', 'relative');
 
     card.innerHTML = `
       <div>
@@ -1693,7 +1658,7 @@ const newProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'five',
+
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -1712,7 +1677,7 @@ const newProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'five',
+
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -1732,7 +1697,7 @@ const newProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'six',
+
     size: '13',
     storage: "eMMC",
     os: 'windows',
@@ -1790,7 +1755,7 @@ const newProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'five',
+
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -1809,7 +1774,7 @@ const newProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'five',
+
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -1829,7 +1794,7 @@ const newProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'six',
+
     size: '13',
     storage: "eMMC",
     os: 'windows',
@@ -1848,7 +1813,6 @@ const newProducts = [
     price: 113300,
     color: 'blue',
     touchscreen: 'yes',
-    description: 'sixty',
     size: '24',
     storage: "SSD",
     os: 'mac',
@@ -1868,7 +1832,6 @@ const newProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'seven',
     size: '13',
     storage: "SSD",
     os: 'ios',
@@ -1885,14 +1848,14 @@ function renderNewProducts() {
 
   const newestContainer = document.getElementById('newest');
   newestContainer.innerHTML = '';
-  newestContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-6', 'g-0', 'my-5');
+  newestContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-4', 'g-0');
 
   newProducts.forEach(newest => {
     const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = newest
 
 
     const card = document.createElement('div');
-    card.classList.add('product-card', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
+    card.classList.add('product-cards', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
 
     card.innerHTML = `
       <div>
@@ -1939,7 +1902,7 @@ const likedProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'five',
+
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -1958,7 +1921,7 @@ const likedProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'five',
+
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -2034,14 +1997,14 @@ function renderLikedProducts() {
 
   const likedContainer = document.getElementById('liked');
   likedContainer.innerHTML = '';
-  likedContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-6', 'g-0', 'my-5');
+  likedContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-4', 'g-0');
 
   likedProducts.forEach(liked => {
     const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = liked
 
 
     const card = document.createElement('div');
-    card.classList.add('product-card', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
+    card.classList.add('product-cards', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
 
     card.innerHTML = `
       <div>
@@ -2087,7 +2050,7 @@ const businessLaptops = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'five',
+
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -2106,7 +2069,7 @@ const businessLaptops = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'five',
+
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -2182,14 +2145,14 @@ function renderBusinessLaptops() {
 
   const businessContainer = document.getElementById('business1');
   businessContainer.innerHTML = '';
-  businessContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-6', 'g-0', 'my-5');
+  businessContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-4', 'g-0');
 
   businessLaptops.forEach(business => {
     const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = business
 
 
     const card = document.createElement('div');
-    card.classList.add('product-card', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
+    card.classList.add('product-cards', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
 
     card.innerHTML = `
       <div>
@@ -2237,7 +2200,7 @@ const gamingLaptops = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'five',
+
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -2256,7 +2219,7 @@ const gamingLaptops = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'five',
+
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -2332,14 +2295,14 @@ function renderGamingLaptops() {
 
   const gamingContainer = document.getElementById('gaming1');
   gamingContainer.innerHTML = '';
-  gamingContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-6', 'g-0', 'my-5');
+  gamingContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-4', 'g-0');
 
   gamingLaptops.forEach(gaming => {
     const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = gaming
 
 
     const card = document.createElement('div');
-    card.classList.add('product-card', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
+    card.classList.add('product-cards', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
 
     card.innerHTML = `
       <div>
@@ -2387,7 +2350,7 @@ const premiumLaptops = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'five',
+
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -2406,7 +2369,7 @@ const premiumLaptops = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'five',
+
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -2482,14 +2445,14 @@ function renderPremiumLaptops() {
 
   const premiumContainer = document.getElementById('premium1');
   premiumContainer.innerHTML = '';
-  premiumContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-6', 'g-0', 'my-5');
+  premiumContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-4', 'g-0');
 
   premiumLaptops.forEach(premium => {
     const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = premium
 
 
     const card = document.createElement('div');
-    card.classList.add('product-card', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
+    card.classList.add('product-cards', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
 
     card.innerHTML = `
       <div>
@@ -2537,7 +2500,7 @@ const devsLaptops = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'five',
+
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -2556,7 +2519,7 @@ const devsLaptops = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'five',
+
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -2632,14 +2595,14 @@ function renderDevsLaptops() {
 
   const devsContainer = document.getElementById('devs1');
   devsContainer.innerHTML = '';
-  devsContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-6', 'g-0', 'my-5');
+  devsContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-4', 'g-0');
 
   devsLaptops.forEach(devs => {
     const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = devs
 
 
     const card = document.createElement('div');
-    card.classList.add('product-card', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
+    card.classList.add('product-cards', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
 
     card.innerHTML = `
       <div>
@@ -2673,3 +2636,364 @@ function renderDevsLaptops() {
 }
 renderDevsLaptops()
 //devs laptops
+
+
+
+//bestselling laptops
+const bestselling = [
+  {
+    id: 10018,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    title: 'APPLE',
+    brand: 'APPLE',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'seven',
+    size: '13',
+    storage: "SSD",
+    os: 'ios',
+    generation: '13thgen',
+    processor: 'ryzen2',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+
+  {
+    id: 10015,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    title: 'HP',
+    brand: 'HP',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'bestselling',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 100199,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg',
+    title: 'ASUS',
+    brand: 'ASUS',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'bestselling',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10016,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+    title: 'ACER',
+    brand: 'ACER',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'six',
+    size: '13',
+    storage: "eMMC",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'm1',
+    theme: 'bestselling',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 10017,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+    title: 'APPLE1',
+    brand: 'APPLE',
+    price: 113300,
+    color: 'blue',
+    touchscreen: 'yes',
+    description: 'sixty',
+    size: '24',
+    storage: "SSD",
+    os: 'mac',
+    generation: '5thgen',
+    processor: 'ryzen1',
+    theme: 'bestselling',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10018,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    title: 'APPLE',
+    brand: 'APPLE',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'seven',
+    size: '13',
+    storage: "SSD",
+    os: 'ios',
+    generation: '13thgen',
+    processor: 'ryzen2',
+    theme: 'bestselling',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+];
+
+function renderbestsellingLaptops() {
+
+  const bestSellingContainer = document.getElementById('best-selling');
+  bestSellingContainer.innerHTML = '';
+  bestSellingContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5');
+
+  bestselling.forEach(bestSelling => {
+    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = bestSelling
+
+
+    const card = document.createElement('div');
+    card.classList.add('product-cards', 'group', 'justify-items-center', 'relative', 'p-2');
+
+    card.innerHTML = `
+      <div>
+        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+        </div>
+        <div class="d-flex justify-content-between">
+          <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
+          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
+        </div>
+        <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
+        <h6 class="size d-none">${size}</h6>
+        <div class="d-flex justify-content-between">
+          <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
+          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
+        </div>
+        <h6 class="touch d-none">${touchscreen}</h6>
+        <h6 class="theme d-none">${os}</h6>
+        <h6 class="brand d-none">${brand}</h6>
+        <h6 class="theme d-none">${theme}</h6>
+        <h6 class="diskstorage d-none">${storage}</h6>
+        <h6 class="generation d-none">${generation}</h6>
+        <h6 class="processor d-none">${processor}</h6>
+        <!-- Add other fields here -->
+      </div>
+    `;
+
+    bestSellingContainer.appendChild(card);
+  });
+
+}
+renderbestsellingLaptops()
+//bestselling laptops
+
+
+//cheapest
+
+const cheapest = [
+
+
+  {
+    id: 10018,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    title: 'APPLE',
+    brand: 'APPLE',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'seven',
+    size: '13',
+    storage: "SSD",
+    os: 'ios',
+    generation: '13thgen',
+    processor: 'ryzen2',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 10015,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+    title: 'HP',
+    brand: 'HP',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 100199,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg',
+    title: 'ASUS',
+    brand: 'ASUS',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+
+    size: '24',
+    storage: "HDD",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'ryzen3',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10016,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+    title: 'ACER',
+    brand: 'ACER',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'six',
+    size: '13',
+    storage: "eMMC",
+    os: 'windows',
+    generation: '13thgen',
+    processor: 'm1',
+    theme: 'business',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 10017,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+    title: 'APPLE1',
+    brand: 'APPLE',
+    price: 113300,
+    color: 'blue',
+    touchscreen: 'yes',
+    description: 'sixty',
+    size: '24',
+    storage: "SSD",
+    os: 'mac',
+    generation: '5thgen',
+    processor: 'ryzen1',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+
+  },
+  {
+    id: 10018,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    title: 'APPLE',
+    brand: 'APPLE',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'seven',
+    size: '13',
+    storage: "SSD",
+    os: 'ios',
+    generation: '13thgen',
+    processor: 'ryzen2',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+  {
+    id: 10018,
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    title: 'APPLE',
+    brand: 'APPLE',
+    price: 100,
+    color: 'red',
+    touchscreen: 'no',
+    description: 'seven',
+    size: '13',
+    storage: "SSD",
+    os: 'ios',
+    generation: '13thgen',
+    processor: 'ryzen2',
+    theme: 'gaming',
+    userRatings: 4.2,
+    promotion: 'Discounted',
+    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+  },
+];
+
+function renderCheapestProducts() {
+
+  const cheapestContainer = document.getElementById('cheapest');
+  cheapestContainer.innerHTML = '';
+  cheapestContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5', 'g-3');
+
+  cheapest.forEach(cheapest => {
+    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = cheapest
+
+
+    const card = document.createElement('div');
+    card.classList.add('product-cards', 'group', 'justify-items-center', 'relative', 'p-2');
+
+    card.innerHTML = `
+      <div>
+        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+        </div>
+        <div class="d-flex justify-content-between">
+          <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
+          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
+        </div>
+        <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
+        <h6 class="size d-none">${size}</h6>
+        <div class="d-flex justify-content-between">
+          <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
+          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
+        </div>
+        <h6 class="touch d-none">${touchscreen}</h6>
+        <h6 class="theme d-none">${os}</h6>
+        <h6 class="brand d-none">${brand}</h6>
+        <h6 class="theme d-none">${theme}</h6>
+        <h6 class="diskstorage d-none">${storage}</h6>
+        <h6 class="generation d-none">${generation}</h6>
+        <h6 class="processor d-none">${processor}</h6>
+        <!-- Add other fields here -->
+      </div>
+    `;
+
+    cheapestContainer.appendChild(card);
+  });
+
+}
+renderCheapestProducts()
+
+
+
+//cheapest

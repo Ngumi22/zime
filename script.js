@@ -112,8 +112,11 @@ function updateTotalPrice() {
 }
 
 function removeFromCart(index) {
-    // Show a confirmation dialog
-    const confirmRemove = confirm('Are you sure you want to remove this item from the cart?');
+    // Get the title of the item being removed
+    const title = cart[index].title;
+
+    // Show a confirmation dialog with the item's title
+    const confirmRemove = confirm(`Are you sure you want to remove ${title} from the cart?`);
 
     // If the user clicks "OK" in the confirmation dialog, remove the item
     if (confirmRemove) {
@@ -125,6 +128,7 @@ function removeFromCart(index) {
         updateCartStorage();
     }
 }
+
 
 function updateCartStorage() {
     localStorage.setItem('cart', JSON.stringify(cart));
