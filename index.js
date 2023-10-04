@@ -8,7 +8,7 @@ const categories = [
         id: 103205,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'HP',
-        brand: 'HP',
+        brand: 'HP gefghefefgkmergdf',
         price: 100,
         color: 'red',
         touchscreen: 'no',
@@ -20,7 +20,16 @@ const categories = [
         theme: 'gaming',
         userRatings: 2.5,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 1005,
@@ -38,7 +47,18 @@ const categories = [
         theme: 'gaming',
         userRatings: 3,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
+
+
       },
       {
         id: 10099,
@@ -56,7 +76,16 @@ const categories = [
         theme: 'gaming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
 
       },
       {
@@ -75,7 +104,16 @@ const categories = [
         theme: 'business',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 1007,
@@ -93,7 +131,16 @@ const categories = [
         theme: 'gaming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
 
       },
 
@@ -122,7 +169,16 @@ const categories = [
         theme: 'business',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 512,
@@ -140,7 +196,16 @@ const categories = [
         theme: 'gaming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 6,
@@ -158,7 +223,16 @@ const categories = [
         theme: 'gaming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
 
       {
@@ -177,7 +251,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
 
 
@@ -202,7 +285,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 44,
@@ -220,7 +312,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 45,
@@ -238,7 +339,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 47,
@@ -256,7 +366,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       // Add more items for the Computers category
     ]
@@ -280,7 +399,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 31,
@@ -298,7 +426,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 32,
@@ -316,7 +453,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 33,
@@ -334,7 +480,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
 
     ]
@@ -358,7 +513,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 11,
@@ -376,7 +540,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 12,
@@ -394,7 +567,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 13,
@@ -412,7 +594,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
 
     ]
@@ -436,7 +627,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 21,
@@ -454,7 +654,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 22,
@@ -472,7 +681,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 23,
@@ -490,7 +708,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
 
     ]
@@ -514,7 +741,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 91,
@@ -532,7 +768,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 92,
@@ -550,7 +795,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 93,
@@ -568,7 +822,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
 
     ]
@@ -593,7 +856,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 51,
@@ -611,7 +883,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 52,
@@ -629,7 +910,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 53,
@@ -647,7 +937,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
 
 
@@ -673,7 +972,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 71,
@@ -691,7 +999,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 72,
@@ -709,7 +1026,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
       {
         id: 73,
@@ -727,7 +1053,16 @@ const categories = [
         theme: 'programming',
         userRatings: 4.2,
         promotion: 'Discounted',
-        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
+        description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        thumbnails: [
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+        ],
       },
 
     ]
@@ -756,7 +1091,7 @@ function renderCards(categoryIndex, page = 1) {
   const itemsToRender = activeCategory.items.slice(startIndex, endIndex);
 
   itemsToRender.forEach(item => {
-    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id, userRatings, description } = item;
+    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id, userRatings, description, thumbnails } = item;
 
 
 
@@ -798,12 +1133,16 @@ function renderCards(categoryIndex, page = 1) {
       queryParams.append('processor', processor);
       queryParams.append('generation', generation);
       queryParams.append('storage', storage);
+      queryParams.append('theme', theme);
+      queryParams.append('brand', brand);
+      queryParams.append('thumbnails', thumbnails);
 
       window.location.href = `single.html?${queryParams.toString()}`;
     });
 
     cardsContainer.appendChild(card);
   });
+
 
   renderPagination(activeCategory.items.length, itemsPerPage, currentPage);
 }
@@ -934,7 +1273,8 @@ function displayCart() {
 
         <div class="d-block">
             <a class="fw-bold cart-text">${title}</a>
-              <p class="cart-text d-flex"> Quantity: <input id="quantity-${index}" min="1" name="quantity" value="${quantity}" type="number" class="form-btn" onchange="updateQuantity(${index}, this.value)">
+              <p class="cart-text d-flex">
+                Quantity: <input id="quantity-${index}" min="1" name="quantity" value="${quantity}" type="number" class="form-btn" onchange="updateQuantity(${index}, this.value)">
               </p>
             <p class="unit-price cart-text">Ksh ${price}.00</p>
         </div>
@@ -1371,7 +1711,7 @@ function renderFeaturedProducts() {
 
   const featuredContainer = document.getElementById('featured');
   featuredContainer.innerHTML = '';
-  featuredContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-4', 'g-0');
+  featuredContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5', 'g-0');
 
   featuredProducts.forEach(feature => {
     const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = feature
@@ -1472,7 +1812,6 @@ const popularProducts = [
     price: 113300,
     color: 'blue',
     touchscreen: 'yes',
-    description: 'sixty',
     size: '24',
     storage: "SSD",
     os: 'mac',
@@ -1492,7 +1831,6 @@ const popularProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'seven',
     size: '13',
     storage: "SSD",
     os: 'ios',
@@ -1511,7 +1849,6 @@ const popularProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -1530,7 +1867,6 @@ const popularProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-
     size: '24',
     storage: "HDD",
     os: 'windows',
@@ -1550,7 +1886,6 @@ const popularProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-
     size: '13',
     storage: "eMMC",
     os: 'windows',
@@ -1569,7 +1904,6 @@ const popularProducts = [
     price: 113300,
     color: 'blue',
     touchscreen: 'yes',
-    description: 'sixty',
     size: '24',
     storage: "SSD",
     os: 'mac',
@@ -1589,7 +1923,6 @@ const popularProducts = [
     price: 100,
     color: 'red',
     touchscreen: 'no',
-    description: 'seven',
     size: '13',
     storage: "SSD",
     os: 'ios',
@@ -1606,7 +1939,7 @@ function renderPopularProducts() {
 
   const popularContainer = document.getElementById('popular');
   popularContainer.innerHTML = '';
-  popularContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-4', 'g-0');
+  popularContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5', 'g-0');
 
   popularProducts.forEach(popular => {
     const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = popular
@@ -2641,25 +2974,6 @@ renderDevsLaptops()
 
 //bestselling laptops
 const bestselling = [
-  {
-    id: 10018,
-    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-    title: 'APPLE',
-    brand: 'APPLE',
-    price: 100,
-    color: 'red',
-    touchscreen: 'no',
-    description: 'seven',
-    size: '13',
-    storage: "SSD",
-    os: 'ios',
-    generation: '13thgen',
-    processor: 'ryzen2',
-    theme: 'gaming',
-    userRatings: 4.2,
-    promotion: 'Discounted',
-    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
-  },
 
   {
     id: 10015,
@@ -2812,44 +3126,7 @@ renderbestsellingLaptops()
 const cheapest = [
 
 
-  {
-    id: 10018,
-    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-    title: 'APPLE',
-    brand: 'APPLE',
-    price: 100,
-    color: 'red',
-    touchscreen: 'no',
-    description: 'seven',
-    size: '13',
-    storage: "SSD",
-    os: 'ios',
-    generation: '13thgen',
-    processor: 'ryzen2',
-    theme: 'gaming',
-    userRatings: 4.2,
-    promotion: 'Discounted',
-    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
-  },
-  {
-    id: 10015,
-    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-    title: 'HP',
-    brand: 'HP',
-    price: 100,
-    color: 'red',
-    touchscreen: 'no',
 
-    size: '24',
-    storage: "HDD",
-    os: 'windows',
-    generation: '13thgen',
-    processor: 'ryzen3',
-    theme: 'gaming',
-    userRatings: 4.2,
-    promotion: 'Discounted',
-    description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
-  },
   {
     id: 100199,
     image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg',

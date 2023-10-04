@@ -706,7 +706,8 @@ input:focus {
 .singles-section {
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 5rem;
 
     margin-top: 3rem;
 }
