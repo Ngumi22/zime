@@ -149,8 +149,18 @@
         <section class="singles-section container">
 
             <div class="d-flex gap-5">
-                <div class="d-block mt-2" id="thumbnail-gallery"></div>
-                <img id="product-image" src="" style="height: 400px;" alt="Product Image">
+                <div class="d-block m-auto text-center">
+                    <button id="scroll-up"><i class="bi bi-chevron-up"></i></button>
+                    <div class="d-block mt-2" id="thumbnail-gallery" style="max-height: 400px; overflow-y: hidden;">
+                        <!-- Add your thumbnails here -->
+                    </div>
+
+
+                    <button id="scroll-down"><i class="bi bi-chevron-down text-center"></i></button>
+                </div>
+
+                <div class="product-images"><img id="product-image" src="" style="height: 400px;" alt="Product Image">
+                </div>
 
             </div>
 
@@ -210,7 +220,7 @@
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
                     tabindex="0">
-                    <div>
+                    <div class="h-auto">
                         <div id="product-color"></div>
                         <div id="product-touchscreen"></div>
                         <div id="product-size"></div>
@@ -223,8 +233,12 @@
                         <div id="product-theme"></div>
 
                     </div>
-                    <div id="product-description">
+                    <div class="h-auto">
+                        <h1 class="fw-bold">Product Description</h1>
+                        <div id="product-description">
 
+
+                        </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
@@ -425,87 +439,7 @@
     <script src="./index.js"></script>
 
 
-    <script>
-        let productThumbs = '';
-
-        const queryParams = new URLSearchParams(window.location.search);
-
-        const productTitle = queryParams.get('title');
-        const productImage = queryParams.get('image');
-        const productDescription = queryParams.get('description');
-        const productPrice = queryParams.get('price');
-        const productColor = queryParams.get('color');
-        const productScreen = queryParams.get('touchscreen');
-        const productSize = queryParams.get('size');
-        const productOs = queryParams.get('os');
-        const productProcessor = queryParams.get('processor');
-        const productGeneration = queryParams.get('generation');
-        const productStorage = queryParams.get('storage');
-        const productRatings = queryParams.get('userRatings');
-        const productBrand = queryParams.get('brand');
-        const productTheme = queryParams.get('theme');
-
-        const imageElement = document.getElementById('product-image');
-        imageElement.src = productImage;
-
-
-
-        const themeElement = document.getElementById('product-theme');
-        themeElement.textContent = productTheme;
-
-        const brandElement = document.getElementById('product-brand');
-        brandElement.textContent = productBrand;
-
-        const titleElement = document.getElementById('product-title');
-        titleElement.textContent = productTitle;
-
-        const descriptionElement = document.getElementById('product-description');
-        descriptionElement.textContent = productDescription;
-
-        const priceElement = document.getElementById('product-price');
-        priceElement.textContent = productPrice;
-
-        const colorElement = document.getElementById('product-color');
-        colorElement.textContent = productColor;
-
-        const touchscreen = document.getElementById('product-touchscreen');
-        touchscreen.textContent = productScreen;
-
-        const sizeElement = document.getElementById('product-size');
-        sizeElement.textContent = productSize;
-
-        const osElement = document.getElementById('product-os');
-        osElement.textContent = productOs;
-
-        const processorElement = document.getElementById('product-processor');
-        processorElement.textContent = productProcessor;
-
-        const generationElement = document.getElementById('product-generation');
-        generationElement.textContent = productGeneration;
-
-        const stotageElement = document.getElementById('product-storage');
-        stotageElement.textContent = productStorage;
-
-        const ratingsElement = document.getElementById('product-ratings');
-        ratingsElement.textContent = productRatings;
-
-        productThumbs = queryParams.get('thumbnails');
-
-        const thumbnailContainer = document.getElementById('thumbnail-gallery');
-
-        if (productThumbs) {
-            const thumbnailUrls = productThumbs.split(',');
-
-            thumbnailUrls.forEach((thumbnailUrl) => {
-                const thumbnailImg = document.createElement('img');
-                thumbnailImg.classList.add('my-2', 'border-1', 'border-black')
-                thumbnailImg.src = thumbnailUrl;
-                thumbnailImg.style.height = '100px';
-                thumbnailContainer.appendChild(thumbnailImg);
-            });
-        }
-
-
+    <script src="./cart.js">
 
     </script>
 

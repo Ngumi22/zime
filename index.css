@@ -712,6 +712,17 @@ input:focus {
     margin-top: 3rem;
 }
 
+.product-images {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+#thumbnail-gallery {
+    overflow-y: auto;
+    max-height: 400px;
+    /* Set a maximum height to limit the scrolling area */
+}
+
 /* single page end */
 
 @media (max-width: 767px) {

@@ -80,7 +80,7 @@ function increaseQuantity(index) {
     cartItem.quantity += 1;
     quantityInput.value = cartItem.quantity;
 
-    updatePrice(index); // Update the price when increasing quantity
+    updatePrice(index);
 
     updateCartStorage();
     updateTotalPrice();
@@ -94,7 +94,7 @@ function decreaseQuantity(index) {
         cartItem.quantity -= 1;
         quantityInput.value = cartItem.quantity;
 
-        updatePrice(index); // Update the price when decreasing quantity
+        updatePrice(index);
 
         updateCartStorage();
         updateTotalPrice();
@@ -112,23 +112,14 @@ function updateTotalPrice() {
 }
 
 function removeFromCart(index) {
-    // Get the title of the item being removed
     const title = cart[index].title;
-
-    // Show a confirmation dialog with the item's title
     const confirmRemove = confirm(`Are you sure you want to remove ${title} from the cart?`);
-
-    // If the user clicks "OK" in the confirmation dialog, remove the item
     if (confirmRemove) {
-        // Remove the item at the specified index from the cart array
         cart.splice(index, 1);
-        // Update the cart items and total price
         renderCartItems();
-        // Update the cart storage
         updateCartStorage();
     }
 }
-
 
 function updateCartStorage() {
     localStorage.setItem('cart', JSON.stringify(cart));

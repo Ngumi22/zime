@@ -8,7 +8,7 @@ const categories = [
         id: 103205,
         image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         title: 'HP',
-        brand: 'HP gefghefefgkmergdf',
+        brand: 'HP',
         price: 100,
         color: 'red',
         touchscreen: 'no',
@@ -1110,7 +1110,21 @@ function renderCards(categoryIndex, page = 1) {
 					<h6 class="price">${price}</h6>
           <p>${starRatingHTML}</p>
 					<button class="product-btn" onclick="addToCart('${title}')">Buy Now</button>
+
+
+          <h6 class="brand d-none">${brand}</h6>
+          <h6 class="color d-none">${color}</h6>
+          <h6 class="size d-none">${size}</h6>
+          <h6 class="touchscreen d-none">${touchscreen}</h6>
+          <h6 class="storage d-none">${storage}</h6>
+          <h6 class="os d-none">${os}</h6>
+          <h6 class="generation d-none">${generation}</h6>
+          <h6 class="processor d-none">${processor}</h6>
+          <h6 class="theme d-none">${theme}</h6>
+          <h6 class="userratings d-none">${userRatings}</h6>
+
 				</div>
+
 			</div>
 
     `;
@@ -1194,8 +1208,6 @@ function generateStarRatingHTML(userRatings, starColor = 'blue', emptyStarColor 
 renderCards(currentCategoryIndex, currentPage);
 
 
-
-
 const categoryLinks = document.querySelectorAll('#category-nav, #cat-nav a');
 categoryLinks[0].classList.add('active');
 
@@ -1239,8 +1251,6 @@ function addToCart(title) {
   }
 
 }
-
-
 
 function displayCart() {
   const cartItemContainer = document.getElementById('cart-item');
@@ -1338,17 +1348,12 @@ function loadCartFromStorage() {
 loadCartFromStorage();
 displayCart();
 
-
-
-
-
-
 const filters = [
   { element: document.querySelectorAll('.color-filter-checkbox'), property: 'color' },
   { element: document.querySelectorAll('.brand-filter-checkbox'), property: 'brand' },
   { element: document.querySelectorAll('.size-filter-checkbox'), property: 'size' },
   { element: document.querySelectorAll('.touch-filter-checkbox'), property: 'touch' },
-  { element: document.querySelectorAll('.storage-filter-checkbox'), property: 'diskstorage' },
+  { element: document.querySelectorAll('.storage-filter-checkbox'), property: 'storage' },
   { element: document.querySelectorAll('.os-filter-checkbox'), property: 'os' },
   { element: document.querySelectorAll('.generation-filter-checkbox'), property: 'generation' },
   { element: document.querySelectorAll('.processor-filter-checkbox'), property: 'processor' },
