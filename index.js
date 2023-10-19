@@ -1554,7 +1554,7 @@ const featuredProducts = [
     generation: '13thgen',
     processor: 'ryzen3',
     theme: 'gaming',
-    userRatings: 4.2,
+    userRatings: 3.2,
     promotion: 'Discounted',
     description: 'lorem ipsum dolor sit lorem ipsum lorem ipsum lorem ipsum lorem ipsum'
   },
@@ -1645,29 +1645,30 @@ function renderFeaturedProducts() {
   featuredContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5', 'g-0');
 
   featuredProducts.forEach(feature => {
-    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = feature
+    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, userRatings, id } = feature
 
 
     const card = document.createElement('div');
     card.classList.add('product-cards', 'group', 'justify-items-center', 'p-2', 'relative');
-
+    const starRatingHTML = generateStarRatingHTML(userRatings, 'blue', 'black');
     card.innerHTML = `
-      <div>
-        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+      <div class="border-1 border-black p-2">
+        <div class="">
           <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
         </div>
-        <div class="d-flex justify-content-between">
+        <div class="d-block text-center">
           <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
-          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
+          <p>${starRatingHTML}</p>
         </div>
         <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
         <h6 class="size d-none">${size}</h6>
-        <div class="d-flex justify-content-between">
+        <div class="d-block text-center">
           <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
-          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
+          <button class="btn-cart" onclick="addToCart('${title}')"> Add To Cart </button>
         </div>
       </div>
     `;
+
 
     featuredContainer.appendChild(card);
   });
@@ -1679,7 +1680,7 @@ renderFeaturedProducts()
 const popularProducts = [
   {
     id: 10015,
-    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+    image: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-07.jpg',
     title: 'HP',
     brand: 'HP',
     price: 100,
@@ -1873,35 +1874,29 @@ function renderPopularProducts() {
   popularContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5', 'g-0');
 
   popularProducts.forEach(popular => {
-    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = popular
+    const { image, title, price, color, size, userRatings, touchscreen, storage, os, generation, processor, theme, brand, id } = popular
 
 
     const card = document.createElement('div');
     card.classList.add('product-cards', 'group', 'justify-items-center', 'p-2', 'relative');
 
+
+    const starRatingHTML = generateStarRatingHTML(userRatings, 'blue', 'black');
     card.innerHTML = `
-      <div>
-        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
-          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+      <div class="border-1 border-black p-2">
+        <div class="">
+          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
         </div>
-        <div class="d-flex justify-content-between">
+        <div class="d-block text-center">
           <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
-          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
+          <p>${starRatingHTML}</p>
         </div>
         <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
         <h6 class="size d-none">${size}</h6>
-        <div class="d-flex justify-content-between">
+        <div class="d-block text-center">
           <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
-          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
+          <button class="btn-cart" onclick="addToCart('${title}')"> Add To Cart </button>
         </div>
-        <h6 class="touch d-none">${touchscreen}</h6>
-        <h6 class="theme d-none">${os}</h6>
-        <h6 class="brand d-none">${brand}</h6>
-        <h6 class="theme d-none">${theme}</h6>
-        <h6 class="diskstorage d-none">${storage}</h6>
-        <h6 class="generation d-none">${generation}</h6>
-        <h6 class="processor d-none">${processor}</h6>
-        <!-- Add other fields here -->
       </div>
     `;
 
@@ -2112,40 +2107,34 @@ function renderNewProducts() {
 
   const newestContainer = document.getElementById('newest');
   newestContainer.innerHTML = '';
-  newestContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-4', 'g-0');
+  newestContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-6', 'g-0');
 
   newProducts.forEach(newest => {
-    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = newest
+    const { image, title, price, color, size, userRatings, touchscreen, storage, os, generation, processor, theme, brand, id } = newest
 
 
     const card = document.createElement('div');
-    card.classList.add('product-cards', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
+    card.classList.add('product-cards', 'group', 'justify-items-center', 'relative', 'border-1', 'border-grey');
 
+    const starRatingHTML = generateStarRatingHTML(userRatings, 'blue', 'black');
     card.innerHTML = `
-      <div>
-        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
-          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+      <div class="p-2">
+        <div class="">
+          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
         </div>
-        <div class="d-flex justify-content-between">
+        <div class="d-block text-center">
           <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
-          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
+          <p>${starRatingHTML}</p>
         </div>
         <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
         <h6 class="size d-none">${size}</h6>
-        <div class="d-flex justify-content-between">
+        <div class="d-block text-center">
           <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
-          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
+          <button class="btn-cart" onclick="addToCart('${title}')"> Add To Cart </button>
         </div>
-        <h6 class="touch d-none">${touchscreen}</h6>
-        <h6 class="theme d-none">${os}</h6>
-        <h6 class="brand d-none">${brand}</h6>
-        <h6 class="theme d-none">${theme}</h6>
-        <h6 class="diskstorage d-none">${storage}</h6>
-        <h6 class="generation d-none">${generation}</h6>
-        <h6 class="processor d-none">${processor}</h6>
-        <!-- Add other fields here -->
       </div>
     `;
+
 
     newestContainer.appendChild(card);
   });
@@ -2264,37 +2253,31 @@ function renderLikedProducts() {
   likedContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-4', 'g-0');
 
   likedProducts.forEach(liked => {
-    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = liked
+    const { image, title, price, color, size, userRatings, id } = liked
 
 
     const card = document.createElement('div');
     card.classList.add('product-cards', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
 
+    const starRatingHTML = generateStarRatingHTML(userRatings, 'blue', 'black');
     card.innerHTML = `
-      <div>
-        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
-          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+      <div class="border-1 border-black p-2">
+        <div class="">
+          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
         </div>
-        <div class="d-flex justify-content-between">
+        <div class="d-block text-center">
           <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
-          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
+          <p>${starRatingHTML}</p>
         </div>
         <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
         <h6 class="size d-none">${size}</h6>
-        <div class="d-flex justify-content-between">
+        <div class="d-block text-center">
           <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
-          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
+          <button class="btn-cart" onclick="addToCart('${title}')"> Add To Cart </button>
         </div>
-        <h6 class="touch d-none">${touchscreen}</h6>
-        <h6 class="theme d-none">${os}</h6>
-        <h6 class="brand d-none">${brand}</h6>
-        <h6 class="theme d-none">${theme}</h6>
-        <h6 class="diskstorage d-none">${storage}</h6>
-        <h6 class="generation d-none">${generation}</h6>
-        <h6 class="processor d-none">${processor}</h6>
-        <!-- Add other fields here -->
       </div>
     `;
+
 
     likedContainer.appendChild(card);
   });
@@ -2409,38 +2392,31 @@ function renderBusinessLaptops() {
 
   const businessContainer = document.getElementById('business1');
   businessContainer.innerHTML = '';
-  businessContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-4', 'g-0');
+  businessContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5', 'g-0');
 
   businessLaptops.forEach(business => {
-    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = business
+    const { image, title, price, color, size, userRatings, id } = business
 
 
     const card = document.createElement('div');
-    card.classList.add('product-cards', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
+    card.classList.add('product-cards', 'group', 'justify-items-center', 'relative', 'border-1', 'border-grey', 'mt-2');
 
+    const starRatingHTML = generateStarRatingHTML(userRatings, 'blue', 'black');
     card.innerHTML = `
-      <div>
-        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
-          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+      <div class="p-2">
+        <div class="">
+          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
         </div>
-        <div class="d-flex justify-content-between">
+        <div class="d-block text-center">
           <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
-          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
+          <p>${starRatingHTML}</p>
         </div>
         <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
         <h6 class="size d-none">${size}</h6>
-        <div class="d-flex justify-content-between">
+        <div class="d-block text-center">
           <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
-          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
+          <button class="btn-cart" onclick="addToCart('${title}')"> Add To Cart </button>
         </div>
-        <h6 class="touch d-none">${touchscreen}</h6>
-        <h6 class="theme d-none">${os}</h6>
-        <h6 class="brand d-none">${brand}</h6>
-        <h6 class="theme d-none">${theme}</h6>
-        <h6 class="diskstorage d-none">${storage}</h6>
-        <h6 class="generation d-none">${generation}</h6>
-        <h6 class="processor d-none">${processor}</h6>
-        <!-- Add other fields here -->
       </div>
     `;
 
@@ -2559,40 +2535,34 @@ function renderGamingLaptops() {
 
   const gamingContainer = document.getElementById('gaming1');
   gamingContainer.innerHTML = '';
-  gamingContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-4', 'g-0');
+  gamingContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5', 'g-0');
 
   gamingLaptops.forEach(gaming => {
-    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = gaming
+    const { image, title, price, color, size, userRatings, id } = gaming
 
 
     const card = document.createElement('div');
-    card.classList.add('product-cards', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
+    card.classList.add('product-cards', 'group', 'justify-items-center', 'relative', 'border-1', 'border-grey', 'mt-2');
 
+    const starRatingHTML = generateStarRatingHTML(userRatings, 'blue', 'black');
     card.innerHTML = `
-      <div>
-        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
-          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+      <div class="p-2">
+        <div class="">
+          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
         </div>
-        <div class="d-flex justify-content-between">
+        <div class="d-block text-center">
           <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
-          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
+          <p>${starRatingHTML}</p>
         </div>
         <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
         <h6 class="size d-none">${size}</h6>
-        <div class="d-flex justify-content-between">
+        <div class="d-block text-center">
           <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
-          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
+          <button class="btn-cart" onclick="addToCart('${title}')"> Add To Cart </button>
         </div>
-        <h6 class="touch d-none">${touchscreen}</h6>
-        <h6 class="theme d-none">${os}</h6>
-        <h6 class="brand d-none">${brand}</h6>
-        <h6 class="theme d-none">${theme}</h6>
-        <h6 class="diskstorage d-none">${storage}</h6>
-        <h6 class="generation d-none">${generation}</h6>
-        <h6 class="processor d-none">${processor}</h6>
-        <!-- Add other fields here -->
       </div>
     `;
+
 
     gamingContainer.appendChild(card);
   });
@@ -2709,40 +2679,34 @@ function renderPremiumLaptops() {
 
   const premiumContainer = document.getElementById('premium1');
   premiumContainer.innerHTML = '';
-  premiumContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-4', 'g-0');
+  premiumContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5', 'g-0');
 
   premiumLaptops.forEach(premium => {
-    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = premium
+    const { image, title, price, color, size, userRatings, id } = premium
 
 
     const card = document.createElement('div');
-    card.classList.add('product-cards', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
+    card.classList.add('product-cards', 'group', 'justify-items-center', 'relative', 'border-1', 'border-grey', 'mt-2');
 
+    const starRatingHTML = generateStarRatingHTML(userRatings, 'blue', 'black');
     card.innerHTML = `
-      <div>
-        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
-          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+      <div class="p-2">
+        <div class="">
+          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
         </div>
-        <div class="d-flex justify-content-between">
+        <div class="d-block text-center">
           <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
-          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
+          <p>${starRatingHTML}</p>
         </div>
         <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
         <h6 class="size d-none">${size}</h6>
-        <div class="d-flex justify-content-between">
+        <div class="d-block text-center">
           <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
-          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
+          <button class="btn-cart" onclick="addToCart('${title}')"> Add To Cart </button>
         </div>
-        <h6 class="touch d-none">${touchscreen}</h6>
-        <h6 class="theme d-none">${os}</h6>
-        <h6 class="brand d-none">${brand}</h6>
-        <h6 class="theme d-none">${theme}</h6>
-        <h6 class="diskstorage d-none">${storage}</h6>
-        <h6 class="generation d-none">${generation}</h6>
-        <h6 class="processor d-none">${processor}</h6>
-        <!-- Add other fields here -->
       </div>
     `;
+
 
     premiumContainer.appendChild(card);
   });
@@ -2859,40 +2823,34 @@ function renderDevsLaptops() {
 
   const devsContainer = document.getElementById('devs1');
   devsContainer.innerHTML = '';
-  devsContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-4', 'g-0');
+  devsContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5', 'g-0');
 
   devsLaptops.forEach(devs => {
-    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = devs
+    const { image, title, price, color, size, userRatings, id } = devs
 
 
     const card = document.createElement('div');
-    card.classList.add('product-cards', 'group', 'justify-items-center', 'relative', 'p-2', 'border-1', 'border-grey');
+    card.classList.add('product-cards', 'group', 'justify-items-center', 'relative', 'border-1', 'border-grey', 'mt-2');
 
+    const starRatingHTML = generateStarRatingHTML(userRatings, 'blue', 'black');
     card.innerHTML = `
-      <div>
-        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
-          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+      <div class="p-2">
+        <div class="">
+          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
         </div>
-        <div class="d-flex justify-content-between">
+        <div class="d-block text-center">
           <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
-          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
+          <p>${starRatingHTML}</p>
         </div>
         <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
         <h6 class="size d-none">${size}</h6>
-        <div class="d-flex justify-content-between">
+        <div class="d-block text-center">
           <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
-          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
+          <button class="btn-cart" onclick="addToCart('${title}')"> Add To Cart </button>
         </div>
-        <h6 class="touch d-none">${touchscreen}</h6>
-        <h6 class="theme d-none">${os}</h6>
-        <h6 class="brand d-none">${brand}</h6>
-        <h6 class="theme d-none">${theme}</h6>
-        <h6 class="diskstorage d-none">${storage}</h6>
-        <h6 class="generation d-none">${generation}</h6>
-        <h6 class="processor d-none">${processor}</h6>
-        <!-- Add other fields here -->
       </div>
     `;
+
 
     devsContainer.appendChild(card);
   });
@@ -3009,40 +2967,34 @@ function renderbestsellingLaptops() {
 
   const bestSellingContainer = document.getElementById('best-selling');
   bestSellingContainer.innerHTML = '';
-  bestSellingContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5');
+  bestSellingContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5', 'g-3');
 
   bestselling.forEach(bestSelling => {
-    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = bestSelling
+    const { image, title, price, color, size, userRatings, id } = bestSelling
 
 
     const card = document.createElement('div');
     card.classList.add('product-cards', 'group', 'justify-items-center', 'relative', 'p-2');
 
+    const starRatingHTML = generateStarRatingHTML(userRatings, 'blue', 'black');
     card.innerHTML = `
-      <div>
-        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
-          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+      <div class="border-1 border-black p-2">
+        <div class="">
+          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
         </div>
-        <div class="d-flex justify-content-between">
+        <div class="d-block text-center">
           <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
-          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
+          <p>${starRatingHTML}</p>
         </div>
         <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
         <h6 class="size d-none">${size}</h6>
-        <div class="d-flex justify-content-between">
+        <div class="d-block text-center">
           <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
-          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
+          <button class="btn-cart" onclick="addToCart('${title}')"> Add To Cart </button>
         </div>
-        <h6 class="touch d-none">${touchscreen}</h6>
-        <h6 class="theme d-none">${os}</h6>
-        <h6 class="brand d-none">${brand}</h6>
-        <h6 class="theme d-none">${theme}</h6>
-        <h6 class="diskstorage d-none">${storage}</h6>
-        <h6 class="generation d-none">${generation}</h6>
-        <h6 class="processor d-none">${processor}</h6>
-        <!-- Add other fields here -->
       </div>
     `;
+
 
     bestSellingContainer.appendChild(card);
   });
@@ -3164,37 +3116,31 @@ function renderCheapestProducts() {
   cheapestContainer.classList.add('row', 'row-cols-1', 'row-cols-sm-2', 'row-cols-md-3', 'row-cols-lg-5', 'g-3');
 
   cheapest.forEach(cheapest => {
-    const { image, title, price, color, size, touchscreen, storage, os, generation, processor, theme, brand, id } = cheapest
+    const { image, title, price, color, size, userRatings, id } = cheapest
 
 
     const card = document.createElement('div');
     card.classList.add('product-cards', 'group', 'justify-items-center', 'relative', 'p-2');
 
+    const starRatingHTML = generateStarRatingHTML(userRatings, 'blue', 'black');
     card.innerHTML = `
-      <div>
-        <div class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
-          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+      <div class="border-1 border-black p-2">
+        <div class="">
+          <img src="${image}" alt="Product" class="aspect-h-1 aspect-w-1 imgggg w-full overflow-hidden bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
         </div>
-        <div class="d-flex justify-content-between">
+        <div class="d-block text-center">
           <h3 class="mt-1 card-txt text-gray-700 name">${title}</h3>
-          <i class="bi bi-eye top-5 right-5 position-absolute" onclick="showProductDetails('${title}')"></i>
+          <p>${starRatingHTML}</p>
         </div>
         <h3 class="mt-1 card-txt d-none text-gray-700">${color}</h3>
         <h6 class="size d-none">${size}</h6>
-        <div class="d-flex justify-content-between">
+        <div class="d-block text-center">
           <h6 class="price mt-1 card-txt text-gray-700">${price}</h6>
-          <i onclick="addToCart('${title}')" class="bi bi-cart-plus"></i>
+          <button class="btn-cart" onclick="addToCart('${title}')"> Add To Cart </button>
         </div>
-        <h6 class="touch d-none">${touchscreen}</h6>
-        <h6 class="theme d-none">${os}</h6>
-        <h6 class="brand d-none">${brand}</h6>
-        <h6 class="theme d-none">${theme}</h6>
-        <h6 class="diskstorage d-none">${storage}</h6>
-        <h6 class="generation d-none">${generation}</h6>
-        <h6 class="processor d-none">${processor}</h6>
-        <!-- Add other fields here -->
       </div>
     `;
+
 
     cheapestContainer.appendChild(card);
   });
